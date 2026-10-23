@@ -1,0 +1,3403 @@
+Country,Department,Work_Mode,Total_Employees,Attrition_Count,Turnover_Rate_Pct,Avg_Salary_Disparity,Avg_Performance
+Afghanistan,Finance,On-site,476,111,23.319,1.0046,3.006
+Afghanistan,Finance,Remote,312,76,24.359,1.0024,2.894
+Afghanistan,HR,On-site,384,91,23.698,0.983,3.141
+Afghanistan,HR,Remote,267,70,26.217,0.9956,2.914
+Afghanistan,IT,On-site,1537,401,26.09,1.0025,2.992
+Afghanistan,IT,Remote,912,232,25.439,0.9959,3.047
+Afghanistan,Marketing,On-site,567,140,24.691,0.9963,2.822
+Afghanistan,Marketing,Remote,371,85,22.911,1.0203,2.892
+Afghanistan,Operations,On-site,722,181,25.069,0.9974,2.918
+Afghanistan,Operations,Remote,493,115,23.327,0.9875,2.913
+Afghanistan,R&D,On-site,231,52,22.511,0.9958,2.965
+Afghanistan,R&D,Remote,145,35,24.138,1.0072,3.124
+Afghanistan,Sales,On-site,961,229,23.829,1.0002,2.959
+Afghanistan,Sales,Remote,666,175,26.276,1.0187,3.036
+Albania,Finance,On-site,489,140,28.63,1.0051,2.906
+Albania,Finance,Remote,324,81,25.0,0.9702,3.068
+Albania,HR,On-site,374,88,23.529,1.0117,2.933
+Albania,HR,Remote,292,75,25.685,0.9862,2.932
+Albania,IT,On-site,1423,340,23.893,1.0102,3.047
+Albania,IT,Remote,898,229,25.501,0.9959,2.964
+Albania,Marketing,On-site,621,140,22.544,1.0073,3.003
+Albania,Marketing,Remote,409,83,20.293,1.0064,3.086
+Albania,Operations,On-site,737,182,24.695,0.9944,3.037
+Albania,Operations,Remote,531,129,24.294,1.0092,3.008
+Albania,R&D,On-site,244,65,26.639,0.9962,2.951
+Albania,R&D,Remote,169,45,26.627,0.9717,2.923
+Albania,Sales,On-site,972,271,27.881,1.0152,2.999
+Albania,Sales,Remote,652,162,24.847,1.0129,3.041
+Algeria,Finance,On-site,483,122,25.259,0.9821,3.033
+Algeria,Finance,Remote,330,82,24.848,0.991,3.042
+Algeria,HR,On-site,365,94,25.753,0.9758,2.951
+Algeria,HR,Remote,238,62,26.05,0.9669,2.937
+Algeria,IT,On-site,1460,348,23.836,1.0008,3.01
+Algeria,IT,Remote,976,238,24.385,0.989,2.98
+Algeria,Marketing,On-site,593,155,26.138,0.9769,3.099
+Algeria,Marketing,Remote,398,97,24.372,1.0088,2.985
+Algeria,Operations,On-site,710,167,23.521,0.9926,2.958
+Algeria,Operations,Remote,464,116,25.0,1.0025,2.925
+Algeria,R&D,On-site,217,43,19.816,0.9821,3.18
+Algeria,R&D,Remote,142,36,25.352,1.0045,2.993
+Algeria,Sales,On-site,1007,227,22.542,1.0041,3.046
+Algeria,Sales,Remote,634,170,26.814,0.9909,3.036
+American Samoa,Finance,On-site,478,120,25.105,0.9911,2.975
+American Samoa,Finance,Remote,330,90,27.273,0.993,2.903
+American Samoa,HR,On-site,373,99,26.542,1.0259,2.973
+American Samoa,HR,Remote,282,77,27.305,1.0191,3.025
+American Samoa,IT,On-site,1388,328,23.631,0.9924,2.998
+American Samoa,IT,Remote,992,256,25.806,1.0042,3.035
+American Samoa,Marketing,On-site,610,158,25.902,1.0006,3.059
+American Samoa,Marketing,Remote,414,102,24.638,0.976,3.041
+American Samoa,Operations,On-site,764,183,23.953,1.0085,2.984
+American Samoa,Operations,Remote,539,146,27.087,1.0198,2.942
+American Samoa,R&D,On-site,231,58,25.108,1.0048,2.978
+American Samoa,R&D,Remote,164,41,25.0,0.9914,3.043
+American Samoa,Sales,On-site,1032,269,26.066,1.0104,3.024
+American Samoa,Sales,Remote,665,147,22.105,1.0027,3.047
+Andorra,Finance,On-site,476,115,24.16,1.0027,3.002
+Andorra,Finance,Remote,299,76,25.418,1.0027,2.957
+Andorra,HR,On-site,366,86,23.497,1.0199,2.883
+Andorra,HR,Remote,255,63,24.706,0.9895,3.035
+Andorra,IT,On-site,1533,396,25.832,1.0038,2.962
+Andorra,IT,Remote,939,238,25.346,1.0074,2.986
+Andorra,Marketing,On-site,591,142,24.027,1.0107,2.981
+Andorra,Marketing,Remote,397,86,21.662,1.0284,3.045
+Andorra,Operations,On-site,766,181,23.629,0.9933,2.988
+Andorra,Operations,Remote,499,106,21.242,0.9871,2.99
+Andorra,R&D,On-site,243,57,23.457,0.9831,3.148
+Andorra,R&D,Remote,161,40,24.845,1.0347,2.851
+Andorra,Sales,On-site,945,242,25.608,1.0065,2.982
+Andorra,Sales,Remote,654,169,25.841,1.0045,3.018
+Angola,Finance,On-site,513,126,24.561,0.9945,2.986
+Angola,Finance,Remote,322,86,26.708,1.0213,2.957
+Angola,HR,On-site,387,93,24.031,0.9969,2.966
+Angola,HR,Remote,246,56,22.764,0.9807,2.907
+Angola,IT,On-site,1473,350,23.761,1.0055,3.006
+Angola,IT,Remote,979,269,27.477,0.9833,2.994
+Angola,Marketing,On-site,560,154,27.5,0.9871,3.032
+Angola,Marketing,Remote,407,109,26.781,0.999,2.882
+Angola,Operations,On-site,738,173,23.442,0.999,3.03
+Angola,Operations,Remote,467,119,25.482,0.9782,2.946
+Angola,R&D,On-site,237,60,25.316,1.0092,2.949
+Angola,R&D,Remote,154,44,28.571,1.0151,3.019
+Angola,Sales,On-site,1003,258,25.723,1.0022,2.981
+Angola,Sales,Remote,672,188,27.976,1.0025,2.949
+Anguilla,Finance,On-site,469,141,30.064,0.9974,2.97
+Anguilla,Finance,Remote,315,52,16.508,0.9979,3.098
+Anguilla,HR,On-site,366,76,20.765,1.0089,2.981
+Anguilla,HR,Remote,257,71,27.626,0.9872,2.798
+Anguilla,IT,On-site,1427,359,25.158,1.0018,2.966
+Anguilla,IT,Remote,1003,266,26.52,0.9971,3.036
+Anguilla,Marketing,On-site,612,151,24.673,0.9979,3.0
+Anguilla,Marketing,Remote,374,78,20.856,0.9978,2.963
+Anguilla,Operations,On-site,712,181,25.421,1.0009,2.934
+Anguilla,Operations,Remote,548,131,23.905,1.0208,3.036
+Anguilla,R&D,On-site,259,72,27.799,0.9763,3.112
+Anguilla,R&D,Remote,156,44,28.205,1.0557,3.096
+Anguilla,Sales,On-site,958,230,24.008,0.9914,3.061
+Anguilla,Sales,Remote,674,153,22.7,1.0173,3.055
+Antarctica (the territory South of 60 deg S),Finance,On-site,505,128,25.347,1.0121,2.97
+Antarctica (the territory South of 60 deg S),Finance,Remote,339,96,28.319,1.0041,3.027
+Antarctica (the territory South of 60 deg S),HR,On-site,344,87,25.291,0.9998,2.985
+Antarctica (the territory South of 60 deg S),HR,Remote,252,63,25.0,0.9795,2.988
+Antarctica (the territory South of 60 deg S),IT,On-site,1467,370,25.222,1.0098,3.022
+Antarctica (the territory South of 60 deg S),IT,Remote,978,245,25.051,0.9998,2.955
+Antarctica (the territory South of 60 deg S),Marketing,On-site,639,158,24.726,0.9906,2.973
+Antarctica (the territory South of 60 deg S),Marketing,Remote,344,98,28.488,1.0063,2.898
+Antarctica (the territory South of 60 deg S),Operations,On-site,748,179,23.93,1.0139,3.074
+Antarctica (the territory South of 60 deg S),Operations,Remote,469,107,22.814,1.0018,3.0
+Antarctica (the territory South of 60 deg S),R&D,On-site,242,66,27.273,0.9898,3.033
+Antarctica (the territory South of 60 deg S),R&D,Remote,177,45,25.424,1.0025,3.023
+Antarctica (the territory South of 60 deg S),Sales,On-site,1055,281,26.635,1.0069,3.096
+Antarctica (the territory South of 60 deg S),Sales,Remote,605,174,28.76,1.0072,2.929
+Antigua and Barbuda,Finance,On-site,511,134,26.223,0.9987,3.018
+Antigua and Barbuda,Finance,Remote,321,84,26.168,0.996,3.065
+Antigua and Barbuda,HR,On-site,376,84,22.34,0.9923,2.96
+Antigua and Barbuda,HR,Remote,267,66,24.719,1.0163,2.921
+Antigua and Barbuda,IT,On-site,1447,340,23.497,1.0045,3.038
+Antigua and Barbuda,IT,Remote,994,239,24.044,1.0008,2.96
+Antigua and Barbuda,Marketing,On-site,594,140,23.569,0.9979,3.074
+Antigua and Barbuda,Marketing,Remote,421,91,21.615,1.0054,2.929
+Antigua and Barbuda,Operations,On-site,724,178,24.586,1.0093,2.978
+Antigua and Barbuda,Operations,Remote,481,125,25.988,1.0032,2.956
+Antigua and Barbuda,R&D,On-site,256,66,25.781,1.0098,2.762
+Antigua and Barbuda,R&D,Remote,156,45,28.846,1.0001,2.955
+Antigua and Barbuda,Sales,On-site,1000,236,23.6,1.0159,3.088
+Antigua and Barbuda,Sales,Remote,621,162,26.087,0.9992,3.01
+Argentina,Finance,On-site,472,119,25.212,0.9971,2.934
+Argentina,Finance,Remote,292,77,26.37,0.9865,2.942
+Argentina,HR,On-site,401,95,23.691,0.988,3.022
+Argentina,HR,Remote,271,72,26.568,0.9718,3.103
+Argentina,IT,On-site,1446,347,23.997,0.9965,3.024
+Argentina,IT,Remote,971,238,24.511,0.9984,3.016
+Argentina,Marketing,On-site,654,154,23.547,0.9931,3.093
+Argentina,Marketing,Remote,390,82,21.026,1.0074,3.028
+Argentina,Operations,On-site,741,176,23.752,1.0036,3.009
+Argentina,Operations,Remote,504,105,20.833,1.0191,3.062
+Argentina,R&D,On-site,254,74,29.134,1.01,2.913
+Argentina,R&D,Remote,165,34,20.606,1.033,3.036
+Argentina,Sales,On-site,953,238,24.974,1.0029,3.041
+Argentina,Sales,Remote,637,153,24.019,0.9883,2.997
+Armenia,Finance,On-site,525,113,21.524,0.9881,2.926
+Armenia,Finance,Remote,351,95,27.066,1.004,2.912
+Armenia,HR,On-site,417,89,21.343,1.0084,2.964
+Armenia,HR,Remote,271,75,27.675,1.0004,2.978
+Armenia,IT,On-site,1478,378,25.575,1.0079,3.04
+Armenia,IT,Remote,959,240,25.026,0.9947,2.989
+Armenia,Marketing,On-site,599,135,22.538,0.9927,3.035
+Armenia,Marketing,Remote,370,87,23.514,1.0322,3.0
+Armenia,Operations,On-site,736,178,24.185,0.9906,3.01
+Armenia,Operations,Remote,484,118,24.38,1.0041,2.915
+Armenia,R&D,On-site,224,60,26.786,0.9829,2.946
+Armenia,R&D,Remote,180,25,13.889,1.011,3.178
+Armenia,Sales,On-site,1000,254,25.4,0.9913,3.118
+Armenia,Sales,Remote,660,163,24.697,0.9954,3.109
+Aruba,Finance,On-site,500,134,26.8,0.99,3.048
+Aruba,Finance,Remote,339,78,23.009,1.0024,3.041
+Aruba,HR,On-site,404,109,26.98,1.0164,2.79
+Aruba,HR,Remote,250,56,22.4,1.0151,3.0
+Aruba,IT,On-site,1427,371,25.999,1.0026,2.884
+Aruba,IT,Remote,999,266,26.627,1.0012,3.038
+Aruba,Marketing,On-site,594,149,25.084,1.0027,3.005
+Aruba,Marketing,Remote,416,95,22.837,0.9887,3.135
+Aruba,Operations,On-site,724,169,23.343,1.0134,3.001
+Aruba,Operations,Remote,516,138,26.744,1.007,2.996
+Aruba,R&D,On-site,238,54,22.689,0.9927,3.08
+Aruba,R&D,Remote,159,44,27.673,0.9824,3.038
+Aruba,Sales,On-site,958,218,22.756,1.0058,3.03
+Aruba,Sales,Remote,639,184,28.795,0.9957,2.98
+Australia,Finance,On-site,491,117,23.829,0.9855,2.902
+Australia,Finance,Remote,348,84,24.138,1.0248,3.032
+Australia,HR,On-site,369,92,24.932,1.0156,2.949
+Australia,HR,Remote,267,72,26.966,1.015,3.022
+Australia,IT,On-site,1423,361,25.369,1.0004,3.02
+Australia,IT,Remote,1020,255,25.0,1.0009,2.994
+Australia,Marketing,On-site,599,138,23.038,1.0041,2.995
+Australia,Marketing,Remote,376,106,28.191,1.0083,3.019
+Australia,Operations,On-site,742,167,22.507,0.9958,2.954
+Australia,Operations,Remote,512,135,26.367,0.9982,3.025
+Australia,R&D,On-site,237,63,26.582,1.0094,3.013
+Australia,R&D,Remote,175,45,25.714,0.9793,3.017
+Australia,Sales,On-site,1015,277,27.291,1.0017,2.964
+Australia,Sales,Remote,647,161,24.884,1.0035,3.066
+Austria,Finance,On-site,533,128,24.015,0.9946,2.983
+Austria,Finance,Remote,315,97,30.794,1.0088,3.108
+Austria,HR,On-site,389,104,26.735,0.9898,3.072
+Austria,HR,Remote,244,63,25.82,1.0081,3.172
+Austria,IT,On-site,1484,387,26.078,1.0036,3.026
+Austria,IT,Remote,991,236,23.814,1.0055,3.006
+Austria,Marketing,On-site,582,140,24.055,1.0032,3.033
+Austria,Marketing,Remote,393,86,21.883,1.0014,2.977
+Austria,Operations,On-site,761,177,23.259,1.0092,3.045
+Austria,Operations,Remote,480,131,27.292,1.001,3.029
+Austria,R&D,On-site,261,58,22.222,1.0133,2.977
+Austria,R&D,Remote,167,42,25.15,0.9981,2.886
+Austria,Sales,On-site,934,234,25.054,1.0043,3.012
+Austria,Sales,Remote,687,164,23.872,1.0259,2.98
+Azerbaijan,Finance,On-site,501,111,22.156,0.984,3.106
+Azerbaijan,Finance,Remote,330,92,27.879,0.9866,3.003
+Azerbaijan,HR,On-site,363,90,24.793,0.9828,2.832
+Azerbaijan,HR,Remote,230,53,23.043,1.015,3.013
+Azerbaijan,IT,On-site,1494,358,23.963,0.9939,2.991
+Azerbaijan,IT,Remote,1006,242,24.056,0.9917,3.105
+Azerbaijan,Marketing,On-site,600,160,26.667,0.9841,3.023
+Azerbaijan,Marketing,Remote,372,92,24.731,0.9923,3.081
+Azerbaijan,Operations,On-site,724,191,26.381,0.9955,2.884
+Azerbaijan,Operations,Remote,491,115,23.422,1.0199,3.059
+Azerbaijan,R&D,On-site,239,55,23.013,0.986,2.925
+Azerbaijan,R&D,Remote,154,38,24.675,0.9688,3.052
+Azerbaijan,Sales,On-site,975,241,24.718,0.9944,3.036
+Azerbaijan,Sales,Remote,665,177,26.617,0.9969,3.023
+Bahamas,Finance,On-site,473,114,24.101,0.9933,2.979
+Bahamas,Finance,Remote,334,86,25.749,1.009,3.093
+Bahamas,HR,On-site,360,80,22.222,0.988,3.042
+Bahamas,HR,Remote,264,75,28.409,0.9799,2.985
+Bahamas,IT,On-site,1434,373,26.011,0.9952,3.006
+Bahamas,IT,Remote,977,247,25.281,1.0009,2.986
+Bahamas,Marketing,On-site,565,147,26.018,0.9997,2.998
+Bahamas,Marketing,Remote,382,87,22.775,0.9904,2.971
+Bahamas,Operations,On-site,733,186,25.375,1.0114,2.967
+Bahamas,Operations,Remote,496,103,20.766,1.0147,3.02
+Bahamas,R&D,On-site,234,68,29.06,0.9854,3.124
+Bahamas,R&D,Remote,170,53,31.176,0.9934,3.024
+Bahamas,Sales,On-site,1008,248,24.603,1.0116,2.892
+Bahamas,Sales,Remote,656,145,22.104,1.0138,3.012
+Bahrain,Finance,On-site,450,127,28.222,0.9951,3.018
+Bahrain,Finance,Remote,337,80,23.739,1.0024,2.869
+Bahrain,HR,On-site,399,88,22.055,1.0166,3.02
+Bahrain,HR,Remote,318,85,26.73,0.9823,3.006
+Bahrain,IT,On-site,1515,376,24.818,1.0013,2.976
+Bahrain,IT,Remote,983,255,25.941,0.9823,2.93
+Bahrain,Marketing,On-site,590,150,25.424,0.9944,2.968
+Bahrain,Marketing,Remote,383,82,21.41,1.0004,3.0
+Bahrain,Operations,On-site,761,196,25.756,0.9896,3.033
+Bahrain,Operations,Remote,494,117,23.684,0.9981,3.077
+Bahrain,R&D,On-site,246,69,28.049,0.9962,3.187
+Bahrain,R&D,Remote,179,50,27.933,0.9752,2.961
+Bahrain,Sales,On-site,961,243,25.286,1.0006,2.935
+Bahrain,Sales,Remote,634,179,28.233,0.9861,2.979
+Bangladesh,Finance,On-site,502,130,25.896,1.0015,3.006
+Bangladesh,Finance,Remote,326,89,27.301,1.0164,2.936
+Bangladesh,HR,On-site,351,80,22.792,1.0188,3.028
+Bangladesh,HR,Remote,261,77,29.502,0.9824,2.946
+Bangladesh,IT,On-site,1558,432,27.728,1.0058,3.031
+Bangladesh,IT,Remote,995,271,27.236,1.0136,3.017
+Bangladesh,Marketing,On-site,620,160,25.806,0.9983,2.985
+Bangladesh,Marketing,Remote,375,93,24.8,1.0028,3.021
+Bangladesh,Operations,On-site,720,163,22.639,0.9909,3.122
+Bangladesh,Operations,Remote,453,93,20.53,1.012,3.042
+Bangladesh,R&D,On-site,263,75,28.517,1.0013,2.935
+Bangladesh,R&D,Remote,170,49,28.824,0.9947,3.029
+Bangladesh,Sales,On-site,995,243,24.422,1.0131,2.997
+Bangladesh,Sales,Remote,691,147,21.274,1.0091,3.085
+Barbados,Finance,On-site,490,127,25.918,1.0059,3.031
+Barbados,Finance,Remote,289,65,22.491,1.0006,3.028
+Barbados,HR,On-site,413,119,28.814,0.9933,3.075
+Barbados,HR,Remote,269,67,24.907,1.0007,2.892
+Barbados,IT,On-site,1427,381,26.699,1.0127,2.982
+Barbados,IT,Remote,991,258,26.034,1.0154,2.952
+Barbados,Marketing,On-site,562,144,25.623,0.9914,2.988
+Barbados,Marketing,Remote,396,104,26.263,1.0175,3.071
+Barbados,Operations,On-site,743,189,25.437,1.0095,2.992
+Barbados,Operations,Remote,490,125,25.51,0.981,3.059
+Barbados,R&D,On-site,252,81,32.143,1.0124,2.964
+Barbados,R&D,Remote,167,45,26.946,1.0111,2.826
+Barbados,Sales,On-site,949,252,26.554,0.9843,3.005
+Barbados,Sales,Remote,643,157,24.417,1.0037,3.008
+Belarus,Finance,On-site,473,112,23.679,1.0152,3.023
+Belarus,Finance,Remote,294,71,24.15,1.0037,2.983
+Belarus,HR,On-site,408,111,27.206,1.0199,3.061
+Belarus,HR,Remote,265,59,22.264,1.0329,2.864
+Belarus,IT,On-site,1461,351,24.025,0.9988,2.949
+Belarus,IT,Remote,1012,264,26.087,1.0114,3.015
+Belarus,Marketing,On-site,592,153,25.845,0.9982,3.088
+Belarus,Marketing,Remote,370,93,25.135,1.0068,3.008
+Belarus,Operations,On-site,757,208,27.477,1.0021,2.96
+Belarus,Operations,Remote,457,118,25.821,0.9803,3.158
+Belarus,R&D,On-site,271,67,24.723,0.9982,2.982
+Belarus,R&D,Remote,155,45,29.032,1.0103,2.871
+Belarus,Sales,On-site,976,222,22.746,0.9958,2.956
+Belarus,Sales,Remote,606,154,25.413,0.9953,3.051
+Belgium,Finance,On-site,505,141,27.921,1.0045,2.907
+Belgium,Finance,Remote,307,73,23.779,1.0083,2.967
+Belgium,HR,On-site,384,101,26.302,0.9889,2.99
+Belgium,HR,Remote,254,64,25.197,0.9594,3.098
+Belgium,IT,On-site,1484,403,27.156,1.0031,2.943
+Belgium,IT,Remote,1044,267,25.575,1.0057,3.067
+Belgium,Marketing,On-site,546,136,24.908,1.0033,2.974
+Belgium,Marketing,Remote,408,103,25.245,0.9838,3.034
+Belgium,Operations,On-site,691,175,25.326,0.9883,3.02
+Belgium,Operations,Remote,535,117,21.869,0.995,2.875
+Belgium,R&D,On-site,257,66,25.681,1.0237,3.043
+Belgium,R&D,Remote,171,42,24.561,0.9946,2.924
+Belgium,Sales,On-site,986,244,24.746,1.0018,3.007
+Belgium,Sales,Remote,668,153,22.904,0.9975,2.984
+Belize,Finance,On-site,518,125,24.131,0.9896,3.108
+Belize,Finance,Remote,316,74,23.418,0.9963,2.94
+Belize,HR,On-site,377,90,23.873,1.0211,3.034
+Belize,HR,Remote,264,76,28.788,0.9795,2.932
+Belize,IT,On-site,1475,369,25.017,0.9958,3.007
+Belize,IT,Remote,945,241,25.503,1.008,2.93
+Belize,Marketing,On-site,597,126,21.106,0.9973,3.022
+Belize,Marketing,Remote,406,97,23.892,1.025,2.892
+Belize,Operations,On-site,770,190,24.675,0.9953,3.106
+Belize,Operations,Remote,457,116,25.383,0.9927,2.937
+Belize,R&D,On-site,237,60,25.316,1.0187,2.996
+Belize,R&D,Remote,178,44,24.719,1.0014,2.904
+Belize,Sales,On-site,1046,256,24.474,0.999,3.02
+Belize,Sales,Remote,641,169,26.365,0.9878,2.959
+Benin,Finance,On-site,509,121,23.772,1.0002,3.049
+Benin,Finance,Remote,323,75,23.22,0.9826,3.034
+Benin,HR,On-site,397,91,22.922,1.0076,3.028
+Benin,HR,Remote,274,60,21.898,1.0083,3.095
+Benin,IT,On-site,1480,375,25.338,1.0052,2.968
+Benin,IT,Remote,996,236,23.695,1.0009,3.015
+Benin,Marketing,On-site,615,176,28.618,1.0101,3.05
+Benin,Marketing,Remote,436,117,26.835,0.9964,3.076
+Benin,Operations,On-site,707,175,24.752,1.0335,2.926
+Benin,Operations,Remote,470,106,22.553,1.005,2.953
+Benin,R&D,On-site,270,63,23.333,1.0031,3.004
+Benin,R&D,Remote,155,45,29.032,1.0432,2.968
+Benin,Sales,On-site,911,219,24.04,0.9991,2.956
+Benin,Sales,Remote,661,153,23.147,0.9902,3.023
+Bermuda,Finance,On-site,482,132,27.386,0.9962,2.952
+Bermuda,Finance,Remote,320,79,24.688,0.9893,2.925
+Bermuda,HR,On-site,350,88,25.143,1.0068,2.9
+Bermuda,HR,Remote,255,72,28.235,1.0042,3.078
+Bermuda,IT,On-site,1482,354,23.887,1.0084,3.067
+Bermuda,IT,Remote,939,213,22.684,0.9998,3.038
+Bermuda,Marketing,On-site,657,170,25.875,0.9865,3.055
+Bermuda,Marketing,Remote,386,92,23.834,1.0023,3.163
+Bermuda,Operations,On-site,749,156,20.828,0.989,3.048
+Bermuda,Operations,Remote,463,113,24.406,1.0108,2.929
+Bermuda,R&D,On-site,234,62,26.496,0.9864,3.111
+Bermuda,R&D,Remote,135,26,19.259,1.0185,2.896
+Bermuda,Sales,On-site,941,232,24.655,1.0048,2.909
+Bermuda,Sales,Remote,686,176,25.656,0.9785,2.962
+Bhutan,Finance,On-site,448,103,22.991,0.9962,2.946
+Bhutan,Finance,Remote,318,82,25.786,1.0121,2.975
+Bhutan,HR,On-site,380,102,26.842,1.0067,2.971
+Bhutan,HR,Remote,231,62,26.84,1.0081,2.844
+Bhutan,IT,On-site,1481,393,26.536,0.9975,3.044
+Bhutan,IT,Remote,987,257,26.039,0.9909,3.017
+Bhutan,Marketing,On-site,570,142,24.912,1.0046,2.953
+Bhutan,Marketing,Remote,376,94,25.0,1.0055,2.949
+Bhutan,Operations,On-site,736,192,26.087,0.9923,2.921
+Bhutan,Operations,Remote,493,141,28.6,0.9866,2.982
+Bhutan,R&D,On-site,228,57,25.0,0.9973,3.079
+Bhutan,R&D,Remote,153,38,24.837,0.966,2.948
+Bhutan,Sales,On-site,955,232,24.293,1.0026,3.007
+Bhutan,Sales,Remote,615,151,24.553,0.9808,2.979
+Bolivia,Finance,On-site,468,112,23.932,0.9856,2.921
+Bolivia,Finance,Remote,270,70,25.926,1.0012,2.948
+Bolivia,HR,On-site,391,87,22.251,1.0081,2.99
+Bolivia,HR,Remote,280,59,21.071,1.0126,2.896
+Bolivia,IT,On-site,1513,390,25.777,0.9956,3.022
+Bolivia,IT,Remote,974,247,25.359,0.9925,3.042
+Bolivia,Marketing,On-site,604,136,22.517,0.9941,2.998
+Bolivia,Marketing,Remote,379,95,25.066,1.0175,2.91
+Bolivia,Operations,On-site,725,188,25.931,0.9989,2.956
+Bolivia,Operations,Remote,466,113,24.249,1.0351,3.026
+Bolivia,R&D,On-site,245,58,23.673,0.9651,2.898
+Bolivia,R&D,Remote,159,45,28.302,1.0536,2.912
+Bolivia,Sales,On-site,1004,269,26.793,1.0092,3.014
+Bolivia,Sales,Remote,650,140,21.538,0.9991,2.978
+Bosnia and Herzegovina,Finance,On-site,511,128,25.049,1.0069,3.008
+Bosnia and Herzegovina,Finance,Remote,291,60,20.619,0.992,2.921
+Bosnia and Herzegovina,HR,On-site,406,85,20.936,1.0036,2.867
+Bosnia and Herzegovina,HR,Remote,253,55,21.739,0.9909,2.984
+Bosnia and Herzegovina,IT,On-site,1452,376,25.895,0.9991,2.992
+Bosnia and Herzegovina,IT,Remote,1004,239,23.805,0.9843,3.061
+Bosnia and Herzegovina,Marketing,On-site,553,121,21.881,1.0083,3.163
+Bosnia and Herzegovina,Marketing,Remote,415,103,24.819,0.995,3.039
+Bosnia and Herzegovina,Operations,On-site,722,157,21.745,1.0078,3.029
+Bosnia and Herzegovina,Operations,Remote,482,120,24.896,0.9843,3.079
+Bosnia and Herzegovina,R&D,On-site,246,63,25.61,0.9994,2.931
+Bosnia and Herzegovina,R&D,Remote,161,47,29.193,0.9966,2.994
+Bosnia and Herzegovina,Sales,On-site,1025,275,26.829,1.0084,2.967
+Bosnia and Herzegovina,Sales,Remote,665,176,26.466,1.0074,3.012
+Botswana,Finance,On-site,474,109,22.996,1.0016,3.114
+Botswana,Finance,Remote,349,73,20.917,1.0056,2.948
+Botswana,HR,On-site,359,77,21.448,0.987,2.855
+Botswana,HR,Remote,249,69,27.711,0.9918,3.161
+Botswana,IT,On-site,1467,365,24.881,0.9955,2.968
+Botswana,IT,Remote,970,261,26.907,0.9984,3.015
+Botswana,Marketing,On-site,550,135,24.545,1.0001,2.873
+Botswana,Marketing,Remote,375,85,22.667,1.0137,3.019
+Botswana,Operations,On-site,676,194,28.698,1.0006,2.962
+Botswana,Operations,Remote,493,126,25.558,0.9896,2.988
+Botswana,R&D,On-site,239,62,25.941,1.0058,3.079
+Botswana,R&D,Remote,157,39,24.841,1.0236,3.051
+Botswana,Sales,On-site,995,246,24.724,1.0073,2.962
+Botswana,Sales,Remote,669,168,25.112,0.9975,2.886
+Bouvet Island (Bouvetoya),Finance,On-site,528,134,25.379,0.9885,3.028
+Bouvet Island (Bouvetoya),Finance,Remote,313,78,24.92,0.9897,3.045
+Bouvet Island (Bouvetoya),HR,On-site,414,93,22.464,0.9828,2.969
+Bouvet Island (Bouvetoya),HR,Remote,252,65,25.794,1.006,3.004
+Bouvet Island (Bouvetoya),IT,On-site,1549,409,26.404,0.9971,3.059
+Bouvet Island (Bouvetoya),IT,Remote,1000,249,24.9,0.9958,3.023
+Bouvet Island (Bouvetoya),Marketing,On-site,583,145,24.871,0.9921,3.003
+Bouvet Island (Bouvetoya),Marketing,Remote,415,107,25.783,0.9997,2.973
+Bouvet Island (Bouvetoya),Operations,On-site,757,177,23.382,1.0131,2.942
+Bouvet Island (Bouvetoya),Operations,Remote,443,109,24.605,0.9801,2.935
+Bouvet Island (Bouvetoya),R&D,On-site,249,64,25.703,0.9917,3.084
+Bouvet Island (Bouvetoya),R&D,Remote,164,41,25.0,0.9986,2.854
+Bouvet Island (Bouvetoya),Sales,On-site,952,223,23.424,0.9903,3.017
+Bouvet Island (Bouvetoya),Sales,Remote,635,159,25.039,1.0053,3.077
+Brazil,Finance,On-site,491,115,23.422,1.0018,2.969
+Brazil,Finance,Remote,297,80,26.936,1.0028,2.953
+Brazil,HR,On-site,388,94,24.227,0.9895,2.843
+Brazil,HR,Remote,271,64,23.616,1.0121,2.882
+Brazil,IT,On-site,1468,383,26.09,1.0046,3.023
+Brazil,IT,Remote,978,256,26.176,1.0039,3.049
+Brazil,Marketing,On-site,621,156,25.121,1.03,3.035
+Brazil,Marketing,Remote,399,99,24.812,0.9965,2.94
+Brazil,Operations,On-site,779,173,22.208,0.9898,2.919
+Brazil,Operations,Remote,464,104,22.414,1.0106,2.888
+Brazil,R&D,On-site,270,77,28.519,0.9846,3.026
+Brazil,R&D,Remote,174,45,25.862,1.0173,3.017
+Brazil,Sales,On-site,976,246,25.205,1.0027,3.092
+Brazil,Sales,Remote,618,144,23.301,1.0005,3.006
+British Indian Ocean Territory (Chagos Archipelago),Finance,On-site,510,124,24.314,0.9918,2.931
+British Indian Ocean Territory (Chagos Archipelago),Finance,Remote,344,86,25.0,1.0058,2.98
+British Indian Ocean Territory (Chagos Archipelago),HR,On-site,390,105,26.923,0.9958,3.031
+British Indian Ocean Territory (Chagos Archipelago),HR,Remote,265,54,20.377,1.0093,2.789
+British Indian Ocean Territory (Chagos Archipelago),IT,On-site,1455,384,26.392,1.001,3.052
+British Indian Ocean Territory (Chagos Archipelago),IT,Remote,1006,231,22.962,0.998,3.058
+British Indian Ocean Territory (Chagos Archipelago),Marketing,On-site,619,155,25.04,0.9823,3.045
+British Indian Ocean Territory (Chagos Archipelago),Marketing,Remote,406,110,27.094,1.0147,2.978
+British Indian Ocean Territory (Chagos Archipelago),Operations,On-site,738,188,25.474,1.004,2.953
+British Indian Ocean Territory (Chagos Archipelago),Operations,Remote,435,102,23.448,1.018,2.972
+British Indian Ocean Territory (Chagos Archipelago),R&D,On-site,237,55,23.207,1.0146,3.063
+British Indian Ocean Territory (Chagos Archipelago),R&D,Remote,161,40,24.845,0.9806,2.863
+British Indian Ocean Territory (Chagos Archipelago),Sales,On-site,998,228,22.846,1.001,2.9
+British Indian Ocean Territory (Chagos Archipelago),Sales,Remote,668,174,26.048,0.9727,2.93
+British Virgin Islands,Finance,On-site,552,132,23.913,1.0044,2.886
+British Virgin Islands,Finance,Remote,330,76,23.03,0.9916,3.012
+British Virgin Islands,HR,On-site,408,101,24.755,1.0058,2.963
+British Virgin Islands,HR,Remote,255,64,25.098,0.9997,2.925
+British Virgin Islands,IT,On-site,1459,365,25.017,1.0054,2.983
+British Virgin Islands,IT,Remote,1025,244,23.805,1.0142,3.031
+British Virgin Islands,Marketing,On-site,576,141,24.479,1.0004,3.059
+British Virgin Islands,Marketing,Remote,394,88,22.335,0.9749,2.883
+British Virgin Islands,Operations,On-site,797,219,27.478,0.9943,3.038
+British Virgin Islands,Operations,Remote,507,136,26.824,1.0056,2.986
+British Virgin Islands,R&D,On-site,250,68,27.2,0.9747,3.016
+British Virgin Islands,R&D,Remote,172,47,27.326,0.9931,2.814
+British Virgin Islands,Sales,On-site,995,254,25.528,1.0061,3.008
+British Virgin Islands,Sales,Remote,653,166,25.421,0.9896,2.977
+Brunei Darussalam,Finance,On-site,481,135,28.067,0.9901,3.017
+Brunei Darussalam,Finance,Remote,345,89,25.797,0.9887,3.046
+Brunei Darussalam,HR,On-site,386,78,20.207,0.9991,2.907
+Brunei Darussalam,HR,Remote,228,55,24.123,0.9854,3.013
+Brunei Darussalam,IT,On-site,1478,388,26.252,0.9975,2.985
+Brunei Darussalam,IT,Remote,1009,244,24.182,0.9851,3.012
+Brunei Darussalam,Marketing,On-site,604,152,25.166,0.9978,2.99
+Brunei Darussalam,Marketing,Remote,404,91,22.525,0.9979,3.027
+Brunei Darussalam,Operations,On-site,748,195,26.07,1.0032,2.992
+Brunei Darussalam,Operations,Remote,502,107,21.315,1.0039,2.948
+Brunei Darussalam,R&D,On-site,262,78,29.771,1.0081,3.004
+Brunei Darussalam,R&D,Remote,167,48,28.743,1.0501,3.12
+Brunei Darussalam,Sales,On-site,938,237,25.267,0.9871,3.037
+Brunei Darussalam,Sales,Remote,631,158,25.04,0.9937,3.084
+Bulgaria,Finance,On-site,494,128,25.911,1.0031,2.99
+Bulgaria,Finance,Remote,365,90,24.658,0.9839,2.937
+Bulgaria,HR,On-site,427,99,23.185,1.0258,3.059
+Bulgaria,HR,Remote,279,79,28.315,0.9922,3.043
+Bulgaria,IT,On-site,1476,363,24.593,1.0053,3.047
+Bulgaria,IT,Remote,1002,269,26.846,0.9893,2.985
+Bulgaria,Marketing,On-site,653,186,28.484,0.9918,2.858
+Bulgaria,Marketing,Remote,401,91,22.693,0.9935,2.938
+Bulgaria,Operations,On-site,709,155,21.862,1.0085,3.071
+Bulgaria,Operations,Remote,459,125,27.233,0.9912,2.837
+Bulgaria,R&D,On-site,227,59,25.991,1.0085,2.885
+Bulgaria,R&D,Remote,155,43,27.742,1.0201,3.052
+Bulgaria,Sales,On-site,986,260,26.369,1.0066,2.953
+Bulgaria,Sales,Remote,626,155,24.76,1.0012,3.018
+Burkina Faso,Finance,On-site,534,125,23.408,0.9892,3.011
+Burkina Faso,Finance,Remote,313,75,23.962,1.0019,2.981
+Burkina Faso,HR,On-site,383,81,21.149,0.9968,3.11
+Burkina Faso,HR,Remote,262,80,30.534,0.9914,2.901
+Burkina Faso,IT,On-site,1431,336,23.48,1.0011,3.008
+Burkina Faso,IT,Remote,981,232,23.649,0.9849,2.97
+Burkina Faso,Marketing,On-site,627,139,22.169,1.0053,2.967
+Burkina Faso,Marketing,Remote,356,97,27.247,1.0191,3.006
+Burkina Faso,Operations,On-site,770,187,24.286,0.9934,3.022
+Burkina Faso,Operations,Remote,489,130,26.585,0.9699,2.941
+Burkina Faso,R&D,On-site,257,72,28.016,0.9997,3.066
+Burkina Faso,R&D,Remote,163,36,22.086,1.0181,3.11
+Burkina Faso,Sales,On-site,1003,233,23.23,1.0059,3.001
+Burkina Faso,Sales,Remote,671,159,23.696,1.0133,2.981
+Burundi,Finance,On-site,505,123,24.356,1.0077,3.095
+Burundi,Finance,Remote,339,80,23.599,1.0075,2.988
+Burundi,HR,On-site,365,94,25.753,0.9947,2.959
+Burundi,HR,Remote,259,69,26.641,0.9908,3.232
+Burundi,IT,On-site,1462,397,27.155,1.0099,2.97
+Burundi,IT,Remote,1056,249,23.58,0.9881,2.976
+Burundi,Marketing,On-site,573,154,26.876,0.9994,3.033
+Burundi,Marketing,Remote,445,106,23.82,0.9807,2.975
+Burundi,Operations,On-site,718,177,24.652,0.9898,2.961
+Burundi,Operations,Remote,495,128,25.859,0.9996,2.933
+Burundi,R&D,On-site,235,63,26.809,0.9992,3.017
+Burundi,R&D,Remote,179,40,22.346,0.9893,3.022
+Burundi,Sales,On-site,980,277,28.265,1.0013,2.941
+Burundi,Sales,Remote,645,172,26.667,0.9979,3.029
+Cambodia,Finance,On-site,482,120,24.896,0.9879,2.961
+Cambodia,Finance,Remote,291,89,30.584,0.9947,2.986
+Cambodia,HR,On-site,402,104,25.871,0.9926,2.96
+Cambodia,HR,Remote,264,64,24.242,1.0094,3.11
+Cambodia,IT,On-site,1537,421,27.391,1.0064,3.005
+Cambodia,IT,Remote,1004,242,24.104,0.9912,2.997
+Cambodia,Marketing,On-site,555,142,25.586,0.9971,3.029
+Cambodia,Marketing,Remote,396,82,20.707,1.007,3.121
+Cambodia,Operations,On-site,726,194,26.722,0.9876,2.96
+Cambodia,Operations,Remote,483,113,23.395,0.9996,3.052
+Cambodia,R&D,On-site,267,64,23.97,1.0024,2.996
+Cambodia,R&D,Remote,136,35,25.735,0.9983,3.037
+Cambodia,Sales,On-site,1008,267,26.488,1.009,3.002
+Cambodia,Sales,Remote,664,161,24.247,0.9907,2.992
+Cameroon,Finance,On-site,456,107,23.465,0.9846,3.024
+Cameroon,Finance,Remote,324,71,21.914,1.0011,2.873
+Cameroon,HR,On-site,367,75,20.436,1.0068,2.984
+Cameroon,HR,Remote,280,79,28.214,1.0219,2.936
+Cameroon,IT,On-site,1493,394,26.39,0.9962,3.01
+Cameroon,IT,Remote,1005,257,25.572,1.0054,2.986
+Cameroon,Marketing,On-site,622,149,23.955,1.0025,3.019
+Cameroon,Marketing,Remote,400,113,28.25,1.0144,2.998
+Cameroon,Operations,On-site,765,189,24.706,1.014,2.873
+Cameroon,Operations,Remote,519,131,25.241,1.0043,2.981
+Cameroon,R&D,On-site,260,69,26.538,0.9744,3.004
+Cameroon,R&D,Remote,143,40,27.972,0.9598,2.923
+Cameroon,Sales,On-site,946,234,24.736,0.9854,3.026
+Cameroon,Sales,Remote,595,157,26.387,0.9831,3.022
+Canada,Finance,On-site,469,117,24.947,1.009,3.026
+Canada,Finance,Remote,341,94,27.566,0.9921,2.938
+Canada,HR,On-site,386,100,25.907,1.0311,3.145
+Canada,HR,Remote,240,62,25.833,0.989,2.892
+Canada,IT,On-site,1454,353,24.278,0.9971,2.948
+Canada,IT,Remote,980,276,28.163,1.0045,3.021
+Canada,Marketing,On-site,604,162,26.821,1.0007,3.0
+Canada,Marketing,Remote,378,101,26.72,1.0075,3.024
+Canada,Operations,On-site,721,183,25.381,0.9817,2.981
+Canada,Operations,Remote,514,134,26.07,0.9949,2.982
+Canada,R&D,On-site,260,74,28.462,1.0148,2.792
+Canada,R&D,Remote,140,39,27.857,1.0027,2.921
+Canada,Sales,On-site,956,249,26.046,1.0136,2.97
+Canada,Sales,Remote,712,171,24.017,0.9927,3.013
+Cape Verde,Finance,On-site,466,117,25.107,1.018,3.069
+Cape Verde,Finance,Remote,350,83,23.714,0.9969,3.0
+Cape Verde,HR,On-site,373,100,26.81,0.9987,3.043
+Cape Verde,HR,Remote,265,62,23.396,1.0166,2.951
+Cape Verde,IT,On-site,1535,395,25.733,1.0004,2.992
+Cape Verde,IT,Remote,992,229,23.085,1.0004,3.039
+Cape Verde,Marketing,On-site,588,135,22.959,1.0132,2.966
+Cape Verde,Marketing,Remote,410,113,27.561,1.0044,3.132
+Cape Verde,Operations,On-site,744,174,23.387,1.0072,2.97
+Cape Verde,Operations,Remote,513,137,26.706,1.0084,3.004
+Cape Verde,R&D,On-site,225,54,24.0,1.0513,2.951
+Cape Verde,R&D,Remote,158,43,27.215,0.9697,2.854
+Cape Verde,Sales,On-site,981,227,23.14,0.9892,3.047
+Cape Verde,Sales,Remote,641,146,22.777,0.9896,3.148
+Cayman Islands,Finance,On-site,471,138,29.299,1.0086,2.975
+Cayman Islands,Finance,Remote,304,73,24.013,1.0231,2.964
+Cayman Islands,HR,On-site,377,91,24.138,0.9972,2.862
+Cayman Islands,HR,Remote,239,58,24.268,0.9826,2.845
+Cayman Islands,IT,On-site,1492,389,26.072,0.9959,3.019
+Cayman Islands,IT,Remote,975,262,26.872,1.0155,3.024
+Cayman Islands,Marketing,On-site,577,148,25.65,1.0052,3.052
+Cayman Islands,Marketing,Remote,397,102,25.693,1.0133,3.0
+Cayman Islands,Operations,On-site,737,172,23.338,0.9999,3.028
+Cayman Islands,Operations,Remote,511,121,23.679,1.0044,3.025
+Cayman Islands,R&D,On-site,257,73,28.405,1.0061,2.946
+Cayman Islands,R&D,Remote,163,38,23.313,0.9955,3.061
+Cayman Islands,Sales,On-site,1012,259,25.593,0.9997,3.007
+Cayman Islands,Sales,Remote,658,175,26.596,0.9894,3.014
+Central African Republic,Finance,On-site,479,115,24.008,1.0004,2.948
+Central African Republic,Finance,Remote,345,96,27.826,0.9995,2.997
+Central African Republic,HR,On-site,425,114,26.824,1.0044,3.205
+Central African Republic,HR,Remote,250,63,25.2,0.9701,3.06
+Central African Republic,IT,On-site,1392,348,25.0,0.9934,3.027
+Central African Republic,IT,Remote,948,251,26.477,1.0179,3.032
+Central African Republic,Marketing,On-site,563,143,25.4,1.0073,3.085
+Central African Republic,Marketing,Remote,406,102,25.123,1.0132,3.059
+Central African Republic,Operations,On-site,728,173,23.764,1.0037,2.938
+Central African Republic,Operations,Remote,462,110,23.81,0.9927,2.944
+Central African Republic,R&D,On-site,250,59,23.6,1.0093,3.056
+Central African Republic,R&D,Remote,162,34,20.988,0.9912,2.802
+Central African Republic,Sales,On-site,969,240,24.768,0.9806,2.977
+Central African Republic,Sales,Remote,637,170,26.688,1.0095,2.978
+Chad,Finance,On-site,513,120,23.392,1.0049,2.99
+Chad,Finance,Remote,337,79,23.442,1.0018,2.89
+Chad,HR,On-site,411,103,25.061,0.9968,3.068
+Chad,HR,Remote,282,83,29.433,0.972,2.929
+Chad,IT,On-site,1456,371,25.481,1.0053,2.995
+Chad,IT,Remote,940,247,26.277,1.0066,3.001
+Chad,Marketing,On-site,596,153,25.671,1.0129,2.973
+Chad,Marketing,Remote,358,93,25.978,1.0051,2.989
+Chad,Operations,On-site,760,183,24.079,0.9951,3.055
+Chad,Operations,Remote,463,115,24.838,1.0099,3.039
+Chad,R&D,On-site,241,74,30.705,0.9775,3.058
+Chad,R&D,Remote,158,44,27.848,0.9809,3.07
+Chad,Sales,On-site,973,229,23.535,0.993,2.967
+Chad,Sales,Remote,652,160,24.54,0.9825,2.965
+Chile,Finance,On-site,470,108,22.979,1.0095,2.945
+Chile,Finance,Remote,328,76,23.171,0.9917,2.948
+Chile,HR,On-site,396,98,24.747,1.0211,2.944
+Chile,HR,Remote,260,62,23.846,0.9953,2.908
+Chile,IT,On-site,1447,346,23.912,0.9973,2.993
+Chile,IT,Remote,993,210,21.148,0.9902,2.97
+Chile,Marketing,On-site,596,151,25.336,1.0016,2.951
+Chile,Marketing,Remote,380,96,25.263,1.0211,3.024
+Chile,Operations,On-site,731,171,23.393,0.9945,3.019
+Chile,Operations,Remote,467,115,24.625,0.9895,3.126
+Chile,R&D,On-site,242,57,23.554,1.0002,3.033
+Chile,R&D,Remote,167,39,23.353,0.9901,2.988
+Chile,Sales,On-site,995,264,26.533,1.0034,2.994
+Chile,Sales,Remote,642,178,27.726,0.9911,3.0
+China,Finance,On-site,492,120,24.39,0.9727,3.03
+China,Finance,Remote,333,69,20.721,1.0217,3.048
+China,HR,On-site,382,88,23.037,1.0035,2.924
+China,HR,Remote,263,73,27.757,1.011,3.095
+China,IT,On-site,1436,336,23.398,1.0057,3.008
+China,IT,Remote,938,226,24.094,1.0109,2.941
+China,Marketing,On-site,589,154,26.146,0.9773,2.973
+China,Marketing,Remote,383,97,25.326,1.0184,2.932
+China,Operations,On-site,729,183,25.103,0.9981,3.003
+China,Operations,Remote,528,129,24.432,1.0256,3.036
+China,R&D,On-site,271,85,31.365,0.9669,3.055
+China,R&D,Remote,172,34,19.767,0.9813,2.936
+China,Sales,On-site,1037,282,27.194,0.9903,3.015
+China,Sales,Remote,644,169,26.242,1.0028,3.002
+Christmas Island,Finance,On-site,501,131,26.148,0.9929,3.012
+Christmas Island,Finance,Remote,302,70,23.179,1.0081,2.904
+Christmas Island,HR,On-site,393,116,29.517,0.9889,3.048
+Christmas Island,HR,Remote,251,62,24.701,1.0022,2.928
+Christmas Island,IT,On-site,1450,366,25.241,0.9935,2.886
+Christmas Island,IT,Remote,967,236,24.405,1.0075,2.96
+Christmas Island,Marketing,On-site,578,139,24.048,1.0228,2.967
+Christmas Island,Marketing,Remote,394,88,22.335,1.0177,2.982
+Christmas Island,Operations,On-site,726,174,23.967,1.0106,2.928
+Christmas Island,Operations,Remote,511,122,23.875,1.0004,2.935
+Christmas Island,R&D,On-site,257,75,29.183,1.008,3.101
+Christmas Island,R&D,Remote,163,39,23.926,0.9821,3.123
+Christmas Island,Sales,On-site,986,242,24.544,0.9903,3.016
+Christmas Island,Sales,Remote,631,163,25.832,1.0077,2.93
+Cocos (Keeling) Islands,Finance,On-site,514,145,28.21,1.0097,2.998
+Cocos (Keeling) Islands,Finance,Remote,349,96,27.507,1.0168,2.888
+Cocos (Keeling) Islands,HR,On-site,372,103,27.688,0.9933,3.0
+Cocos (Keeling) Islands,HR,Remote,247,59,23.887,0.9977,2.96
+Cocos (Keeling) Islands,IT,On-site,1533,410,26.745,1.0175,2.999
+Cocos (Keeling) Islands,IT,Remote,1051,256,24.358,1.0023,3.073
+Cocos (Keeling) Islands,Marketing,On-site,610,155,25.41,1.0042,2.975
+Cocos (Keeling) Islands,Marketing,Remote,381,88,23.097,0.9973,3.013
+Cocos (Keeling) Islands,Operations,On-site,696,170,24.425,0.9923,2.961
+Cocos (Keeling) Islands,Operations,Remote,471,116,24.628,1.0157,3.006
+Cocos (Keeling) Islands,R&D,On-site,244,54,22.131,0.9959,2.93
+Cocos (Keeling) Islands,R&D,Remote,203,41,20.197,1.033,3.039
+Cocos (Keeling) Islands,Sales,On-site,969,225,23.22,1.0133,2.944
+Cocos (Keeling) Islands,Sales,Remote,675,159,23.556,0.9962,3.021
+Colombia,Finance,On-site,459,114,24.837,0.9976,2.967
+Colombia,Finance,Remote,321,76,23.676,1.0012,3.075
+Colombia,HR,On-site,403,105,26.055,1.0067,3.104
+Colombia,HR,Remote,256,71,27.734,0.9838,2.961
+Colombia,IT,On-site,1488,381,25.605,1.0037,2.956
+Colombia,IT,Remote,946,229,24.207,1.0133,3.021
+Colombia,Marketing,On-site,597,168,28.141,1.0041,2.96
+Colombia,Marketing,Remote,390,102,26.154,0.9962,2.862
+Colombia,Operations,On-site,706,174,24.646,0.9971,3.027
+Colombia,Operations,Remote,510,147,28.824,0.9971,2.941
+Colombia,R&D,On-site,235,50,21.277,0.9938,2.851
+Colombia,R&D,Remote,177,48,27.119,0.9925,3.124
+Colombia,Sales,On-site,961,228,23.725,0.9938,3.069
+Colombia,Sales,Remote,664,159,23.946,0.9906,3.059
+Comoros,Finance,On-site,474,117,24.684,1.001,3.118
+Comoros,Finance,Remote,277,77,27.798,0.9952,2.964
+Comoros,HR,On-site,387,97,25.065,1.0335,3.059
+Comoros,HR,Remote,299,89,29.766,0.9776,3.084
+Comoros,IT,On-site,1449,340,23.464,0.9889,3.021
+Comoros,IT,Remote,955,253,26.492,0.9967,3.009
+Comoros,Marketing,On-site,607,150,24.712,1.0196,3.04
+Comoros,Marketing,Remote,430,119,27.674,1.0085,3.03
+Comoros,Operations,On-site,735,181,24.626,0.9825,2.895
+Comoros,Operations,Remote,513,131,25.536,0.9974,3.008
+Comoros,R&D,On-site,219,45,20.548,1.0102,2.918
+Comoros,R&D,Remote,160,44,27.5,1.0148,2.969
+Comoros,Sales,On-site,961,240,24.974,0.9931,3.058
+Comoros,Sales,Remote,654,130,19.878,0.9955,3.014
+Congo,Finance,On-site,975,226,23.179,0.9967,3.017
+Congo,Finance,Remote,647,150,23.184,0.9906,3.091
+Congo,HR,On-site,837,190,22.7,1.0077,3.157
+Congo,HR,Remote,549,127,23.133,0.9928,2.945
+Congo,IT,On-site,2914,700,24.022,0.9998,2.989
+Congo,IT,Remote,1943,455,23.417,0.999,2.951
+Congo,Marketing,On-site,1145,291,25.415,1.0029,2.979
+Congo,Marketing,Remote,762,189,24.803,1.0145,2.92
+Congo,Operations,On-site,1427,350,24.527,1.0153,3.11
+Congo,Operations,Remote,1001,262,26.174,1.0036,3.056
+Congo,R&D,On-site,492,128,26.016,1.0121,2.967
+Congo,R&D,Remote,315,77,24.444,0.9783,2.93
+Congo,Sales,On-site,1967,501,25.47,0.9939,3.02
+Congo,Sales,Remote,1312,321,24.466,0.9983,3.062
+Cook Islands,Finance,On-site,509,136,26.719,0.994,2.945
+Cook Islands,Finance,Remote,345,90,26.087,0.9849,3.02
+Cook Islands,HR,On-site,372,84,22.581,1.0144,2.941
+Cook Islands,HR,Remote,243,61,25.103,0.9886,2.984
+Cook Islands,IT,On-site,1376,325,23.619,1.0082,3.033
+Cook Islands,IT,Remote,948,243,25.633,1.0,3.02
+Cook Islands,Marketing,On-site,565,130,23.009,0.973,3.037
+Cook Islands,Marketing,Remote,382,107,28.01,1.0024,3.0
+Cook Islands,Operations,On-site,698,163,23.352,1.0033,3.007
+Cook Islands,Operations,Remote,487,118,24.23,0.9974,3.068
+Cook Islands,R&D,On-site,243,68,27.984,1.0217,2.975
+Cook Islands,R&D,Remote,159,45,28.302,1.0048,3.119
+Cook Islands,Sales,On-site,1004,276,27.49,0.9883,3.002
+Cook Islands,Sales,Remote,659,167,25.341,1.0133,2.98
+Costa Rica,Finance,On-site,500,143,28.6,0.9952,3.0
+Costa Rica,Finance,Remote,308,80,25.974,0.9907,2.971
+Costa Rica,HR,On-site,434,116,26.728,1.0125,2.975
+Costa Rica,HR,Remote,255,53,20.784,0.9891,2.867
+Costa Rica,IT,On-site,1548,396,25.581,0.9988,3.021
+Costa Rica,IT,Remote,996,244,24.498,1.0139,2.993
+Costa Rica,Marketing,On-site,620,153,24.677,1.0056,3.058
+Costa Rica,Marketing,Remote,386,106,27.461,1.009,2.946
+Costa Rica,Operations,On-site,748,191,25.535,1.0002,3.007
+Costa Rica,Operations,Remote,488,131,26.844,0.9795,3.078
+Costa Rica,R&D,On-site,248,61,24.597,1.0206,3.032
+Costa Rica,R&D,Remote,152,43,28.289,1.0233,2.914
+Costa Rica,Sales,On-site,929,230,24.758,1.0022,2.975
+Costa Rica,Sales,Remote,665,170,25.564,0.9988,3.044
+Cote d'Ivoire,Finance,On-site,479,98,20.459,1.0115,3.021
+Cote d'Ivoire,Finance,Remote,300,68,22.667,0.9792,3.027
+Cote d'Ivoire,HR,On-site,395,110,27.848,1.0146,3.081
+Cote d'Ivoire,HR,Remote,240,57,23.75,1.0008,3.208
+Cote d'Ivoire,IT,On-site,1509,377,24.983,0.9902,2.998
+Cote d'Ivoire,IT,Remote,957,220,22.989,1.0055,2.996
+Cote d'Ivoire,Marketing,On-site,603,149,24.71,0.9951,2.939
+Cote d'Ivoire,Marketing,Remote,385,93,24.156,1.0041,2.997
+Cote d'Ivoire,Operations,On-site,732,173,23.634,0.9927,2.939
+Cote d'Ivoire,Operations,Remote,506,131,25.889,0.9984,3.049
+Cote d'Ivoire,R&D,On-site,253,65,25.692,0.9909,3.036
+Cote d'Ivoire,R&D,Remote,164,45,27.439,1.0005,2.78
+Cote d'Ivoire,Sales,On-site,949,245,25.817,0.9949,3.026
+Cote d'Ivoire,Sales,Remote,654,171,26.147,1.0049,2.983
+Croatia,Finance,On-site,490,109,22.245,0.9963,3.088
+Croatia,Finance,Remote,324,97,29.938,1.0084,3.0
+Croatia,HR,On-site,419,110,26.253,0.9908,2.957
+Croatia,HR,Remote,230,57,24.783,1.0314,3.061
+Croatia,IT,On-site,1505,373,24.784,0.9975,3.015
+Croatia,IT,Remote,1006,276,27.435,0.9841,3.024
+Croatia,Marketing,On-site,582,138,23.711,1.0025,3.086
+Croatia,Marketing,Remote,341,83,24.34,1.017,3.003
+Croatia,Operations,On-site,705,167,23.688,1.0104,2.983
+Croatia,Operations,Remote,463,125,26.998,0.9973,3.022
+Croatia,R&D,On-site,266,60,22.556,1.0,3.098
+Croatia,R&D,Remote,172,36,20.93,1.0219,2.983
+Croatia,Sales,On-site,1016,274,26.969,1.0079,2.99
+Croatia,Sales,Remote,691,173,25.036,0.9881,2.954
+Cuba,Finance,On-site,482,116,24.066,0.9978,3.083
+Cuba,Finance,Remote,348,86,24.713,0.9845,3.017
+Cuba,HR,On-site,418,120,28.708,1.0111,2.993
+Cuba,HR,Remote,258,73,28.295,1.0116,2.899
+Cuba,IT,On-site,1494,384,25.703,0.9952,2.987
+Cuba,IT,Remote,1005,251,24.975,1.0059,3.004
+Cuba,Marketing,On-site,609,166,27.258,0.9915,2.931
+Cuba,Marketing,Remote,390,95,24.359,0.9854,3.051
+Cuba,Operations,On-site,726,169,23.278,0.9886,3.008
+Cuba,Operations,Remote,461,133,28.85,1.0057,3.089
+Cuba,R&D,On-site,242,56,23.14,1.013,2.913
+Cuba,R&D,Remote,169,43,25.444,1.026,2.722
+Cuba,Sales,On-site,1017,265,26.057,0.9976,2.882
+Cuba,Sales,Remote,668,169,25.299,0.9839,3.078
+Cyprus,Finance,On-site,502,138,27.49,1.0154,3.008
+Cyprus,Finance,Remote,315,74,23.492,1.0097,3.054
+Cyprus,HR,On-site,396,106,26.768,0.9964,3.033
+Cyprus,HR,Remote,261,67,25.67,1.0168,3.096
+Cyprus,IT,On-site,1461,353,24.162,1.0048,2.998
+Cyprus,IT,Remote,949,223,23.498,1.0034,3.042
+Cyprus,Marketing,On-site,558,139,24.91,0.9934,3.102
+Cyprus,Marketing,Remote,431,125,29.002,1.0032,3.081
+Cyprus,Operations,On-site,763,197,25.819,0.9963,3.02
+Cyprus,Operations,Remote,497,136,27.364,0.9917,2.976
+Cyprus,R&D,On-site,233,69,29.614,1.0047,3.103
+Cyprus,R&D,Remote,176,42,23.864,1.0452,2.96
+Cyprus,Sales,On-site,1041,257,24.688,0.9957,3.04
+Cyprus,Sales,Remote,644,157,24.379,0.9933,3.061
+Czech Republic,Finance,On-site,518,121,23.359,1.0257,2.894
+Czech Republic,Finance,Remote,313,77,24.601,0.9788,3.067
+Czech Republic,HR,On-site,367,92,25.068,0.9725,2.896
+Czech Republic,HR,Remote,276,77,27.899,1.0141,3.022
+Czech Republic,IT,On-site,1442,357,24.757,0.9973,2.989
+Czech Republic,IT,Remote,968,239,24.69,1.0043,2.978
+Czech Republic,Marketing,On-site,586,134,22.867,0.9986,2.928
+Czech Republic,Marketing,Remote,420,102,24.286,0.9791,2.967
+Czech Republic,Operations,On-site,727,172,23.659,0.9914,2.902
+Czech Republic,Operations,Remote,504,145,28.77,0.9763,2.954
+Czech Republic,R&D,On-site,265,71,26.792,1.0259,3.053
+Czech Republic,R&D,Remote,168,43,25.595,1.0366,3.042
+Czech Republic,Sales,On-site,971,239,24.614,0.9967,2.976
+Czech Republic,Sales,Remote,695,195,28.058,1.0124,2.932
+Denmark,Finance,On-site,487,123,25.257,0.9972,3.023
+Denmark,Finance,Remote,325,76,23.385,0.9911,3.111
+Denmark,HR,On-site,393,88,22.392,1.0141,2.98
+Denmark,HR,Remote,260,68,26.154,1.0057,2.973
+Denmark,IT,On-site,1460,356,24.384,1.0032,2.984
+Denmark,IT,Remote,995,246,24.724,1.0017,3.009
+Denmark,Marketing,On-site,582,156,26.804,0.987,3.003
+Denmark,Marketing,Remote,380,89,23.421,0.9883,3.005
+Denmark,Operations,On-site,705,155,21.986,1.0088,2.935
+Denmark,Operations,Remote,469,106,22.601,0.971,2.981
+Denmark,R&D,On-site,249,61,24.498,0.9839,2.892
+Denmark,R&D,Remote,147,32,21.769,0.9676,3.02
+Denmark,Sales,On-site,971,233,23.996,1.0098,3.005
+Denmark,Sales,Remote,643,148,23.017,1.0022,3.107
+Djibouti,Finance,On-site,480,141,29.375,0.9855,3.14
+Djibouti,Finance,Remote,325,81,24.923,1.0035,2.988
+Djibouti,HR,On-site,410,94,22.927,0.9939,2.966
+Djibouti,HR,Remote,230,65,28.261,0.999,2.913
+Djibouti,IT,On-site,1486,388,26.11,0.994,2.976
+Djibouti,IT,Remote,1001,242,24.176,0.9913,3.046
+Djibouti,Marketing,On-site,603,134,22.222,0.9954,3.058
+Djibouti,Marketing,Remote,389,96,24.679,0.9943,2.877
+Djibouti,Operations,On-site,718,169,23.538,1.0008,3.057
+Djibouti,Operations,Remote,493,120,24.341,0.9918,3.091
+Djibouti,R&D,On-site,229,61,26.638,0.9625,3.122
+Djibouti,R&D,Remote,186,58,31.183,1.0242,2.973
+Djibouti,Sales,On-site,983,245,24.924,1.0005,3.005
+Djibouti,Sales,Remote,678,176,25.959,1.0179,2.975
+Dominica,Finance,On-site,499,112,22.445,1.0167,3.03
+Dominica,Finance,Remote,305,71,23.279,1.0069,2.895
+Dominica,HR,On-site,413,105,25.424,1.0113,3.065
+Dominica,HR,Remote,255,73,28.627,0.979,3.024
+Dominica,IT,On-site,1424,360,25.281,0.9978,2.969
+Dominica,IT,Remote,1041,245,23.535,0.9913,3.019
+Dominica,Marketing,On-site,606,138,22.772,1.0117,3.094
+Dominica,Marketing,Remote,409,94,22.983,1.0049,3.095
+Dominica,Operations,On-site,730,183,25.068,0.9944,2.967
+Dominica,Operations,Remote,458,114,24.891,1.0064,3.02
+Dominica,R&D,On-site,238,63,26.471,1.0121,2.832
+Dominica,R&D,Remote,167,48,28.743,1.0078,3.222
+Dominica,Sales,On-site,947,232,24.498,1.0088,2.938
+Dominica,Sales,Remote,659,162,24.583,1.0004,3.061
+Dominican Republic,Finance,On-site,483,127,26.294,1.0011,2.977
+Dominican Republic,Finance,Remote,333,81,24.324,1.0076,3.009
+Dominican Republic,HR,On-site,398,101,25.377,1.0103,2.975
+Dominican Republic,HR,Remote,261,67,25.67,0.996,3.008
+Dominican Republic,IT,On-site,1441,328,22.762,1.0063,2.954
+Dominican Republic,IT,Remote,1018,244,23.969,1.0067,2.936
+Dominican Republic,Marketing,On-site,601,145,24.126,0.9894,3.035
+Dominican Republic,Marketing,Remote,386,82,21.244,1.0112,2.987
+Dominican Republic,Operations,On-site,725,206,28.414,0.9939,2.985
+Dominican Republic,Operations,Remote,474,104,21.941,0.9785,3.055
+Dominican Republic,R&D,On-site,267,70,26.217,0.9827,2.929
+Dominican Republic,R&D,Remote,164,43,26.22,0.9997,3.049
+Dominican Republic,Sales,On-site,985,254,25.787,0.9934,3.011
+Dominican Republic,Sales,Remote,643,148,23.017,1.0016,3.02
+Ecuador,Finance,On-site,451,123,27.273,0.9902,3.022
+Ecuador,Finance,Remote,361,100,27.701,0.9874,2.875
+Ecuador,HR,On-site,367,91,24.796,0.9892,2.935
+Ecuador,HR,Remote,262,62,23.664,0.9774,2.851
+Ecuador,IT,On-site,1426,370,25.947,0.992,2.966
+Ecuador,IT,Remote,1013,245,24.186,1.0059,2.989
+Ecuador,Marketing,On-site,599,144,24.04,1.0054,3.02
+Ecuador,Marketing,Remote,395,99,25.063,0.9789,2.947
+Ecuador,Operations,On-site,723,176,24.343,0.9971,2.975
+Ecuador,Operations,Remote,480,119,24.792,0.9825,2.998
+Ecuador,R&D,On-site,208,50,24.038,0.9858,2.971
+Ecuador,R&D,Remote,165,40,24.242,0.9951,3.018
+Ecuador,Sales,On-site,995,253,25.427,1.002,3.039
+Ecuador,Sales,Remote,654,169,25.841,1.0095,3.078
+Egypt,Finance,On-site,527,128,24.288,0.9859,2.903
+Egypt,Finance,Remote,323,82,25.387,0.9888,2.885
+Egypt,HR,On-site,437,115,26.316,1.0078,3.032
+Egypt,HR,Remote,269,73,27.138,0.9887,2.985
+Egypt,IT,On-site,1463,367,25.085,1.0084,2.994
+Egypt,IT,Remote,988,247,25.0,1.0119,2.938
+Egypt,Marketing,On-site,593,163,27.487,1.0002,3.057
+Egypt,Marketing,Remote,392,92,23.469,1.0128,2.913
+Egypt,Operations,On-site,733,167,22.783,1.0054,2.95
+Egypt,Operations,Remote,509,124,24.361,0.9949,3.02
+Egypt,R&D,On-site,216,43,19.907,0.9866,3.093
+Egypt,R&D,Remote,177,37,20.904,0.9974,3.051
+Egypt,Sales,On-site,962,239,24.844,0.9983,2.991
+Egypt,Sales,Remote,674,173,25.668,0.9989,3.027
+El Salvador,Finance,On-site,505,127,25.149,1.0095,2.972
+El Salvador,Finance,Remote,322,72,22.36,1.0134,2.938
+El Salvador,HR,On-site,380,116,30.526,0.9919,3.053
+El Salvador,HR,Remote,272,68,25.0,0.9707,3.206
+El Salvador,IT,On-site,1441,389,26.995,1.0039,2.996
+El Salvador,IT,Remote,1007,256,25.422,1.0064,2.952
+El Salvador,Marketing,On-site,596,140,23.49,0.9823,2.921
+El Salvador,Marketing,Remote,387,107,27.649,0.9946,2.922
+El Salvador,Operations,On-site,793,195,24.59,1.0162,3.025
+El Salvador,Operations,Remote,494,134,27.126,1.0102,2.83
+El Salvador,R&D,On-site,242,46,19.008,1.0084,3.054
+El Salvador,R&D,Remote,177,48,27.119,0.9937,2.853
+El Salvador,Sales,On-site,1026,240,23.392,1.0174,2.972
+El Salvador,Sales,Remote,612,148,24.183,1.019,3.028
+Equatorial Guinea,Finance,On-site,489,113,23.108,1.0204,3.031
+Equatorial Guinea,Finance,Remote,331,89,26.888,1.0158,2.792
+Equatorial Guinea,HR,On-site,382,86,22.513,0.98,3.092
+Equatorial Guinea,HR,Remote,261,83,31.801,1.0032,2.95
+Equatorial Guinea,IT,On-site,1422,354,24.895,1.001,3.044
+Equatorial Guinea,IT,Remote,969,227,23.426,1.0017,2.983
+Equatorial Guinea,Marketing,On-site,563,138,24.512,0.9974,2.998
+Equatorial Guinea,Marketing,Remote,411,101,24.574,1.0086,2.978
+Equatorial Guinea,Operations,On-site,718,168,23.398,0.9911,3.032
+Equatorial Guinea,Operations,Remote,480,116,24.167,0.987,2.994
+Equatorial Guinea,R&D,On-site,234,70,29.915,1.0122,3.043
+Equatorial Guinea,R&D,Remote,169,50,29.586,1.0212,3.006
+Equatorial Guinea,Sales,On-site,1008,226,22.421,1.0014,3.011
+Equatorial Guinea,Sales,Remote,670,166,24.776,1.0069,2.996
+Eritrea,Finance,On-site,497,123,24.748,0.9902,2.932
+Eritrea,Finance,Remote,324,78,24.074,1.0043,3.08
+Eritrea,HR,On-site,349,82,23.496,0.9904,2.926
+Eritrea,HR,Remote,282,62,21.986,1.0026,2.858
+Eritrea,IT,On-site,1534,387,25.228,0.9985,2.986
+Eritrea,IT,Remote,951,233,24.501,1.0004,3.029
+Eritrea,Marketing,On-site,587,131,22.317,0.9889,3.003
+Eritrea,Marketing,Remote,388,81,20.876,0.9944,2.982
+Eritrea,Operations,On-site,699,168,24.034,1.0068,3.133
+Eritrea,Operations,Remote,496,119,23.992,1.0017,3.107
+Eritrea,R&D,On-site,235,63,26.809,0.9943,3.055
+Eritrea,R&D,Remote,181,54,29.834,0.9709,2.945
+Eritrea,Sales,On-site,976,243,24.898,0.9959,3.018
+Eritrea,Sales,Remote,650,156,24.0,0.9792,3.06
+Estonia,Finance,On-site,461,114,24.729,0.9853,3.002
+Estonia,Finance,Remote,295,76,25.763,0.9994,2.797
+Estonia,HR,On-site,389,102,26.221,0.986,2.997
+Estonia,HR,Remote,242,54,22.314,0.9919,2.926
+Estonia,IT,On-site,1476,353,23.916,1.0174,3.094
+Estonia,IT,Remote,1002,260,25.948,0.9874,2.991
+Estonia,Marketing,On-site,574,132,22.997,0.9961,3.014
+Estonia,Marketing,Remote,434,109,25.115,0.981,3.048
+Estonia,Operations,On-site,727,186,25.585,0.9865,2.946
+Estonia,Operations,Remote,512,136,26.562,1.0062,2.988
+Estonia,R&D,On-site,245,67,27.347,1.0275,2.935
+Estonia,R&D,Remote,176,50,28.409,0.9835,3.017
+Estonia,Sales,On-site,1007,268,26.614,1.0035,3.029
+Estonia,Sales,Remote,650,165,25.385,1.0079,2.989
+Ethiopia,Finance,On-site,485,122,25.155,1.015,3.021
+Ethiopia,Finance,Remote,328,93,28.354,0.9751,2.988
+Ethiopia,HR,On-site,406,102,25.123,0.9794,3.054
+Ethiopia,HR,Remote,248,65,26.21,1.0313,2.899
+Ethiopia,IT,On-site,1526,358,23.46,0.9999,3.043
+Ethiopia,IT,Remote,1001,251,25.075,0.9819,3.012
+Ethiopia,Marketing,On-site,593,158,26.644,0.987,2.907
+Ethiopia,Marketing,Remote,417,95,22.782,1.009,2.981
+Ethiopia,Operations,On-site,738,178,24.119,1.0105,2.915
+Ethiopia,Operations,Remote,487,109,22.382,0.9962,2.959
+Ethiopia,R&D,On-site,235,67,28.511,1.0182,3.136
+Ethiopia,R&D,Remote,157,49,31.21,0.9989,2.994
+Ethiopia,Sales,On-site,996,275,27.61,0.994,2.958
+Ethiopia,Sales,Remote,631,169,26.783,1.0024,3.044
+Falkland Islands (Malvinas),Finance,On-site,501,122,24.351,1.0052,2.924
+Falkland Islands (Malvinas),Finance,Remote,319,86,26.959,0.9886,3.0
+Falkland Islands (Malvinas),HR,On-site,398,98,24.623,0.9954,2.935
+Falkland Islands (Malvinas),HR,Remote,276,69,25.0,0.9964,3.062
+Falkland Islands (Malvinas),IT,On-site,1425,351,24.632,0.9955,2.929
+Falkland Islands (Malvinas),IT,Remote,1024,255,24.902,0.9982,3.062
+Falkland Islands (Malvinas),Marketing,On-site,599,153,25.543,1.0049,2.972
+Falkland Islands (Malvinas),Marketing,Remote,446,95,21.3,1.0124,2.933
+Falkland Islands (Malvinas),Operations,On-site,723,176,24.343,0.9977,3.018
+Falkland Islands (Malvinas),Operations,Remote,486,122,25.103,1.0189,3.068
+Falkland Islands (Malvinas),R&D,On-site,235,54,22.979,1.0145,2.97
+Falkland Islands (Malvinas),R&D,Remote,185,47,25.405,0.9988,2.854
+Falkland Islands (Malvinas),Sales,On-site,937,229,24.44,0.9859,3.003
+Falkland Islands (Malvinas),Sales,Remote,683,150,21.962,1.0019,2.89
+Faroe Islands,Finance,On-site,481,130,27.027,1.01,3.081
+Faroe Islands,Finance,Remote,351,85,24.217,0.9838,3.04
+Faroe Islands,HR,On-site,385,90,23.377,1.0183,3.117
+Faroe Islands,HR,Remote,257,74,28.794,1.0138,2.938
+Faroe Islands,IT,On-site,1493,335,22.438,0.9881,3.006
+Faroe Islands,IT,Remote,1014,246,24.26,1.0021,2.946
+Faroe Islands,Marketing,On-site,563,141,25.044,0.987,2.847
+Faroe Islands,Marketing,Remote,359,85,23.677,0.9764,2.983
+Faroe Islands,Operations,On-site,751,194,25.832,1.0216,2.984
+Faroe Islands,Operations,Remote,506,129,25.494,0.9998,3.055
+Faroe Islands,R&D,On-site,229,57,24.891,1.011,3.188
+Faroe Islands,R&D,Remote,157,35,22.293,1.014,3.134
+Faroe Islands,Sales,On-site,999,233,23.323,1.0005,3.031
+Faroe Islands,Sales,Remote,631,135,21.395,1.0,3.06
+Fiji,Finance,On-site,496,130,26.21,0.9915,2.978
+Fiji,Finance,Remote,305,77,25.246,0.9865,3.023
+Fiji,HR,On-site,400,111,27.75,1.0058,2.925
+Fiji,HR,Remote,266,56,21.053,0.9947,3.049
+Fiji,IT,On-site,1505,343,22.791,0.9844,3.03
+Fiji,IT,Remote,1015,258,25.419,1.0067,3.049
+Fiji,Marketing,On-site,565,131,23.186,0.9943,2.91
+Fiji,Marketing,Remote,384,99,25.781,1.0203,3.122
+Fiji,Operations,On-site,774,201,25.969,0.992,2.99
+Fiji,Operations,Remote,488,121,24.795,0.9944,2.945
+Fiji,R&D,On-site,236,53,22.458,0.9713,3.11
+Fiji,R&D,Remote,149,38,25.503,0.9738,3.094
+Fiji,Sales,On-site,992,245,24.698,0.9974,3.036
+Fiji,Sales,Remote,649,170,26.194,0.9931,2.915
+Finland,Finance,On-site,480,132,27.5,0.9999,2.979
+Finland,Finance,Remote,368,92,25.0,0.9817,3.098
+Finland,HR,On-site,402,106,26.368,0.9908,2.975
+Finland,HR,Remote,255,65,25.49,0.9944,2.957
+Finland,IT,On-site,1464,335,22.883,1.0039,2.88
+Finland,IT,Remote,942,235,24.947,1.0058,3.023
+Finland,Marketing,On-site,615,168,27.317,0.99,3.075
+Finland,Marketing,Remote,388,105,27.062,1.0107,3.046
+Finland,Operations,On-site,756,196,25.926,0.9926,3.033
+Finland,Operations,Remote,492,137,27.846,1.0117,3.043
+Finland,R&D,On-site,232,59,25.431,1.0101,3.043
+Finland,R&D,Remote,157,34,21.656,1.0005,3.057
+Finland,Sales,On-site,1006,279,27.734,1.0033,2.964
+Finland,Sales,Remote,642,146,22.741,0.994,2.969
+France,Finance,On-site,498,123,24.699,1.0161,3.006
+France,Finance,Remote,327,86,26.3,0.9849,2.988
+France,HR,On-site,398,100,25.126,0.9978,2.975
+France,HR,Remote,276,67,24.275,1.0029,3.0
+France,IT,On-site,1434,361,25.174,1.0023,3.001
+France,IT,Remote,952,261,27.416,1.0131,2.997
+France,Marketing,On-site,622,148,23.794,1.0044,2.997
+France,Marketing,Remote,409,102,24.939,1.0173,2.939
+France,Operations,On-site,728,193,26.511,1.0006,3.093
+France,Operations,Remote,509,123,24.165,1.0148,3.053
+France,R&D,On-site,268,71,26.493,0.9771,3.078
+France,R&D,Remote,149,38,25.503,0.9656,3.02
+France,Sales,On-site,969,249,25.697,1.0022,3.023
+France,Sales,Remote,647,150,23.184,0.9931,2.966
+French Guiana,Finance,On-site,451,109,24.169,1.001,2.938
+French Guiana,Finance,Remote,334,93,27.844,1.0036,3.096
+French Guiana,HR,On-site,378,91,24.074,0.9845,3.05
+French Guiana,HR,Remote,268,70,26.119,0.9757,3.019
+French Guiana,IT,On-site,1466,369,25.171,1.0091,2.975
+French Guiana,IT,Remote,960,243,25.312,1.0127,2.936
+French Guiana,Marketing,On-site,603,149,24.71,1.0091,3.017
+French Guiana,Marketing,Remote,396,85,21.465,0.9975,2.876
+French Guiana,Operations,On-site,733,207,28.24,0.982,2.969
+French Guiana,Operations,Remote,512,120,23.438,0.9932,2.969
+French Guiana,R&D,On-site,234,57,24.359,0.9843,3.009
+French Guiana,R&D,Remote,142,32,22.535,0.9856,2.887
+French Guiana,Sales,On-site,992,240,24.194,0.9923,3.089
+French Guiana,Sales,Remote,628,159,25.318,0.9937,3.005
+French Polynesia,Finance,On-site,476,111,23.319,0.9768,3.063
+French Polynesia,Finance,Remote,305,87,28.525,0.9852,2.915
+French Polynesia,HR,On-site,368,81,22.011,0.9984,3.008
+French Polynesia,HR,Remote,259,63,24.324,0.9943,3.077
+French Polynesia,IT,On-site,1501,377,25.117,0.9987,2.973
+French Polynesia,IT,Remote,954,249,26.101,0.9901,3.053
+French Polynesia,Marketing,On-site,585,147,25.128,1.0068,3.07
+French Polynesia,Marketing,Remote,403,94,23.325,1.0191,2.99
+French Polynesia,Operations,On-site,759,203,26.746,0.9879,3.012
+French Polynesia,Operations,Remote,494,109,22.065,0.9909,2.998
+French Polynesia,R&D,On-site,259,62,23.938,1.0094,3.073
+French Polynesia,R&D,Remote,142,34,23.944,0.974,3.014
+French Polynesia,Sales,On-site,997,264,26.479,0.9946,3.054
+French Polynesia,Sales,Remote,697,167,23.96,0.9863,3.006
+French Southern Territories,Finance,On-site,459,115,25.054,1.0085,2.88
+French Southern Territories,Finance,Remote,351,103,29.345,0.9852,2.932
+French Southern Territories,HR,On-site,415,92,22.169,1.0008,2.993
+French Southern Territories,HR,Remote,256,56,21.875,0.9939,3.004
+French Southern Territories,IT,On-site,1471,377,25.629,1.0055,3.054
+French Southern Territories,IT,Remote,969,231,23.839,0.9997,3.024
+French Southern Territories,Marketing,On-site,582,151,25.945,0.996,2.997
+French Southern Territories,Marketing,Remote,395,94,23.797,1.022,2.871
+French Southern Territories,Operations,On-site,706,171,24.221,0.9968,3.055
+French Southern Territories,Operations,Remote,503,114,22.664,0.997,3.032
+French Southern Territories,R&D,On-site,249,58,23.293,0.9764,3.1
+French Southern Territories,R&D,Remote,155,42,27.097,0.9826,2.968
+French Southern Territories,Sales,On-site,936,249,26.603,1.0054,2.936
+French Southern Territories,Sales,Remote,671,156,23.249,0.9886,2.955
+Gabon,Finance,On-site,510,145,28.431,1.0102,3.047
+Gabon,Finance,Remote,316,83,26.266,1.0515,2.839
+Gabon,HR,On-site,357,87,24.37,0.994,2.98
+Gabon,HR,Remote,256,71,27.734,1.012,2.844
+Gabon,IT,On-site,1490,377,25.302,1.0067,2.954
+Gabon,IT,Remote,939,247,26.305,1.0085,2.999
+Gabon,Marketing,On-site,564,151,26.773,1.004,3.053
+Gabon,Marketing,Remote,378,114,30.159,0.9942,2.913
+Gabon,Operations,On-site,775,194,25.032,0.9938,3.035
+Gabon,Operations,Remote,476,118,24.79,1.0087,3.082
+Gabon,R&D,On-site,220,31,14.091,0.9671,2.8
+Gabon,R&D,Remote,155,45,29.032,1.0457,3.11
+Gabon,Sales,On-site,964,241,25.0,0.9891,3.047
+Gabon,Sales,Remote,689,173,25.109,0.998,3.11
+Gambia,Finance,On-site,469,105,22.388,0.9905,3.002
+Gambia,Finance,Remote,320,81,25.312,0.991,2.978
+Gambia,HR,On-site,360,80,22.222,0.9932,3.039
+Gambia,HR,Remote,272,76,27.941,1.0073,2.805
+Gambia,IT,On-site,1435,370,25.784,0.9991,2.976
+Gambia,IT,Remote,1004,244,24.303,0.9907,2.914
+Gambia,Marketing,On-site,599,167,27.88,0.9925,2.995
+Gambia,Marketing,Remote,368,90,24.457,0.9992,3.038
+Gambia,Operations,On-site,702,180,25.641,0.9832,2.936
+Gambia,Operations,Remote,480,121,25.208,0.9941,3.023
+Gambia,R&D,On-site,271,67,24.723,1.0246,2.911
+Gambia,R&D,Remote,160,36,22.5,1.0366,3.075
+Gambia,Sales,On-site,985,229,23.249,1.0036,2.928
+Gambia,Sales,Remote,660,156,23.636,1.0101,3.014
+Georgia,Finance,On-site,469,123,26.226,1.0093,2.97
+Georgia,Finance,Remote,336,85,25.298,1.0045,3.03
+Georgia,HR,On-site,393,100,25.445,0.997,2.906
+Georgia,HR,Remote,238,57,23.95,1.0158,2.945
+Georgia,IT,On-site,1465,374,25.529,0.9939,2.982
+Georgia,IT,Remote,987,246,24.924,1.0164,3.0
+Georgia,Marketing,On-site,621,167,26.892,0.9959,3.066
+Georgia,Marketing,Remote,396,102,25.758,0.9984,3.098
+Georgia,Operations,On-site,759,195,25.692,0.9901,2.899
+Georgia,Operations,Remote,467,94,20.128,1.0006,3.026
+Georgia,R&D,On-site,255,66,25.882,0.9885,3.004
+Georgia,R&D,Remote,159,41,25.786,1.0071,3.063
+Georgia,Sales,On-site,1009,276,27.354,1.0045,2.942
+Georgia,Sales,Remote,664,158,23.795,0.9838,3.062
+Germany,Finance,On-site,454,100,22.026,0.987,3.0
+Germany,Finance,Remote,311,85,27.331,1.018,3.058
+Germany,HR,On-site,399,109,27.318,0.9754,2.877
+Germany,HR,Remote,254,74,29.134,0.9827,3.142
+Germany,IT,On-site,1528,357,23.364,0.9915,3.01
+Germany,IT,Remote,964,239,24.793,0.9889,3.002
+Germany,Marketing,On-site,556,151,27.158,0.9952,2.91
+Germany,Marketing,Remote,371,101,27.224,1.0097,3.092
+Germany,Operations,On-site,716,169,23.603,0.9923,2.979
+Germany,Operations,Remote,503,121,24.056,0.9912,2.92
+Germany,R&D,On-site,243,46,18.93,0.9683,3.107
+Germany,R&D,Remote,157,32,20.382,1.0002,3.108
+Germany,Sales,On-site,956,264,27.615,1.0011,2.992
+Germany,Sales,Remote,673,163,24.22,0.9892,2.949
+Ghana,Finance,On-site,528,127,24.053,0.9898,2.975
+Ghana,Finance,Remote,271,60,22.14,0.9831,2.911
+Ghana,HR,On-site,401,114,28.429,0.9879,2.91
+Ghana,HR,Remote,282,60,21.277,1.013,3.135
+Ghana,IT,On-site,1406,361,25.676,1.015,2.994
+Ghana,IT,Remote,945,256,27.09,1.0009,3.055
+Ghana,Marketing,On-site,600,131,21.833,0.9996,3.043
+Ghana,Marketing,Remote,435,106,24.368,1.0119,3.083
+Ghana,Operations,On-site,698,181,25.931,0.9914,2.979
+Ghana,Operations,Remote,485,131,27.01,1.0108,2.835
+Ghana,R&D,On-site,223,72,32.287,1.0053,3.103
+Ghana,R&D,Remote,142,42,29.577,0.9683,3.049
+Ghana,Sales,On-site,1027,272,26.485,0.9988,3.055
+Ghana,Sales,Remote,687,166,24.163,1.0115,3.012
+Gibraltar,Finance,On-site,497,142,28.571,1.0102,2.956
+Gibraltar,Finance,Remote,344,66,19.186,0.9984,2.892
+Gibraltar,HR,On-site,388,75,19.33,0.9951,3.036
+Gibraltar,HR,Remote,263,55,20.913,1.003,3.038
+Gibraltar,IT,On-site,1497,381,25.451,0.999,2.985
+Gibraltar,IT,Remote,988,241,24.393,0.9964,2.961
+Gibraltar,Marketing,On-site,552,133,24.094,1.0096,3.063
+Gibraltar,Marketing,Remote,389,100,25.707,0.9739,2.985
+Gibraltar,Operations,On-site,778,197,25.321,1.0052,3.037
+Gibraltar,Operations,Remote,478,109,22.803,0.9947,3.038
+Gibraltar,R&D,On-site,236,48,20.339,1.0213,2.894
+Gibraltar,R&D,Remote,173,44,25.434,1.0411,2.948
+Gibraltar,Sales,On-site,1023,274,26.784,0.9944,3.029
+Gibraltar,Sales,Remote,673,170,25.26,0.9954,2.999
+Greece,Finance,On-site,485,130,26.804,1.0015,2.992
+Greece,Finance,Remote,317,70,22.082,1.0025,3.098
+Greece,HR,On-site,390,98,25.128,1.0185,2.844
+Greece,HR,Remote,262,80,30.534,1.0072,3.095
+Greece,IT,On-site,1529,387,25.311,0.9985,3.075
+Greece,IT,Remote,943,247,26.193,0.9935,2.99
+Greece,Marketing,On-site,619,161,26.01,1.0165,2.929
+Greece,Marketing,Remote,402,91,22.637,0.9933,2.983
+Greece,Operations,On-site,770,190,24.675,1.0141,2.955
+Greece,Operations,Remote,493,126,25.558,1.0075,3.11
+Greece,R&D,On-site,242,64,26.446,1.0031,2.996
+Greece,R&D,Remote,171,42,24.561,1.0045,2.918
+Greece,Sales,On-site,984,251,25.508,0.9884,3.014
+Greece,Sales,Remote,689,170,24.673,1.0077,3.026
+Greenland,Finance,On-site,514,145,28.21,0.9924,2.998
+Greenland,Finance,Remote,310,77,24.839,0.9897,3.068
+Greenland,HR,On-site,389,87,22.365,0.9831,3.118
+Greenland,HR,Remote,245,50,20.408,0.9919,3.024
+Greenland,IT,On-site,1451,363,25.017,0.9932,3.006
+Greenland,IT,Remote,1019,237,23.258,0.9902,2.983
+Greenland,Marketing,On-site,587,144,24.532,1.0014,3.109
+Greenland,Marketing,Remote,404,111,27.475,0.9994,3.067
+Greenland,Operations,On-site,717,169,23.57,0.9959,2.967
+Greenland,Operations,Remote,504,115,22.817,1.0258,3.067
+Greenland,R&D,On-site,243,68,27.984,0.9998,2.992
+Greenland,R&D,Remote,157,41,26.115,0.9783,3.038
+Greenland,Sales,On-site,984,255,25.915,0.9985,2.92
+Greenland,Sales,Remote,655,167,25.496,0.9905,3.162
+Grenada,Finance,On-site,506,127,25.099,0.9964,2.968
+Grenada,Finance,Remote,314,86,27.389,1.0155,2.908
+Grenada,HR,On-site,383,94,24.543,0.9935,2.945
+Grenada,HR,Remote,256,70,27.344,1.0004,3.039
+Grenada,IT,On-site,1570,418,26.624,0.9931,2.999
+Grenada,IT,Remote,976,265,27.152,1.0104,2.94
+Grenada,Marketing,On-site,591,145,24.535,0.9887,2.956
+Grenada,Marketing,Remote,398,90,22.613,1.015,3.108
+Grenada,Operations,On-site,741,183,24.696,0.9973,2.949
+Grenada,Operations,Remote,499,137,27.455,1.0095,3.034
+Grenada,R&D,On-site,248,57,22.984,1.0106,2.956
+Grenada,R&D,Remote,174,44,25.287,1.017,3.006
+Grenada,Sales,On-site,961,229,23.829,0.9825,2.941
+Grenada,Sales,Remote,641,149,23.245,0.9892,2.945
+Guadeloupe,Finance,On-site,521,115,22.073,1.0051,3.029
+Guadeloupe,Finance,Remote,323,78,24.149,1.0088,3.053
+Guadeloupe,HR,On-site,390,103,26.41,1.0048,2.982
+Guadeloupe,HR,Remote,247,68,27.53,0.9979,2.972
+Guadeloupe,IT,On-site,1437,362,25.191,0.9939,3.009
+Guadeloupe,IT,Remote,952,234,24.58,1.0041,3.046
+Guadeloupe,Marketing,On-site,566,149,26.325,0.9829,3.09
+Guadeloupe,Marketing,Remote,380,91,23.947,1.0351,3.082
+Guadeloupe,Operations,On-site,708,182,25.706,1.0108,3.032
+Guadeloupe,Operations,Remote,473,109,23.044,1.0195,3.123
+Guadeloupe,R&D,On-site,244,57,23.361,0.9964,3.074
+Guadeloupe,R&D,Remote,166,40,24.096,0.9965,2.97
+Guadeloupe,Sales,On-site,1017,257,25.27,1.0113,3.024
+Guadeloupe,Sales,Remote,667,157,23.538,0.9792,2.916
+Guam,Finance,On-site,512,137,26.758,1.017,3.0
+Guam,Finance,Remote,320,64,20.0,0.9832,2.994
+Guam,HR,On-site,385,106,27.532,1.011,2.992
+Guam,HR,Remote,259,57,22.008,1.0334,3.035
+Guam,IT,On-site,1477,385,26.066,0.9873,3.009
+Guam,IT,Remote,1007,258,25.621,1.0079,2.95
+Guam,Marketing,On-site,587,127,21.635,0.9948,3.078
+Guam,Marketing,Remote,396,85,21.465,0.9843,3.04
+Guam,Operations,On-site,747,180,24.096,0.9996,3.05
+Guam,Operations,Remote,502,114,22.709,0.994,2.97
+Guam,R&D,On-site,206,40,19.417,1.0236,2.85
+Guam,R&D,Remote,156,39,25.0,0.9859,3.032
+Guam,Sales,On-site,980,217,22.143,0.9986,2.953
+Guam,Sales,Remote,683,180,26.354,0.9964,2.96
+Guatemala,Finance,On-site,458,116,25.328,0.9962,3.033
+Guatemala,Finance,Remote,306,69,22.549,0.9867,2.895
+Guatemala,HR,On-site,410,99,24.146,1.0086,2.934
+Guatemala,HR,Remote,287,67,23.345,1.0018,3.077
+Guatemala,IT,On-site,1471,365,24.813,0.9908,3.039
+Guatemala,IT,Remote,933,227,24.33,1.0004,3.038
+Guatemala,Marketing,On-site,523,133,25.43,1.0134,3.065
+Guatemala,Marketing,Remote,401,104,25.935,0.9888,3.03
+Guatemala,Operations,On-site,766,186,24.282,0.9987,3.031
+Guatemala,Operations,Remote,494,126,25.506,1.0225,3.085
+Guatemala,R&D,On-site,265,69,26.038,0.998,2.891
+Guatemala,R&D,Remote,169,35,20.71,1.0062,3.041
+Guatemala,Sales,On-site,957,244,25.496,0.9973,2.973
+Guatemala,Sales,Remote,620,137,22.097,1.0023,2.984
+Guernsey,Finance,On-site,492,132,26.829,1.0017,3.102
+Guernsey,Finance,Remote,320,75,23.438,0.9946,2.984
+Guernsey,HR,On-site,422,129,30.569,1.0185,2.967
+Guernsey,HR,Remote,270,62,22.963,0.9526,3.111
+Guernsey,IT,On-site,1436,373,25.975,0.9938,3.045
+Guernsey,IT,Remote,973,271,27.852,1.0023,2.905
+Guernsey,Marketing,On-site,584,137,23.459,1.0067,3.036
+Guernsey,Marketing,Remote,421,95,22.565,0.997,3.05
+Guernsey,Operations,On-site,754,174,23.077,0.9892,2.946
+Guernsey,Operations,Remote,455,128,28.132,1.0015,2.84
+Guernsey,R&D,On-site,238,55,23.109,1.0113,3.08
+Guernsey,R&D,Remote,159,46,28.931,1.0501,3.145
+Guernsey,Sales,On-site,913,223,24.425,0.9948,3.043
+Guernsey,Sales,Remote,664,173,26.054,1.0027,2.87
+Guinea,Finance,On-site,512,128,25.0,1.0316,2.932
+Guinea,Finance,Remote,332,75,22.59,0.996,2.919
+Guinea,HR,On-site,391,101,25.831,1.0092,2.985
+Guinea,HR,Remote,268,66,24.627,0.985,2.963
+Guinea,IT,On-site,1473,362,24.576,0.9922,2.99
+Guinea,IT,Remote,985,251,25.482,0.998,2.997
+Guinea,Marketing,On-site,626,161,25.719,0.9953,3.043
+Guinea,Marketing,Remote,360,85,23.611,1.0176,2.969
+Guinea,Operations,On-site,708,181,25.565,0.9866,3.014
+Guinea,Operations,Remote,474,127,26.793,0.9988,2.93
+Guinea,R&D,On-site,254,54,21.26,1.0458,2.98
+Guinea,R&D,Remote,153,40,26.144,0.9986,2.993
+Guinea,Sales,On-site,944,224,23.729,0.9824,3.001
+Guinea,Sales,Remote,648,148,22.84,1.0117,2.983
+Guinea-Bissau,Finance,On-site,512,127,24.805,0.9932,2.926
+Guinea-Bissau,Finance,Remote,293,81,27.645,1.0036,3.055
+Guinea-Bissau,HR,On-site,370,98,26.486,0.9936,3.1
+Guinea-Bissau,HR,Remote,256,56,21.875,0.9927,3.047
+Guinea-Bissau,IT,On-site,1440,331,22.986,1.0049,3.001
+Guinea-Bissau,IT,Remote,956,232,24.268,1.0049,3.046
+Guinea-Bissau,Marketing,On-site,552,138,25.0,1.0101,3.024
+Guinea-Bissau,Marketing,Remote,417,99,23.741,0.9978,2.897
+Guinea-Bissau,Operations,On-site,716,195,27.235,1.0143,2.962
+Guinea-Bissau,Operations,Remote,466,142,30.472,0.9828,3.002
+Guinea-Bissau,R&D,On-site,252,71,28.175,1.0055,3.091
+Guinea-Bissau,R&D,Remote,167,39,23.353,1.0104,2.862
+Guinea-Bissau,Sales,On-site,948,252,26.582,0.9867,2.963
+Guinea-Bissau,Sales,Remote,638,162,25.392,0.9961,3.016
+Guyana,Finance,On-site,491,134,27.291,0.9892,2.908
+Guyana,Finance,Remote,329,79,24.012,1.0076,2.994
+Guyana,HR,On-site,397,104,26.196,1.0069,3.081
+Guyana,HR,Remote,262,70,26.718,1.0145,2.889
+Guyana,IT,On-site,1457,345,23.679,0.9923,2.955
+Guyana,IT,Remote,937,242,25.827,0.9995,3.095
+Guyana,Marketing,On-site,579,155,26.77,1.0024,3.05
+Guyana,Marketing,Remote,409,95,23.227,1.0148,2.929
+Guyana,Operations,On-site,692,167,24.133,0.9901,3.043
+Guyana,Operations,Remote,517,134,25.919,1.0109,3.097
+Guyana,R&D,On-site,228,46,20.175,0.9764,2.982
+Guyana,R&D,Remote,160,35,21.875,1.0139,2.594
+Guyana,Sales,On-site,967,251,25.957,0.9932,3.032
+Guyana,Sales,Remote,641,140,21.841,1.0002,3.092
+Haiti,Finance,On-site,488,132,27.049,0.9989,3.01
+Haiti,Finance,Remote,316,88,27.848,0.9997,2.927
+Haiti,HR,On-site,387,100,25.84,0.9974,2.961
+Haiti,HR,Remote,263,61,23.194,0.9791,3.027
+Haiti,IT,On-site,1458,369,25.309,0.9927,3.015
+Haiti,IT,Remote,990,251,25.354,0.9963,3.01
+Haiti,Marketing,On-site,555,135,24.324,0.9941,2.924
+Haiti,Marketing,Remote,396,105,26.515,0.9981,2.924
+Haiti,Operations,On-site,750,183,24.4,0.9976,2.949
+Haiti,Operations,Remote,528,127,24.053,0.9994,2.992
+Haiti,R&D,On-site,225,51,22.667,1.0157,3.196
+Haiti,R&D,Remote,176,41,23.295,0.9811,2.852
+Haiti,Sales,On-site,966,214,22.153,0.9957,2.962
+Haiti,Sales,Remote,695,175,25.18,1.0001,2.905
+Heard Island and McDonald Islands,Finance,On-site,463,120,25.918,0.9998,2.987
+Heard Island and McDonald Islands,Finance,Remote,301,81,26.91,1.0092,3.053
+Heard Island and McDonald Islands,HR,On-site,397,98,24.685,0.9843,3.018
+Heard Island and McDonald Islands,HR,Remote,279,70,25.09,1.0235,2.935
+Heard Island and McDonald Islands,IT,On-site,1451,364,25.086,0.9896,2.961
+Heard Island and McDonald Islands,IT,Remote,1017,259,25.467,1.0182,3.023
+Heard Island and McDonald Islands,Marketing,On-site,557,153,27.469,0.9969,2.998
+Heard Island and McDonald Islands,Marketing,Remote,405,111,27.407,0.9776,3.052
+Heard Island and McDonald Islands,Operations,On-site,678,201,29.646,1.0071,2.925
+Heard Island and McDonald Islands,Operations,Remote,485,128,26.392,0.9937,3.008
+Heard Island and McDonald Islands,R&D,On-site,226,59,26.106,0.9809,2.947
+Heard Island and McDonald Islands,R&D,Remote,180,44,24.444,1.0116,3.011
+Heard Island and McDonald Islands,Sales,On-site,903,240,26.578,1.0,3.012
+Heard Island and McDonald Islands,Sales,Remote,695,179,25.755,1.0055,2.988
+Holy See (Vatican City State),Finance,On-site,493,142,28.803,1.006,3.101
+Holy See (Vatican City State),Finance,Remote,315,86,27.302,1.0087,3.013
+Holy See (Vatican City State),HR,On-site,400,101,25.25,0.9911,3.062
+Holy See (Vatican City State),HR,Remote,257,57,22.179,0.9992,3.101
+Holy See (Vatican City State),IT,On-site,1495,353,23.612,0.9948,2.987
+Holy See (Vatican City State),IT,Remote,1003,264,26.321,0.9884,2.997
+Holy See (Vatican City State),Marketing,On-site,575,150,26.087,0.9924,2.93
+Holy See (Vatican City State),Marketing,Remote,401,105,26.185,0.9697,2.955
+Holy See (Vatican City State),Operations,On-site,721,184,25.52,0.9984,2.939
+Holy See (Vatican City State),Operations,Remote,494,134,27.126,0.9928,3.061
+Holy See (Vatican City State),R&D,On-site,242,59,24.38,0.9861,3.021
+Holy See (Vatican City State),R&D,Remote,205,48,23.415,1.0091,2.966
+Holy See (Vatican City State),Sales,On-site,932,223,23.927,1.0024,2.955
+Holy See (Vatican City State),Sales,Remote,632,158,25.0,1.0049,2.935
+Honduras,Finance,On-site,468,125,26.709,0.9959,2.97
+Honduras,Finance,Remote,316,74,23.418,1.008,3.12
+Honduras,HR,On-site,374,92,24.599,1.0018,3.045
+Honduras,HR,Remote,269,78,28.996,1.0085,2.881
+Honduras,IT,On-site,1508,376,24.934,1.0064,3.003
+Honduras,IT,Remote,978,245,25.051,1.0018,2.938
+Honduras,Marketing,On-site,592,154,26.014,1.0068,2.941
+Honduras,Marketing,Remote,405,95,23.457,1.0131,2.943
+Honduras,Operations,On-site,745,199,26.711,0.9938,3.024
+Honduras,Operations,Remote,550,128,23.273,1.0117,3.065
+Honduras,R&D,On-site,234,45,19.231,1.0285,3.004
+Honduras,R&D,Remote,135,27,20.0,1.012,2.948
+Honduras,Sales,On-site,985,245,24.873,0.9936,2.95
+Honduras,Sales,Remote,683,173,25.329,1.0021,3.025
+Hong Kong,Finance,On-site,479,111,23.173,0.9968,2.979
+Hong Kong,Finance,Remote,339,81,23.894,1.0083,2.885
+Hong Kong,HR,On-site,392,79,20.153,0.9833,3.064
+Hong Kong,HR,Remote,270,63,23.333,1.0038,2.841
+Hong Kong,IT,On-site,1408,370,26.278,0.9985,2.938
+Hong Kong,IT,Remote,960,242,25.208,0.9924,3.003
+Hong Kong,Marketing,On-site,572,135,23.601,1.0006,3.143
+Hong Kong,Marketing,Remote,396,96,24.242,0.993,3.013
+Hong Kong,Operations,On-site,788,196,24.873,1.0024,2.945
+Hong Kong,Operations,Remote,508,125,24.606,1.003,3.051
+Hong Kong,R&D,On-site,257,76,29.572,1.025,3.082
+Hong Kong,R&D,Remote,163,53,32.515,0.9733,2.908
+Hong Kong,Sales,On-site,938,236,25.16,1.0054,2.969
+Hong Kong,Sales,Remote,671,162,24.143,1.0035,3.019
+Hungary,Finance,On-site,484,120,24.793,0.9879,3.035
+Hungary,Finance,Remote,324,83,25.617,0.9821,3.086
+Hungary,HR,On-site,378,107,28.307,0.9898,3.032
+Hungary,HR,Remote,282,61,21.631,0.9917,3.018
+Hungary,IT,On-site,1439,370,25.712,1.0048,3.057
+Hungary,IT,Remote,951,222,23.344,1.0047,3.0
+Hungary,Marketing,On-site,573,152,26.527,0.9885,3.098
+Hungary,Marketing,Remote,361,101,27.978,1.0097,3.033
+Hungary,Operations,On-site,735,219,29.796,0.9786,2.97
+Hungary,Operations,Remote,507,105,20.71,1.0155,2.886
+Hungary,R&D,On-site,246,56,22.764,0.9938,3.061
+Hungary,R&D,Remote,167,46,27.545,1.0256,3.12
+Hungary,Sales,On-site,976,242,24.795,0.9861,3.016
+Hungary,Sales,Remote,667,173,25.937,0.9857,3.015
+Iceland,Finance,On-site,476,124,26.05,0.9981,2.975
+Iceland,Finance,Remote,339,100,29.499,1.0071,3.009
+Iceland,HR,On-site,386,116,30.052,0.9893,3.013
+Iceland,HR,Remote,261,69,26.437,1.0132,2.916
+Iceland,IT,On-site,1546,355,22.962,1.0113,3.035
+Iceland,IT,Remote,970,259,26.701,0.995,2.999
+Iceland,Marketing,On-site,597,141,23.618,0.9826,3.075
+Iceland,Marketing,Remote,379,91,24.011,1.0048,2.889
+Iceland,Operations,On-site,773,197,25.485,0.9955,3.032
+Iceland,Operations,Remote,509,126,24.754,0.9932,2.99
+Iceland,R&D,On-site,231,55,23.81,0.9913,2.97
+Iceland,R&D,Remote,165,26,15.758,1.0095,2.885
+Iceland,Sales,On-site,1063,249,23.424,1.0099,2.975
+Iceland,Sales,Remote,676,156,23.077,0.9923,2.928
+India,Finance,On-site,448,104,23.214,0.9975,3.083
+India,Finance,Remote,314,75,23.885,0.9897,3.146
+India,HR,On-site,385,96,24.935,1.0,3.086
+India,HR,Remote,269,44,16.357,1.0029,3.019
+India,IT,On-site,1450,378,26.069,1.0005,3.028
+India,IT,Remote,968,247,25.517,0.9935,2.907
+India,Marketing,On-site,611,159,26.023,1.0053,2.977
+India,Marketing,Remote,386,89,23.057,0.9943,3.093
+India,Operations,On-site,727,199,27.373,0.9955,2.923
+India,Operations,Remote,466,113,24.249,1.0092,2.916
+India,R&D,On-site,245,60,24.49,0.9781,2.878
+India,R&D,Remote,171,38,22.222,1.0623,2.93
+India,Sales,On-site,999,235,23.524,0.9951,3.005
+India,Sales,Remote,610,154,25.246,1.0132,2.934
+Indonesia,Finance,On-site,469,136,28.998,0.9927,2.917
+Indonesia,Finance,Remote,335,86,25.672,0.9973,2.931
+Indonesia,HR,On-site,414,95,22.947,1.0037,2.976
+Indonesia,HR,Remote,258,60,23.256,0.9647,2.837
+Indonesia,IT,On-site,1484,355,23.922,1.0022,2.996
+Indonesia,IT,Remote,918,192,20.915,1.0035,3.098
+Indonesia,Marketing,On-site,574,153,26.655,1.0095,3.024
+Indonesia,Marketing,Remote,386,109,28.238,1.0342,3.091
+Indonesia,Operations,On-site,722,165,22.853,0.9887,2.993
+Indonesia,Operations,Remote,476,117,24.58,0.9913,2.983
+Indonesia,R&D,On-site,247,74,29.96,0.9943,2.96
+Indonesia,R&D,Remote,161,43,26.708,0.9823,2.901
+Indonesia,Sales,On-site,900,234,26.0,1.0017,3.007
+Indonesia,Sales,Remote,639,153,23.944,1.0053,2.995
+Iran,Finance,On-site,496,122,24.597,0.9884,3.069
+Iran,Finance,Remote,347,79,22.767,1.006,2.87
+Iran,HR,On-site,404,96,23.762,1.0,3.027
+Iran,HR,Remote,265,62,23.396,1.0306,3.064
+Iran,IT,On-site,1477,374,25.322,0.9892,3.016
+Iran,IT,Remote,991,225,22.704,0.9862,3.025
+Iran,Marketing,On-site,565,117,20.708,0.9969,2.973
+Iran,Marketing,Remote,416,118,28.365,0.9998,3.091
+Iran,Operations,On-site,694,181,26.081,0.9943,2.964
+Iran,Operations,Remote,486,127,26.132,1.0178,2.984
+Iran,R&D,On-site,242,52,21.488,0.9849,2.909
+Iran,R&D,Remote,196,50,25.51,0.9862,2.867
+Iran,Sales,On-site,968,233,24.07,0.9964,3.086
+Iran,Sales,Remote,672,167,24.851,1.0116,3.031
+Iraq,Finance,On-site,494,109,22.065,1.0059,3.077
+Iraq,Finance,Remote,336,92,27.381,0.9911,3.128
+Iraq,HR,On-site,414,98,23.671,0.9939,2.981
+Iraq,HR,Remote,295,66,22.373,1.0085,2.969
+Iraq,IT,On-site,1514,375,24.769,0.9944,3.02
+Iraq,IT,Remote,973,246,25.283,1.0001,2.969
+Iraq,Marketing,On-site,568,143,25.176,1.003,3.0
+Iraq,Marketing,Remote,397,91,22.922,1.0063,3.091
+Iraq,Operations,On-site,732,179,24.454,0.9977,2.969
+Iraq,Operations,Remote,446,113,25.336,0.999,3.047
+Iraq,R&D,On-site,236,49,20.763,0.9857,3.03
+Iraq,R&D,Remote,148,35,23.649,1.0493,3.054
+Iraq,Sales,On-site,1007,283,28.103,0.9916,2.995
+Iraq,Sales,Remote,651,170,26.114,1.0098,2.946
+Ireland,Finance,On-site,496,129,26.008,1.008,3.121
+Ireland,Finance,Remote,307,86,28.013,0.9999,3.107
+Ireland,HR,On-site,374,82,21.925,1.0002,3.107
+Ireland,HR,Remote,254,58,22.835,0.9886,3.063
+Ireland,IT,On-site,1425,370,25.965,0.9923,2.966
+Ireland,IT,Remote,1006,240,23.857,1.0024,2.987
+Ireland,Marketing,On-site,591,118,19.966,0.9965,3.096
+Ireland,Marketing,Remote,354,93,26.271,0.995,3.138
+Ireland,Operations,On-site,781,220,28.169,0.9947,3.003
+Ireland,Operations,Remote,523,124,23.709,0.9938,2.954
+Ireland,R&D,On-site,244,53,21.721,1.0423,2.881
+Ireland,R&D,Remote,169,44,26.036,1.0247,3.13
+Ireland,Sales,On-site,932,236,25.322,0.9982,2.962
+Ireland,Sales,Remote,633,141,22.275,1.0046,3.005
+Isle of Man,Finance,On-site,524,153,29.198,1.0085,3.023
+Isle of Man,Finance,Remote,338,85,25.148,1.0013,2.991
+Isle of Man,HR,On-site,396,115,29.04,1.0178,3.013
+Isle of Man,HR,Remote,249,65,26.104,1.0102,2.871
+Isle of Man,IT,On-site,1459,376,25.771,0.9974,3.03
+Isle of Man,IT,Remote,1007,265,26.316,0.9965,2.928
+Isle of Man,Marketing,On-site,581,137,23.58,1.0204,3.055
+Isle of Man,Marketing,Remote,414,110,26.57,0.9996,3.14
+Isle of Man,Operations,On-site,720,164,22.778,0.9964,2.975
+Isle of Man,Operations,Remote,449,94,20.935,1.0068,3.08
+Isle of Man,R&D,On-site,220,41,18.636,1.0117,3.127
+Isle of Man,R&D,Remote,149,40,26.846,0.9995,2.926
+Isle of Man,Sales,On-site,976,238,24.385,0.9954,3.003
+Isle of Man,Sales,Remote,664,173,26.054,0.9952,3.036
+Israel,Finance,On-site,495,119,24.04,0.997,2.931
+Israel,Finance,Remote,315,80,25.397,1.0136,2.876
+Israel,HR,On-site,386,91,23.575,0.9994,3.008
+Israel,HR,Remote,242,45,18.595,1.0066,2.909
+Israel,IT,On-site,1454,349,24.003,0.9978,3.078
+Israel,IT,Remote,1000,247,24.7,0.9982,3.004
+Israel,Marketing,On-site,565,121,21.416,0.9994,3.032
+Israel,Marketing,Remote,409,105,25.672,0.9945,3.029
+Israel,Operations,On-site,726,166,22.865,1.0058,2.926
+Israel,Operations,Remote,449,114,25.39,0.9957,2.971
+Israel,R&D,On-site,245,54,22.041,0.9909,3.0
+Israel,R&D,Remote,166,44,26.506,0.9656,2.928
+Israel,Sales,On-site,955,249,26.073,0.9857,3.063
+Israel,Sales,Remote,686,188,27.405,1.0155,2.895
+Italy,Finance,On-site,476,124,26.05,1.0009,3.032
+Italy,Finance,Remote,327,81,24.771,1.0157,3.07
+Italy,HR,On-site,370,107,28.919,0.9787,3.092
+Italy,HR,Remote,278,58,20.863,1.0076,3.065
+Italy,IT,On-site,1470,384,26.122,1.0055,2.95
+Italy,IT,Remote,995,273,27.437,1.0058,2.945
+Italy,Marketing,On-site,614,150,24.43,1.021,2.959
+Italy,Marketing,Remote,405,111,27.407,0.9978,2.985
+Italy,Operations,On-site,777,192,24.71,1.0001,2.976
+Italy,Operations,Remote,494,123,24.899,0.9931,3.002
+Italy,R&D,On-site,257,69,26.848,1.0092,3.082
+Italy,R&D,Remote,166,42,25.301,0.9789,3.108
+Italy,Sales,On-site,1002,257,25.649,0.9981,3.042
+Italy,Sales,Remote,683,174,25.476,1.0012,3.031
+Jamaica,Finance,On-site,513,124,24.172,1.0184,2.965
+Jamaica,Finance,Remote,347,84,24.207,1.0247,2.893
+Jamaica,HR,On-site,390,101,25.897,1.0063,2.995
+Jamaica,HR,Remote,281,52,18.505,1.0353,3.078
+Jamaica,IT,On-site,1450,377,26.0,0.9983,3.043
+Jamaica,IT,Remote,990,231,23.333,0.9939,2.964
+Jamaica,Marketing,On-site,567,144,25.397,1.0011,3.023
+Jamaica,Marketing,Remote,394,108,27.411,1.0115,3.137
+Jamaica,Operations,On-site,705,199,28.227,0.9933,3.011
+Jamaica,Operations,Remote,497,109,21.932,0.9973,2.891
+Jamaica,R&D,On-site,227,50,22.026,1.0024,3.0
+Jamaica,R&D,Remote,162,47,29.012,0.9827,2.852
+Jamaica,Sales,On-site,996,242,24.297,0.9989,3.031
+Jamaica,Sales,Remote,661,174,26.324,1.0027,3.141
+Japan,Finance,On-site,503,145,28.827,0.9892,2.885
+Japan,Finance,Remote,318,81,25.472,1.0043,3.0
+Japan,HR,On-site,372,91,24.462,0.978,2.976
+Japan,HR,Remote,237,51,21.519,0.9751,3.139
+Japan,IT,On-site,1486,364,24.495,1.0072,3.007
+Japan,IT,Remote,1018,246,24.165,1.0118,2.975
+Japan,Marketing,On-site,587,128,21.806,0.985,2.949
+Japan,Marketing,Remote,410,99,24.146,0.9899,3.01
+Japan,Operations,On-site,680,159,23.382,0.9928,2.931
+Japan,Operations,Remote,478,124,25.941,1.0107,3.013
+Japan,R&D,On-site,238,60,25.21,1.027,3.147
+Japan,R&D,Remote,156,25,16.026,1.0028,2.962
+Japan,Sales,On-site,1001,239,23.876,0.9984,3.016
+Japan,Sales,Remote,639,157,24.57,0.996,2.945
+Jersey,Finance,On-site,518,119,22.973,1.0091,3.037
+Jersey,Finance,Remote,347,96,27.666,1.0158,2.957
+Jersey,HR,On-site,406,99,24.384,0.9827,2.961
+Jersey,HR,Remote,273,64,23.443,1.0188,3.029
+Jersey,IT,On-site,1462,361,24.692,1.0061,2.932
+Jersey,IT,Remote,1011,238,23.541,0.9997,2.982
+Jersey,Marketing,On-site,588,152,25.85,0.9929,2.969
+Jersey,Marketing,Remote,385,80,20.779,0.9884,3.047
+Jersey,Operations,On-site,683,147,21.523,1.0083,2.99
+Jersey,Operations,Remote,502,108,21.514,0.985,2.996
+Jersey,R&D,On-site,257,71,27.626,1.0383,2.899
+Jersey,R&D,Remote,151,32,21.192,1.0103,2.868
+Jersey,Sales,On-site,969,259,26.729,1.0016,3.065
+Jersey,Sales,Remote,671,167,24.888,1.0267,3.104
+Jordan,Finance,On-site,487,120,24.641,1.0093,3.027
+Jordan,Finance,Remote,295,62,21.017,1.0121,3.037
+Jordan,HR,On-site,409,113,27.628,0.9992,3.068
+Jordan,HR,Remote,258,65,25.194,1.0046,3.0
+Jordan,IT,On-site,1524,384,25.197,0.9926,3.062
+Jordan,IT,Remote,990,254,25.657,1.0025,2.984
+Jordan,Marketing,On-site,572,137,23.951,1.0053,3.037
+Jordan,Marketing,Remote,365,95,26.027,1.0077,3.082
+Jordan,Operations,On-site,725,177,24.414,0.9927,2.982
+Jordan,Operations,Remote,495,112,22.626,1.0198,2.984
+Jordan,R&D,On-site,256,66,25.781,1.0058,2.984
+Jordan,R&D,Remote,184,45,24.457,1.0089,2.826
+Jordan,Sales,On-site,960,233,24.271,1.018,2.97
+Jordan,Sales,Remote,640,158,24.688,1.015,3.075
+Kazakhstan,Finance,On-site,464,125,26.94,0.999,3.0
+Kazakhstan,Finance,Remote,328,62,18.902,0.9968,2.905
+Kazakhstan,HR,On-site,386,98,25.389,1.0221,2.94
+Kazakhstan,HR,Remote,247,60,24.291,0.9767,3.121
+Kazakhstan,IT,On-site,1463,360,24.607,0.9985,2.93
+Kazakhstan,IT,Remote,966,253,26.19,0.9838,3.06
+Kazakhstan,Marketing,On-site,562,147,26.157,1.015,2.884
+Kazakhstan,Marketing,Remote,434,123,28.341,1.0027,2.864
+Kazakhstan,Operations,On-site,756,182,24.074,1.0069,2.987
+Kazakhstan,Operations,Remote,463,109,23.542,0.9895,3.004
+Kazakhstan,R&D,On-site,219,57,26.027,1.0055,3.215
+Kazakhstan,R&D,Remote,170,35,20.588,1.0454,3.053
+Kazakhstan,Sales,On-site,902,228,25.277,1.0099,3.012
+Kazakhstan,Sales,Remote,613,154,25.122,1.0014,3.005
+Kenya,Finance,On-site,488,124,25.41,1.0107,2.953
+Kenya,Finance,Remote,309,68,22.006,0.9767,2.932
+Kenya,HR,On-site,378,99,26.19,1.0182,2.913
+Kenya,HR,Remote,239,61,25.523,1.0133,3.126
+Kenya,IT,On-site,1520,368,24.211,1.002,2.951
+Kenya,IT,Remote,979,221,22.574,1.0127,3.031
+Kenya,Marketing,On-site,557,114,20.467,1.0038,3.048
+Kenya,Marketing,Remote,410,103,25.122,1.0026,2.824
+Kenya,Operations,On-site,740,173,23.378,1.0133,2.988
+Kenya,Operations,Remote,524,133,25.382,1.0092,2.947
+Kenya,R&D,On-site,261,60,22.989,0.9916,3.004
+Kenya,R&D,Remote,179,36,20.112,1.0071,3.128
+Kenya,Sales,On-site,988,265,26.822,0.9841,3.087
+Kenya,Sales,Remote,628,134,21.338,0.9873,3.021
+Kiribati,Finance,On-site,486,127,26.132,1.0051,2.977
+Kiribati,Finance,Remote,318,85,26.73,1.0,3.138
+Kiribati,HR,On-site,370,99,26.757,1.0013,3.073
+Kiribati,HR,Remote,254,73,28.74,0.9888,2.965
+Kiribati,IT,On-site,1514,371,24.505,1.0044,2.958
+Kiribati,IT,Remote,949,230,24.236,0.987,3.008
+Kiribati,Marketing,On-site,629,165,26.232,1.003,3.052
+Kiribati,Marketing,Remote,413,105,25.424,1.0294,2.99
+Kiribati,Operations,On-site,738,172,23.306,1.0089,2.98
+Kiribati,Operations,Remote,457,105,22.976,0.9912,2.751
+Kiribati,R&D,On-site,234,60,25.641,1.0012,3.064
+Kiribati,R&D,Remote,163,52,31.902,1.009,3.061
+Kiribati,Sales,On-site,1002,255,25.449,1.0143,2.996
+Kiribati,Sales,Remote,654,182,27.829,1.0145,3.006
+Korea,Finance,On-site,972,262,26.955,1.0009,2.961
+Korea,Finance,Remote,690,194,28.116,1.0069,3.048
+Korea,HR,On-site,768,175,22.786,0.9961,2.923
+Korea,HR,Remote,548,118,21.533,1.0018,3.031
+Korea,IT,On-site,2918,691,23.681,1.0043,2.988
+Korea,IT,Remote,2017,503,24.938,0.996,3.005
+Korea,Marketing,On-site,1176,288,24.49,1.0021,2.969
+Korea,Marketing,Remote,746,182,24.397,0.9947,3.001
+Korea,Operations,On-site,1442,346,23.994,0.9989,3.053
+Korea,Operations,Remote,993,219,22.054,0.9909,2.954
+Korea,R&D,On-site,484,131,27.066,1.0245,3.052
+Korea,R&D,Remote,338,83,24.556,1.0101,3.068
+Korea,Sales,On-site,1922,452,23.517,0.9972,3.001
+Korea,Sales,Remote,1271,320,25.177,1.0022,3.022
+Kuwait,Finance,On-site,453,107,23.62,0.9842,3.026
+Kuwait,Finance,Remote,337,88,26.113,1.0055,2.955
+Kuwait,HR,On-site,359,90,25.07,0.9954,3.0
+Kuwait,HR,Remote,261,66,25.287,1.0117,3.111
+Kuwait,IT,On-site,1504,369,24.535,0.9912,2.947
+Kuwait,IT,Remote,934,251,26.874,1.0108,2.958
+Kuwait,Marketing,On-site,540,117,21.667,1.0073,3.044
+Kuwait,Marketing,Remote,387,93,24.031,1.0024,3.062
+Kuwait,Operations,On-site,766,175,22.846,0.9856,2.98
+Kuwait,Operations,Remote,493,141,28.6,1.0137,2.87
+Kuwait,R&D,On-site,238,62,26.05,0.9954,3.013
+Kuwait,R&D,Remote,176,56,31.818,0.951,3.136
+Kuwait,Sales,On-site,991,250,25.227,1.0006,3.036
+Kuwait,Sales,Remote,650,139,21.385,0.996,2.938
+Kyrgyz Republic,Finance,On-site,476,112,23.529,1.0076,3.004
+Kyrgyz Republic,Finance,Remote,311,88,28.296,1.0021,2.868
+Kyrgyz Republic,HR,On-site,385,88,22.857,0.9872,3.029
+Kyrgyz Republic,HR,Remote,262,70,26.718,1.0035,2.947
+Kyrgyz Republic,IT,On-site,1452,342,23.554,1.0053,2.971
+Kyrgyz Republic,IT,Remote,985,244,24.772,0.997,3.049
+Kyrgyz Republic,Marketing,On-site,561,142,25.312,0.9979,3.027
+Kyrgyz Republic,Marketing,Remote,383,84,21.932,1.0015,2.984
+Kyrgyz Republic,Operations,On-site,782,180,23.018,1.008,2.946
+Kyrgyz Republic,Operations,Remote,489,110,22.495,1.0006,3.025
+Kyrgyz Republic,R&D,On-site,241,57,23.651,0.998,2.938
+Kyrgyz Republic,R&D,Remote,161,48,29.814,1.0215,3.087
+Kyrgyz Republic,Sales,On-site,897,216,24.08,0.9946,2.949
+Kyrgyz Republic,Sales,Remote,631,174,27.575,0.9893,3.139
+Lao People's Democratic Republic,Finance,On-site,512,141,27.539,1.0135,2.951
+Lao People's Democratic Republic,Finance,Remote,308,74,24.026,1.0046,3.029
+Lao People's Democratic Republic,HR,On-site,370,90,24.324,0.9907,2.976
+Lao People's Democratic Republic,HR,Remote,276,69,25.0,1.0142,3.051
+Lao People's Democratic Republic,IT,On-site,1432,340,23.743,1.0115,2.948
+Lao People's Democratic Republic,IT,Remote,976,244,25.0,0.9772,3.041
+Lao People's Democratic Republic,Marketing,On-site,585,148,25.299,1.0146,2.952
+Lao People's Democratic Republic,Marketing,Remote,412,98,23.786,0.9974,3.046
+Lao People's Democratic Republic,Operations,On-site,731,163,22.298,0.9997,3.004
+Lao People's Democratic Republic,Operations,Remote,490,123,25.102,0.9864,3.033
+Lao People's Democratic Republic,R&D,On-site,217,48,22.12,0.9964,3.055
+Lao People's Democratic Republic,R&D,Remote,141,34,24.113,0.974,3.021
+Lao People's Democratic Republic,Sales,On-site,994,233,23.441,1.0047,2.955
+Lao People's Democratic Republic,Sales,Remote,625,154,24.64,0.9909,2.952
+Latvia,Finance,On-site,508,117,23.031,1.015,2.919
+Latvia,Finance,Remote,343,78,22.741,0.99,3.015
+Latvia,HR,On-site,409,111,27.139,0.9692,2.944
+Latvia,HR,Remote,266,56,21.053,0.9889,3.038
+Latvia,IT,On-site,1497,389,25.985,0.9962,3.002
+Latvia,IT,Remote,909,216,23.762,0.9996,2.912
+Latvia,Marketing,On-site,636,159,25.0,0.9954,2.928
+Latvia,Marketing,Remote,380,97,25.526,0.986,3.053
+Latvia,Operations,On-site,719,189,26.287,1.0141,2.997
+Latvia,Operations,Remote,523,131,25.048,0.9855,2.964
+Latvia,R&D,On-site,223,52,23.318,0.9995,3.161
+Latvia,R&D,Remote,188,45,23.936,1.0062,3.043
+Latvia,Sales,On-site,1010,281,27.822,0.9973,2.997
+Latvia,Sales,Remote,607,151,24.876,1.0083,3.038
+Lebanon,Finance,On-site,470,119,25.319,1.0036,2.972
+Lebanon,Finance,Remote,326,95,29.141,0.9969,2.948
+Lebanon,HR,On-site,356,92,25.843,0.9983,3.039
+Lebanon,HR,Remote,266,78,29.323,1.0137,3.015
+Lebanon,IT,On-site,1417,351,24.771,0.999,2.97
+Lebanon,IT,Remote,1006,254,25.249,0.9981,3.101
+Lebanon,Marketing,On-site,627,160,25.518,1.0018,3.07
+Lebanon,Marketing,Remote,401,99,24.688,0.9781,3.037
+Lebanon,Operations,On-site,695,172,24.748,1.007,2.912
+Lebanon,Operations,Remote,491,125,25.458,0.9998,2.939
+Lebanon,R&D,On-site,231,54,23.377,1.0003,3.177
+Lebanon,R&D,Remote,139,44,31.655,1.0121,3.05
+Lebanon,Sales,On-site,999,225,22.523,1.0036,3.008
+Lebanon,Sales,Remote,658,155,23.556,0.9926,3.023
+Lesotho,Finance,On-site,499,117,23.447,1.0022,3.07
+Lesotho,Finance,Remote,340,88,25.882,1.0134,3.226
+Lesotho,HR,On-site,375,88,23.467,0.9975,2.979
+Lesotho,HR,Remote,269,81,30.112,1.0111,3.078
+Lesotho,IT,On-site,1475,360,24.407,1.0017,3.028
+Lesotho,IT,Remote,1016,233,22.933,0.9962,2.91
+Lesotho,Marketing,On-site,638,190,29.781,1.0098,3.011
+Lesotho,Marketing,Remote,416,96,23.077,0.9953,2.976
+Lesotho,Operations,On-site,749,183,24.433,1.021,3.011
+Lesotho,Operations,Remote,465,108,23.226,0.9836,3.155
+Lesotho,R&D,On-site,255,57,22.353,0.9736,2.996
+Lesotho,R&D,Remote,171,48,28.07,1.0035,2.912
+Lesotho,Sales,On-site,1019,259,25.417,0.9933,3.051
+Lesotho,Sales,Remote,653,155,23.737,1.0043,2.93
+Liberia,Finance,On-site,487,121,24.846,1.0077,3.031
+Liberia,Finance,Remote,337,80,23.739,0.9812,3.128
+Liberia,HR,On-site,398,102,25.628,1.0296,2.937
+Liberia,HR,Remote,256,67,26.172,0.9777,2.984
+Liberia,IT,On-site,1447,364,25.155,1.0014,2.986
+Liberia,IT,Remote,1005,204,20.299,0.992,2.994
+Liberia,Marketing,On-site,570,168,29.474,0.9898,2.982
+Liberia,Marketing,Remote,380,107,28.158,1.0475,2.905
+Liberia,Operations,On-site,741,189,25.506,1.0003,2.992
+Liberia,Operations,Remote,471,115,24.416,1.0095,2.998
+Liberia,R&D,On-site,241,62,25.726,0.9893,2.992
+Liberia,R&D,Remote,167,37,22.156,1.025,3.072
+Liberia,Sales,On-site,983,265,26.958,1.0105,2.959
+Liberia,Sales,Remote,671,171,25.484,0.9941,2.923
+Libyan Arab Jamahiriya,Finance,On-site,461,113,24.512,0.9889,3.072
+Libyan Arab Jamahiriya,Finance,Remote,335,89,26.567,1.0078,3.048
+Libyan Arab Jamahiriya,HR,On-site,348,92,26.437,0.9966,2.851
+Libyan Arab Jamahiriya,HR,Remote,265,68,25.66,0.9925,2.974
+Libyan Arab Jamahiriya,IT,On-site,1469,359,24.438,0.9938,3.048
+Libyan Arab Jamahiriya,IT,Remote,1003,256,25.523,1.0025,3.014
+Libyan Arab Jamahiriya,Marketing,On-site,645,172,26.667,1.0073,2.98
+Libyan Arab Jamahiriya,Marketing,Remote,373,91,24.397,0.9881,2.812
+Libyan Arab Jamahiriya,Operations,On-site,787,183,23.253,0.9867,3.071
+Libyan Arab Jamahiriya,Operations,Remote,530,130,24.528,0.9829,2.996
+Libyan Arab Jamahiriya,R&D,On-site,273,70,25.641,1.0268,3.084
+Libyan Arab Jamahiriya,R&D,Remote,158,31,19.62,1.0249,2.918
+Libyan Arab Jamahiriya,Sales,On-site,992,235,23.69,0.9999,3.029
+Libyan Arab Jamahiriya,Sales,Remote,669,166,24.813,0.9944,3.03
+Liechtenstein,Finance,On-site,476,116,24.37,1.0078,3.019
+Liechtenstein,Finance,Remote,297,72,24.242,0.9995,3.101
+Liechtenstein,HR,On-site,385,106,27.532,1.0094,3.026
+Liechtenstein,HR,Remote,236,51,21.61,0.9917,2.915
+Liechtenstein,IT,On-site,1505,357,23.721,1.0137,2.942
+Liechtenstein,IT,Remote,933,208,22.294,1.01,3.011
+Liechtenstein,Marketing,On-site,579,144,24.87,0.9897,3.007
+Liechtenstein,Marketing,Remote,396,86,21.717,0.9966,2.965
+Liechtenstein,Operations,On-site,719,188,26.147,0.9922,2.986
+Liechtenstein,Operations,Remote,471,118,25.053,1.0109,3.017
+Liechtenstein,R&D,On-site,243,69,28.395,0.9797,3.148
+Liechtenstein,R&D,Remote,147,48,32.653,1.0078,3.061
+Liechtenstein,Sales,On-site,983,261,26.551,1.0015,3.008
+Liechtenstein,Sales,Remote,632,160,25.316,1.0049,3.044
+Lithuania,Finance,On-site,463,114,24.622,0.9935,2.996
+Lithuania,Finance,Remote,337,75,22.255,0.9942,2.973
+Lithuania,HR,On-site,389,89,22.879,1.0032,2.979
+Lithuania,HR,Remote,247,61,24.696,1.0046,3.045
+Lithuania,IT,On-site,1492,342,22.922,0.9923,3.056
+Lithuania,IT,Remote,971,216,22.245,1.0009,3.027
+Lithuania,Marketing,On-site,552,122,22.101,1.0003,2.973
+Lithuania,Marketing,Remote,368,91,24.728,1.0259,3.0
+Lithuania,Operations,On-site,757,189,24.967,0.9944,2.997
+Lithuania,Operations,Remote,475,110,23.158,0.9882,2.954
+Lithuania,R&D,On-site,229,57,24.891,0.9714,3.052
+Lithuania,R&D,Remote,168,48,28.571,1.0108,3.202
+Lithuania,Sales,On-site,976,241,24.693,0.9953,3.055
+Lithuania,Sales,Remote,624,158,25.321,0.9997,3.022
+Luxembourg,Finance,On-site,502,124,24.701,0.9883,2.986
+Luxembourg,Finance,Remote,333,82,24.625,1.0039,3.057
+Luxembourg,HR,On-site,380,103,27.105,0.9897,3.018
+Luxembourg,HR,Remote,276,63,22.826,1.0272,3.072
+Luxembourg,IT,On-site,1497,345,23.046,1.0062,2.987
+Luxembourg,IT,Remote,969,240,24.768,0.9961,2.997
+Luxembourg,Marketing,On-site,560,162,28.929,1.003,3.002
+Luxembourg,Marketing,Remote,409,110,26.895,0.987,2.88
+Luxembourg,Operations,On-site,683,159,23.28,0.9917,2.96
+Luxembourg,Operations,Remote,474,118,24.895,0.9985,2.949
+Luxembourg,R&D,On-site,230,51,22.174,1.0056,2.874
+Luxembourg,R&D,Remote,162,39,24.074,0.999,3.025
+Luxembourg,Sales,On-site,1007,250,24.826,0.9951,3.026
+Luxembourg,Sales,Remote,672,160,23.81,1.0067,3.054
+Macao,Finance,On-site,480,120,25.0,1.0135,3.2
+Macao,Finance,Remote,351,87,24.786,0.9991,3.023
+Macao,HR,On-site,386,107,27.72,1.0046,3.08
+Macao,HR,Remote,254,54,21.26,0.9994,3.004
+Macao,IT,On-site,1446,354,24.481,0.985,3.026
+Macao,IT,Remote,974,274,28.131,1.0134,3.008
+Macao,Marketing,On-site,589,147,24.958,0.9947,3.014
+Macao,Marketing,Remote,410,103,25.122,1.0154,3.012
+Macao,Operations,On-site,717,176,24.547,0.9921,2.953
+Macao,Operations,Remote,522,129,24.713,1.0088,3.052
+Macao,R&D,On-site,229,63,27.511,0.9865,3.153
+Macao,R&D,Remote,182,56,30.769,0.9833,2.835
+Macao,Sales,On-site,1002,244,24.351,0.9994,3.072
+Macao,Sales,Remote,631,151,23.93,0.9981,2.995
+Madagascar,Finance,On-site,436,101,23.165,1.0017,3.076
+Madagascar,Finance,Remote,314,82,26.115,0.9894,3.051
+Madagascar,HR,On-site,406,95,23.399,1.0023,3.103
+Madagascar,HR,Remote,256,58,22.656,1.0341,3.035
+Madagascar,IT,On-site,1479,351,23.732,0.9946,2.97
+Madagascar,IT,Remote,1010,247,24.455,0.9951,3.029
+Madagascar,Marketing,On-site,577,134,23.224,0.9955,3.002
+Madagascar,Marketing,Remote,418,111,26.555,0.9943,2.88
+Madagascar,Operations,On-site,748,198,26.471,0.9867,3.028
+Madagascar,Operations,Remote,461,90,19.523,1.0042,3.091
+Madagascar,R&D,On-site,227,50,22.026,1.0236,2.965
+Madagascar,R&D,Remote,172,32,18.605,1.0204,3.151
+Madagascar,Sales,On-site,920,230,25.0,0.9913,3.007
+Madagascar,Sales,Remote,657,184,28.006,1.011,2.896
+Malawi,Finance,On-site,489,141,28.834,1.0007,2.965
+Malawi,Finance,Remote,324,67,20.679,0.9883,3.08
+Malawi,HR,On-site,389,90,23.136,0.9943,2.936
+Malawi,HR,Remote,309,74,23.948,1.0263,3.042
+Malawi,IT,On-site,1450,339,23.379,1.0142,2.986
+Malawi,IT,Remote,917,206,22.465,1.0024,2.897
+Malawi,Marketing,On-site,550,151,27.455,1.0103,2.871
+Malawi,Marketing,Remote,391,97,24.808,0.9492,3.107
+Malawi,Operations,On-site,716,179,25.0,0.9934,2.918
+Malawi,Operations,Remote,466,112,24.034,0.9965,3.056
+Malawi,R&D,On-site,277,59,21.3,1.0031,2.884
+Malawi,R&D,Remote,154,48,31.169,0.9963,3.104
+Malawi,Sales,On-site,966,236,24.431,1.0011,2.953
+Malawi,Sales,Remote,651,159,24.424,0.9963,2.959
+Malaysia,Finance,On-site,504,128,25.397,0.9978,3.046
+Malaysia,Finance,Remote,347,85,24.496,1.0096,2.997
+Malaysia,HR,On-site,404,84,20.792,1.0484,3.059
+Malaysia,HR,Remote,249,64,25.703,0.9805,2.976
+Malaysia,IT,On-site,1484,405,27.291,1.0043,3.016
+Malaysia,IT,Remote,1027,267,25.998,0.98,3.102
+Malaysia,Marketing,On-site,614,143,23.29,1.0232,3.028
+Malaysia,Marketing,Remote,378,85,22.487,0.9882,2.997
+Malaysia,Operations,On-site,748,212,28.342,0.9981,2.996
+Malaysia,Operations,Remote,521,118,22.649,0.9935,2.981
+Malaysia,R&D,On-site,253,65,25.692,0.9996,2.996
+Malaysia,R&D,Remote,156,33,21.154,1.0378,2.936
+Malaysia,Sales,On-site,990,248,25.051,1.001,3.031
+Malaysia,Sales,Remote,648,157,24.228,1.0029,3.022
+Maldives,Finance,On-site,494,127,25.709,1.0088,2.994
+Maldives,Finance,Remote,322,72,22.36,0.9972,2.913
+Maldives,HR,On-site,371,98,26.415,0.9972,2.865
+Maldives,HR,Remote,252,63,25.0,1.0078,2.925
+Maldives,IT,On-site,1467,366,24.949,0.9928,2.995
+Maldives,IT,Remote,965,228,23.627,1.0066,2.994
+Maldives,Marketing,On-site,573,139,24.258,1.0028,2.988
+Maldives,Marketing,Remote,407,98,24.079,1.0084,2.971
+Maldives,Operations,On-site,751,200,26.631,0.9973,2.969
+Maldives,Operations,Remote,457,122,26.696,1.0067,2.917
+Maldives,R&D,On-site,238,62,26.05,1.0095,2.962
+Maldives,R&D,Remote,172,51,29.651,0.9828,2.977
+Maldives,Sales,On-site,971,245,25.232,0.983,2.989
+Maldives,Sales,Remote,685,179,26.131,1.0047,3.042
+Mali,Finance,On-site,489,140,28.63,0.9826,3.074
+Mali,Finance,Remote,340,86,25.294,1.0084,2.9
+Mali,HR,On-site,382,92,24.084,0.9957,2.861
+Mali,HR,Remote,268,70,26.119,0.9859,2.993
+Mali,IT,On-site,1436,369,25.696,0.9866,3.022
+Mali,IT,Remote,990,253,25.556,1.0098,3.046
+Mali,Marketing,On-site,577,161,27.903,1.0004,3.114
+Mali,Marketing,Remote,400,94,23.5,1.0061,3.048
+Mali,Operations,On-site,717,175,24.407,0.9862,3.056
+Mali,Operations,Remote,509,132,25.933,0.9941,2.978
+Mali,R&D,On-site,231,53,22.944,0.9932,3.022
+Mali,R&D,Remote,170,40,23.529,0.9914,3.041
+Mali,Sales,On-site,950,235,24.737,1.0003,2.94
+Mali,Sales,Remote,646,178,27.554,1.0079,3.019
+Malta,Finance,On-site,496,128,25.806,0.9945,3.04
+Malta,Finance,Remote,285,72,25.263,0.9936,2.867
+Malta,HR,On-site,379,86,22.691,1.0002,3.008
+Malta,HR,Remote,276,69,25.0,0.9927,2.92
+Malta,IT,On-site,1459,366,25.086,0.9991,2.953
+Malta,IT,Remote,978,237,24.233,1.0003,2.948
+Malta,Marketing,On-site,538,142,26.394,0.9979,2.965
+Malta,Marketing,Remote,410,107,26.098,0.9968,2.995
+Malta,Operations,On-site,745,181,24.295,1.0046,2.972
+Malta,Operations,Remote,499,126,25.251,0.9999,2.97
+Malta,R&D,On-site,229,55,24.017,0.9831,2.943
+Malta,R&D,Remote,186,51,27.419,0.9812,2.898
+Malta,Sales,On-site,1034,235,22.727,1.0024,2.955
+Malta,Sales,Remote,651,167,25.653,1.0005,2.948
+Marshall Islands,Finance,On-site,507,116,22.88,1.001,3.047
+Marshall Islands,Finance,Remote,336,108,32.143,0.9973,2.899
+Marshall Islands,HR,On-site,402,106,26.368,0.9894,3.077
+Marshall Islands,HR,Remote,262,69,26.336,1.0195,2.916
+Marshall Islands,IT,On-site,1498,371,24.766,0.9999,2.993
+Marshall Islands,IT,Remote,994,238,23.944,1.0077,3.008
+Marshall Islands,Marketing,On-site,565,131,23.186,0.9741,3.055
+Marshall Islands,Marketing,Remote,381,95,24.934,0.9838,3.018
+Marshall Islands,Operations,On-site,751,177,23.569,1.0151,2.965
+Marshall Islands,Operations,Remote,467,103,22.056,0.9946,3.024
+Marshall Islands,R&D,On-site,230,47,20.435,1.0049,3.104
+Marshall Islands,R&D,Remote,173,49,28.324,0.9943,2.988
+Marshall Islands,Sales,On-site,920,220,23.913,0.9987,3.054
+Marshall Islands,Sales,Remote,651,170,26.114,1.0056,2.994
+Martinique,Finance,On-site,475,111,23.368,1.0028,2.796
+Martinique,Finance,Remote,302,72,23.841,0.9813,3.033
+Martinique,HR,On-site,415,105,25.301,1.0095,2.935
+Martinique,HR,Remote,242,64,26.446,0.9836,3.017
+Martinique,IT,On-site,1461,320,21.903,0.9996,2.986
+Martinique,IT,Remote,998,259,25.952,1.0141,2.963
+Martinique,Marketing,On-site,582,137,23.54,0.9931,3.038
+Martinique,Marketing,Remote,379,97,25.594,1.0151,2.947
+Martinique,Operations,On-site,756,183,24.206,1.0107,3.062
+Martinique,Operations,Remote,491,125,25.458,0.9981,3.084
+Martinique,R&D,On-site,248,70,28.226,1.0048,3.093
+Martinique,R&D,Remote,176,39,22.159,0.9986,2.824
+Martinique,Sales,On-site,934,234,25.054,0.998,3.032
+Martinique,Sales,Remote,648,161,24.846,1.018,3.083
+Mauritania,Finance,On-site,493,151,30.629,1.0085,3.059
+Mauritania,Finance,Remote,354,87,24.576,1.0166,3.028
+Mauritania,HR,On-site,392,104,26.531,0.9803,3.018
+Mauritania,HR,Remote,269,65,24.164,1.0083,3.033
+Mauritania,IT,On-site,1476,344,23.306,0.9977,3.015
+Mauritania,IT,Remote,973,236,24.255,1.0093,2.943
+Mauritania,Marketing,On-site,604,155,25.662,0.9907,3.023
+Mauritania,Marketing,Remote,410,107,26.098,1.0147,2.873
+Mauritania,Operations,On-site,719,182,25.313,0.9946,2.962
+Mauritania,Operations,Remote,516,141,27.326,1.0063,2.983
+Mauritania,R&D,On-site,268,61,22.761,0.9901,3.157
+Mauritania,R&D,Remote,154,33,21.429,0.9924,2.974
+Mauritania,Sales,On-site,1007,234,23.237,1.0149,3.033
+Mauritania,Sales,Remote,668,156,23.353,1.0101,3.088
+Mauritius,Finance,On-site,500,117,23.4,1.0022,3.018
+Mauritius,Finance,Remote,296,87,29.392,0.9875,2.899
+Mauritius,HR,On-site,376,94,25.0,1.0087,2.965
+Mauritius,HR,Remote,234,48,20.513,0.9932,3.145
+Mauritius,IT,On-site,1481,360,24.308,0.9922,2.988
+Mauritius,IT,Remote,976,235,24.078,0.997,3.074
+Mauritius,Marketing,On-site,589,149,25.297,1.0102,3.095
+Mauritius,Marketing,Remote,412,101,24.515,0.982,3.019
+Mauritius,Operations,On-site,724,198,27.348,0.9884,2.927
+Mauritius,Operations,Remote,508,133,26.181,1.0096,3.043
+Mauritius,R&D,On-site,249,57,22.892,0.9727,2.948
+Mauritius,R&D,Remote,193,40,20.725,1.0381,2.964
+Mauritius,Sales,On-site,954,256,26.834,0.9973,3.023
+Mauritius,Sales,Remote,610,161,26.393,0.9936,2.966
+Mayotte,Finance,On-site,499,115,23.046,1.0155,3.03
+Mayotte,Finance,Remote,310,64,20.645,1.004,2.965
+Mayotte,HR,On-site,371,82,22.102,0.9885,3.03
+Mayotte,HR,Remote,253,65,25.692,1.0237,2.992
+Mayotte,IT,On-site,1449,360,24.845,1.0029,2.979
+Mayotte,IT,Remote,984,250,25.407,1.011,3.007
+Mayotte,Marketing,On-site,594,138,23.232,0.9921,2.919
+Mayotte,Marketing,Remote,377,102,27.056,0.9969,3.101
+Mayotte,Operations,On-site,737,185,25.102,1.0103,2.973
+Mayotte,Operations,Remote,511,129,25.245,1.0048,3.002
+Mayotte,R&D,On-site,255,54,21.176,0.9934,3.071
+Mayotte,R&D,Remote,170,38,22.353,1.0357,3.2
+Mayotte,Sales,On-site,967,220,22.751,0.9868,2.931
+Mayotte,Sales,Remote,617,146,23.663,0.9977,3.058
+Mexico,Finance,On-site,499,109,21.844,0.9884,2.898
+Mexico,Finance,Remote,346,76,21.965,1.0021,2.957
+Mexico,HR,On-site,384,97,25.26,0.9916,3.076
+Mexico,HR,Remote,246,67,27.236,1.0062,3.118
+Mexico,IT,On-site,1497,386,25.785,1.0002,2.987
+Mexico,IT,Remote,976,218,22.336,1.001,3.054
+Mexico,Marketing,On-site,583,140,24.014,1.0025,3.154
+Mexico,Marketing,Remote,387,93,24.031,0.9883,3.163
+Mexico,Operations,On-site,730,202,27.671,1.0032,2.955
+Mexico,Operations,Remote,465,121,26.022,0.9865,3.004
+Mexico,R&D,On-site,234,62,26.496,1.0222,3.051
+Mexico,R&D,Remote,159,49,30.818,1.013,3.025
+Mexico,Sales,On-site,973,256,26.31,0.9841,2.911
+Mexico,Sales,Remote,698,175,25.072,0.9979,3.011
+Micronesia,Finance,On-site,489,117,23.926,0.9985,2.926
+Micronesia,Finance,Remote,334,82,24.551,1.0264,2.97
+Micronesia,HR,On-site,408,108,26.471,1.0077,2.885
+Micronesia,HR,Remote,264,66,25.0,1.001,3.045
+Micronesia,IT,On-site,1538,392,25.488,1.0049,2.999
+Micronesia,IT,Remote,981,245,24.975,0.9936,3.028
+Micronesia,Marketing,On-site,582,143,24.57,1.0007,3.045
+Micronesia,Marketing,Remote,416,115,27.644,1.005,3.046
+Micronesia,Operations,On-site,764,191,25.0,0.9958,3.047
+Micronesia,Operations,Remote,510,125,24.51,0.9932,3.029
+Micronesia,R&D,On-site,241,61,25.311,1.015,2.851
+Micronesia,R&D,Remote,139,53,38.129,0.9801,2.813
+Micronesia,Sales,On-site,982,250,25.458,1.0005,3.047
+Micronesia,Sales,Remote,634,148,23.344,1.0002,3.046
+Moldova,Finance,On-site,518,133,25.676,0.9919,3.077
+Moldova,Finance,Remote,348,85,24.425,0.9811,2.98
+Moldova,HR,On-site,380,90,23.684,1.0103,3.045
+Moldova,HR,Remote,250,62,24.8,0.961,2.948
+Moldova,IT,On-site,1477,374,25.322,0.9987,3.011
+Moldova,IT,Remote,973,244,25.077,0.9933,3.052
+Moldova,Marketing,On-site,578,138,23.875,1.0094,3.066
+Moldova,Marketing,Remote,379,103,27.177,0.9731,3.216
+Moldova,Operations,On-site,752,186,24.734,0.9907,3.059
+Moldova,Operations,Remote,503,120,23.857,1.0145,2.903
+Moldova,R&D,On-site,268,61,22.761,1.0038,3.071
+Moldova,R&D,Remote,158,40,25.316,0.999,3.076
+Moldova,Sales,On-site,1039,258,24.832,0.9872,2.98
+Moldova,Sales,Remote,663,179,26.998,0.9873,2.917
+Monaco,Finance,On-site,522,138,26.437,0.9912,3.044
+Monaco,Finance,Remote,340,83,24.412,0.9833,2.997
+Monaco,HR,On-site,424,91,21.462,0.9992,3.071
+Monaco,HR,Remote,264,66,25.0,1.015,2.932
+Monaco,IT,On-site,1475,344,23.322,0.9983,2.942
+Monaco,IT,Remote,1043,232,22.244,1.0173,3.002
+Monaco,Marketing,On-site,620,164,26.452,1.0064,3.065
+Monaco,Marketing,Remote,386,95,24.611,0.9887,3.013
+Monaco,Operations,On-site,699,173,24.75,0.9896,3.027
+Monaco,Operations,Remote,484,108,22.314,1.0013,3.124
+Monaco,R&D,On-site,218,49,22.477,1.0142,3.092
+Monaco,R&D,Remote,176,52,29.545,0.9908,3.153
+Monaco,Sales,On-site,979,219,22.37,1.0032,3.019
+Monaco,Sales,Remote,691,180,26.049,1.0036,2.996
+Mongolia,Finance,On-site,507,131,25.838,1.0135,2.899
+Mongolia,Finance,Remote,337,80,23.739,0.9953,3.178
+Mongolia,HR,On-site,381,106,27.822,0.9979,2.908
+Mongolia,HR,Remote,236,63,26.695,1.0117,2.924
+Mongolia,IT,On-site,1415,314,22.191,1.0017,3.039
+Mongolia,IT,Remote,958,263,27.453,1.0031,2.93
+Mongolia,Marketing,On-site,543,148,27.256,0.9986,2.943
+Mongolia,Marketing,Remote,391,115,29.412,0.9651,2.918
+Mongolia,Operations,On-site,731,185,25.308,1.0093,3.03
+Mongolia,Operations,Remote,479,116,24.217,0.9741,3.01
+Mongolia,R&D,On-site,236,66,27.966,0.9798,3.0
+Mongolia,R&D,Remote,181,44,24.309,0.9899,2.895
+Mongolia,Sales,On-site,961,245,25.494,0.9986,3.018
+Mongolia,Sales,Remote,708,169,23.87,0.983,3.096
+Montenegro,Finance,On-site,411,102,24.818,0.994,3.058
+Montenegro,Finance,Remote,313,83,26.518,1.0192,3.118
+Montenegro,HR,On-site,381,111,29.134,0.9957,2.924
+Montenegro,HR,Remote,266,68,25.564,1.0095,3.094
+Montenegro,IT,On-site,1460,362,24.795,0.9979,3.001
+Montenegro,IT,Remote,986,244,24.746,0.9902,3.007
+Montenegro,Marketing,On-site,569,127,22.32,0.9917,3.118
+Montenegro,Marketing,Remote,384,93,24.219,0.9689,2.979
+Montenegro,Operations,On-site,748,185,24.733,0.9921,3.103
+Montenegro,Operations,Remote,466,114,24.464,0.9924,2.964
+Montenegro,R&D,On-site,261,67,25.67,0.9987,3.119
+Montenegro,R&D,Remote,147,42,28.571,1.0235,3.0
+Montenegro,Sales,On-site,962,252,26.195,0.9964,2.999
+Montenegro,Sales,Remote,618,146,23.625,1.0042,2.969
+Montserrat,Finance,On-site,537,140,26.071,0.9956,2.929
+Montserrat,Finance,Remote,336,80,23.81,1.003,3.039
+Montserrat,HR,On-site,377,90,23.873,1.0259,3.05
+Montserrat,HR,Remote,250,69,27.6,0.9983,3.128
+Montserrat,IT,On-site,1429,370,25.892,1.0065,2.971
+Montserrat,IT,Remote,1040,263,25.288,1.0012,2.982
+Montserrat,Marketing,On-site,583,138,23.671,1.0107,3.009
+Montserrat,Marketing,Remote,379,96,25.33,0.9895,2.947
+Montserrat,Operations,On-site,741,192,25.911,1.0013,3.013
+Montserrat,Operations,Remote,495,131,26.465,1.0041,3.057
+Montserrat,R&D,On-site,256,66,25.781,1.0003,3.074
+Montserrat,R&D,Remote,173,47,27.168,1.0136,2.931
+Montserrat,Sales,On-site,996,248,24.9,1.0128,3.026
+Montserrat,Sales,Remote,672,165,24.554,0.9952,3.06
+Morocco,Finance,On-site,503,131,26.044,1.0075,3.0
+Morocco,Finance,Remote,355,100,28.169,0.99,3.087
+Morocco,HR,On-site,383,86,22.454,0.9876,3.021
+Morocco,HR,Remote,280,80,28.571,1.012,2.979
+Morocco,IT,On-site,1443,362,25.087,1.0099,3.01
+Morocco,IT,Remote,930,238,25.591,0.9938,3.012
+Morocco,Marketing,On-site,571,143,25.044,0.9754,2.965
+Morocco,Marketing,Remote,401,112,27.93,0.9769,3.06
+Morocco,Operations,On-site,739,181,24.493,1.0118,2.94
+Morocco,Operations,Remote,462,119,25.758,1.0147,3.009
+Morocco,R&D,On-site,253,60,23.715,0.9921,3.059
+Morocco,R&D,Remote,150,40,26.667,0.9837,3.04
+Morocco,Sales,On-site,940,217,23.085,1.0002,3.029
+Morocco,Sales,Remote,665,164,24.662,0.9982,3.105
+Mozambique,Finance,On-site,502,111,22.112,1.0022,3.088
+Mozambique,Finance,Remote,302,81,26.821,0.9822,2.858
+Mozambique,HR,On-site,397,97,24.433,1.0014,2.932
+Mozambique,HR,Remote,247,66,26.721,1.0085,3.069
+Mozambique,IT,On-site,1441,375,26.024,0.9957,3.006
+Mozambique,IT,Remote,1000,253,25.3,1.0079,3.085
+Mozambique,Marketing,On-site,585,144,24.615,1.0007,3.063
+Mozambique,Marketing,Remote,396,93,23.485,0.992,3.038
+Mozambique,Operations,On-site,732,195,26.639,0.9867,3.049
+Mozambique,Operations,Remote,489,134,27.403,0.973,3.027
+Mozambique,R&D,On-site,254,54,21.26,0.9585,2.909
+Mozambique,R&D,Remote,142,26,18.31,1.0093,2.845
+Mozambique,Sales,On-site,1001,232,23.177,1.0057,3.023
+Mozambique,Sales,Remote,653,167,25.574,1.0017,3.017
+Myanmar,Finance,On-site,505,117,23.168,1.0021,2.927
+Myanmar,Finance,Remote,352,71,20.17,0.9883,2.847
+Myanmar,HR,On-site,396,94,23.737,1.0019,3.005
+Myanmar,HR,Remote,237,63,26.582,0.9922,2.97
+Myanmar,IT,On-site,1493,365,24.447,1.0016,2.946
+Myanmar,IT,Remote,969,230,23.736,1.0177,2.954
+Myanmar,Marketing,On-site,552,134,24.275,0.9811,2.984
+Myanmar,Marketing,Remote,396,96,24.242,0.9952,3.035
+Myanmar,Operations,On-site,696,177,25.431,1.0089,2.99
+Myanmar,Operations,Remote,478,116,24.268,1.0263,2.977
+Myanmar,R&D,On-site,235,56,23.83,0.9792,3.128
+Myanmar,R&D,Remote,175,43,24.571,1.0163,2.811
+Myanmar,Sales,On-site,979,233,23.8,0.9867,3.032
+Myanmar,Sales,Remote,644,160,24.845,0.9835,3.034
+Namibia,Finance,On-site,494,123,24.899,0.9981,2.978
+Namibia,Finance,Remote,356,98,27.528,0.9981,3.025
+Namibia,HR,On-site,370,115,31.081,1.0078,2.997
+Namibia,HR,Remote,276,60,21.739,1.0038,2.993
+Namibia,IT,On-site,1480,378,25.541,0.9804,3.074
+Namibia,IT,Remote,970,239,24.639,1.0118,2.972
+Namibia,Marketing,On-site,555,136,24.505,0.9938,3.034
+Namibia,Marketing,Remote,396,108,27.273,1.0098,3.02
+Namibia,Operations,On-site,710,171,24.085,0.9892,3.041
+Namibia,Operations,Remote,505,131,25.941,1.0137,3.004
+Namibia,R&D,On-site,229,59,25.764,1.0089,3.07
+Namibia,R&D,Remote,184,40,21.739,1.0151,2.918
+Namibia,Sales,On-site,999,259,25.926,0.9976,3.03
+Namibia,Sales,Remote,658,145,22.036,1.001,3.074
+Nauru,Finance,On-site,512,141,27.539,0.9933,3.064
+Nauru,Finance,Remote,365,92,25.205,1.0029,2.995
+Nauru,HR,On-site,413,93,22.518,1.007,3.039
+Nauru,HR,Remote,266,59,22.18,1.0312,2.955
+Nauru,IT,On-site,1418,351,24.753,1.0036,3.021
+Nauru,IT,Remote,1004,228,22.709,0.999,2.998
+Nauru,Marketing,On-site,522,115,22.031,1.0051,2.933
+Nauru,Marketing,Remote,387,96,24.806,0.9875,3.0
+Nauru,Operations,On-site,733,184,25.102,1.0118,3.023
+Nauru,Operations,Remote,498,124,24.9,1.013,3.12
+Nauru,R&D,On-site,259,76,29.344,1.0012,3.085
+Nauru,R&D,Remote,169,37,21.893,0.9979,2.905
+Nauru,Sales,On-site,980,242,24.694,1.0052,3.058
+Nauru,Sales,Remote,655,154,23.511,0.9906,2.947
+Nepal,Finance,On-site,485,133,27.423,1.0122,3.068
+Nepal,Finance,Remote,306,60,19.608,0.9865,3.082
+Nepal,HR,On-site,398,91,22.864,1.0042,3.098
+Nepal,HR,Remote,281,69,24.555,0.9815,3.075
+Nepal,IT,On-site,1478,344,23.275,0.996,2.916
+Nepal,IT,Remote,961,250,26.015,1.024,2.996
+Nepal,Marketing,On-site,586,129,22.014,0.9927,2.954
+Nepal,Marketing,Remote,415,115,27.711,1.0065,2.957
+Nepal,Operations,On-site,723,172,23.79,0.9986,3.011
+Nepal,Operations,Remote,506,123,24.308,1.0242,2.877
+Nepal,R&D,On-site,247,52,21.053,0.9911,3.053
+Nepal,R&D,Remote,170,45,26.471,1.0012,2.994
+Nepal,Sales,On-site,1053,259,24.596,1.002,2.936
+Nepal,Sales,Remote,627,159,25.359,0.9927,3.062
+Netherlands,Finance,On-site,482,115,23.859,0.9955,2.946
+Netherlands,Finance,Remote,326,89,27.301,1.008,2.933
+Netherlands,HR,On-site,387,92,23.773,0.9818,2.964
+Netherlands,HR,Remote,254,69,27.165,0.9894,3.039
+Netherlands,IT,On-site,1522,409,26.873,0.9948,3.022
+Netherlands,IT,Remote,1010,238,23.564,1.0037,3.0
+Netherlands,Marketing,On-site,561,144,25.668,1.0122,2.882
+Netherlands,Marketing,Remote,398,104,26.131,0.9865,3.136
+Netherlands,Operations,On-site,729,185,25.377,0.9925,2.968
+Netherlands,Operations,Remote,475,111,23.368,0.9987,3.044
+Netherlands,R&D,On-site,243,66,27.16,0.9911,3.008
+Netherlands,R&D,Remote,165,45,27.273,1.0003,3.055
+Netherlands,Sales,On-site,988,238,24.089,1.0008,3.034
+Netherlands,Sales,Remote,677,152,22.452,0.9768,2.996
+Netherlands Antilles,Finance,On-site,477,121,25.367,1.0027,3.019
+Netherlands Antilles,Finance,Remote,339,91,26.844,0.9961,2.92
+Netherlands Antilles,HR,On-site,378,80,21.164,1.0176,2.854
+Netherlands Antilles,HR,Remote,282,66,23.404,0.9975,2.957
+Netherlands Antilles,IT,On-site,1502,391,26.032,0.9935,2.973
+Netherlands Antilles,IT,Remote,1007,264,26.216,1.0017,2.893
+Netherlands Antilles,Marketing,On-site,594,138,23.232,0.9979,3.076
+Netherlands Antilles,Marketing,Remote,425,83,19.529,1.0041,3.007
+Netherlands Antilles,Operations,On-site,712,185,25.983,0.9977,3.035
+Netherlands Antilles,Operations,Remote,508,110,21.654,1.0049,2.839
+Netherlands Antilles,R&D,On-site,236,56,23.729,1.0115,2.949
+Netherlands Antilles,R&D,Remote,159,44,27.673,0.9839,2.818
+Netherlands Antilles,Sales,On-site,957,230,24.033,0.9965,3.078
+Netherlands Antilles,Sales,Remote,672,159,23.661,1.0048,2.952
+New Caledonia,Finance,On-site,526,126,23.954,0.9989,3.108
+New Caledonia,Finance,Remote,323,97,30.031,0.9916,3.009
+New Caledonia,HR,On-site,407,95,23.342,0.9963,3.145
+New Caledonia,HR,Remote,274,76,27.737,1.0165,3.044
+New Caledonia,IT,On-site,1488,382,25.672,1.0003,2.992
+New Caledonia,IT,Remote,1015,234,23.054,1.0136,2.934
+New Caledonia,Marketing,On-site,567,154,27.16,1.0081,2.931
+New Caledonia,Marketing,Remote,373,111,29.759,1.0101,2.957
+New Caledonia,Operations,On-site,671,158,23.547,0.9915,2.924
+New Caledonia,Operations,Remote,492,131,26.626,0.986,3.022
+New Caledonia,R&D,On-site,252,64,25.397,0.9876,3.123
+New Caledonia,R&D,Remote,189,50,26.455,0.9877,3.005
+New Caledonia,Sales,On-site,1051,251,23.882,0.9968,3.019
+New Caledonia,Sales,Remote,678,150,22.124,0.9993,2.979
+New Zealand,Finance,On-site,545,126,23.119,0.9916,2.961
+New Zealand,Finance,Remote,313,72,23.003,1.0071,2.994
+New Zealand,HR,On-site,368,89,24.185,1.005,3.005
+New Zealand,HR,Remote,233,48,20.601,0.9872,2.918
+New Zealand,IT,On-site,1442,368,25.52,1.0048,2.931
+New Zealand,IT,Remote,1016,244,24.016,1.001,3.016
+New Zealand,Marketing,On-site,594,155,26.094,1.0064,3.044
+New Zealand,Marketing,Remote,411,109,26.521,0.995,3.073
+New Zealand,Operations,On-site,797,197,24.718,1.018,3.035
+New Zealand,Operations,Remote,511,117,22.896,1.0189,3.022
+New Zealand,R&D,On-site,240,58,24.167,0.9986,3.021
+New Zealand,R&D,Remote,159,44,27.673,0.9695,3.057
+New Zealand,Sales,On-site,1035,251,24.251,1.0106,3.053
+New Zealand,Sales,Remote,683,172,25.183,1.0066,2.99
+Nicaragua,Finance,On-site,491,115,23.422,0.9994,2.896
+Nicaragua,Finance,Remote,359,97,27.019,0.9933,3.036
+Nicaragua,HR,On-site,378,81,21.429,0.9974,2.918
+Nicaragua,HR,Remote,259,62,23.938,1.0031,2.927
+Nicaragua,IT,On-site,1469,372,25.323,0.9996,2.989
+Nicaragua,IT,Remote,1005,275,27.363,1.0014,2.93
+Nicaragua,Marketing,On-site,548,129,23.54,0.9789,2.98
+Nicaragua,Marketing,Remote,371,90,24.259,0.9908,2.973
+Nicaragua,Operations,On-site,742,160,21.563,1.0091,3.032
+Nicaragua,Operations,Remote,512,117,22.852,0.995,2.908
+Nicaragua,R&D,On-site,248,63,25.403,0.9988,2.875
+Nicaragua,R&D,Remote,171,36,21.053,1.0313,3.111
+Nicaragua,Sales,On-site,949,244,25.711,1.0067,2.996
+Nicaragua,Sales,Remote,616,169,27.435,1.0137,2.933
+Niger,Finance,On-site,471,127,26.964,1.0096,2.979
+Niger,Finance,Remote,291,74,25.43,1.0057,2.859
+Niger,HR,On-site,398,92,23.116,1.017,2.94
+Niger,HR,Remote,273,65,23.81,1.006,2.945
+Niger,IT,On-site,1499,345,23.015,0.9922,3.05
+Niger,IT,Remote,964,234,24.274,1.0208,3.036
+Niger,Marketing,On-site,575,138,24.0,1.0026,2.976
+Niger,Marketing,Remote,400,98,24.5,0.979,2.985
+Niger,Operations,On-site,746,181,24.263,0.9985,2.945
+Niger,Operations,Remote,459,98,21.351,1.0146,2.924
+Niger,R&D,On-site,274,71,25.912,1.0105,3.084
+Niger,R&D,Remote,174,42,24.138,1.0141,3.034
+Niger,Sales,On-site,944,227,24.047,1.0127,3.065
+Niger,Sales,Remote,631,150,23.772,0.9943,2.911
+Nigeria,Finance,On-site,485,123,25.361,1.0015,3.064
+Nigeria,Finance,Remote,303,68,22.442,0.9977,3.122
+Nigeria,HR,On-site,380,98,25.789,1.0112,2.895
+Nigeria,HR,Remote,237,65,27.426,0.9852,2.996
+Nigeria,IT,On-site,1464,361,24.658,0.9936,3.012
+Nigeria,IT,Remote,1063,267,25.118,1.0136,3.004
+Nigeria,Marketing,On-site,563,146,25.933,0.9958,2.906
+Nigeria,Marketing,Remote,386,98,25.389,1.0206,3.031
+Nigeria,Operations,On-site,716,182,25.419,0.9953,2.983
+Nigeria,Operations,Remote,471,122,25.902,0.982,2.992
+Nigeria,R&D,On-site,286,68,23.776,0.9584,2.976
+Nigeria,R&D,Remote,156,40,25.641,1.0354,2.821
+Nigeria,Sales,On-site,956,248,25.941,1.0197,3.032
+Nigeria,Sales,Remote,651,165,25.346,1.0141,2.965
+Niue,Finance,On-site,484,100,20.661,0.9818,2.961
+Niue,Finance,Remote,322,95,29.503,1.0192,2.978
+Niue,HR,On-site,389,81,20.823,0.9789,3.105
+Niue,HR,Remote,271,71,26.199,1.016,3.074
+Niue,IT,On-site,1439,368,25.573,1.0125,2.981
+Niue,IT,Remote,1001,256,25.574,0.991,2.993
+Niue,Marketing,On-site,577,155,26.863,1.0019,2.887
+Niue,Marketing,Remote,389,98,25.193,1.0033,2.92
+Niue,Operations,On-site,708,173,24.435,1.0196,2.972
+Niue,Operations,Remote,502,141,28.088,1.0011,2.972
+Niue,R&D,On-site,270,74,27.407,0.9744,2.952
+Niue,R&D,Remote,149,31,20.805,1.002,2.752
+Niue,Sales,On-site,957,233,24.347,1.0026,2.956
+Niue,Sales,Remote,648,158,24.383,1.0085,3.023
+Norfolk Island,Finance,On-site,465,105,22.581,0.996,3.022
+Norfolk Island,Finance,Remote,302,78,25.828,1.0073,3.0
+Norfolk Island,HR,On-site,381,97,25.459,1.0038,3.113
+Norfolk Island,HR,Remote,273,72,26.374,0.9932,3.117
+Norfolk Island,IT,On-site,1468,374,25.477,1.004,3.002
+Norfolk Island,IT,Remote,986,243,24.645,0.9877,2.968
+Norfolk Island,Marketing,On-site,613,139,22.675,0.9746,3.013
+Norfolk Island,Marketing,Remote,383,105,27.415,0.9991,2.992
+Norfolk Island,Operations,On-site,763,177,23.198,1.0037,2.95
+Norfolk Island,Operations,Remote,475,121,25.474,0.9909,3.004
+Norfolk Island,R&D,On-site,241,55,22.822,0.9901,3.108
+Norfolk Island,R&D,Remote,171,53,30.994,1.0066,2.977
+Norfolk Island,Sales,On-site,982,251,25.56,1.003,3.003
+Norfolk Island,Sales,Remote,648,160,24.691,0.9865,2.954
+North Macedonia,Finance,On-site,480,91,18.958,1.0074,3.035
+North Macedonia,Finance,Remote,315,75,23.81,0.9879,2.962
+North Macedonia,HR,On-site,372,92,24.731,0.9865,3.048
+North Macedonia,HR,Remote,267,59,22.097,0.9945,3.034
+North Macedonia,IT,On-site,1492,352,23.592,0.9991,2.997
+North Macedonia,IT,Remote,976,235,24.078,1.0078,2.988
+North Macedonia,Marketing,On-site,569,130,22.847,1.0025,2.972
+North Macedonia,Marketing,Remote,417,107,25.659,1.0304,3.022
+North Macedonia,Operations,On-site,763,207,27.13,0.9902,2.966
+North Macedonia,Operations,Remote,487,129,26.489,1.0161,2.926
+North Macedonia,R&D,On-site,236,40,16.949,1.0154,2.97
+North Macedonia,R&D,Remote,169,38,22.485,1.0097,3.237
+North Macedonia,Sales,On-site,968,244,25.207,0.9987,2.948
+North Macedonia,Sales,Remote,646,169,26.161,1.0107,3.028
+Northern Mariana Islands,Finance,On-site,521,137,26.296,0.9998,2.925
+Northern Mariana Islands,Finance,Remote,338,95,28.107,1.0039,2.959
+Northern Mariana Islands,HR,On-site,370,89,24.054,0.9601,2.938
+Northern Mariana Islands,HR,Remote,231,39,16.883,0.9843,2.965
+Northern Mariana Islands,IT,On-site,1476,375,25.407,0.9912,3.047
+Northern Mariana Islands,IT,Remote,995,236,23.719,1.0125,2.995
+Northern Mariana Islands,Marketing,On-site,611,144,23.568,1.004,2.992
+Northern Mariana Islands,Marketing,Remote,430,105,24.419,0.9986,3.056
+Northern Mariana Islands,Operations,On-site,735,172,23.401,1.0067,2.948
+Northern Mariana Islands,Operations,Remote,510,127,24.902,1.0015,2.88
+Northern Mariana Islands,R&D,On-site,218,57,26.147,1.0469,3.128
+Northern Mariana Islands,R&D,Remote,179,50,27.933,1.0221,2.916
+Northern Mariana Islands,Sales,On-site,975,256,26.256,1.0025,3.056
+Northern Mariana Islands,Sales,Remote,669,150,22.422,0.9865,3.027
+Norway,Finance,On-site,481,113,23.493,0.9905,2.904
+Norway,Finance,Remote,323,86,26.625,1.0168,2.926
+Norway,HR,On-site,391,91,23.274,1.0113,3.049
+Norway,HR,Remote,293,67,22.867,0.9956,3.123
+Norway,IT,On-site,1437,360,25.052,1.0017,3.006
+Norway,IT,Remote,1027,252,24.537,0.9873,3.062
+Norway,Marketing,On-site,598,150,25.084,1.0156,3.062
+Norway,Marketing,Remote,408,94,23.039,1.0047,2.897
+Norway,Operations,On-site,734,190,25.886,1.0013,2.932
+Norway,Operations,Remote,506,128,25.296,1.0072,2.877
+Norway,R&D,On-site,247,66,26.721,1.0023,3.073
+Norway,R&D,Remote,163,29,17.791,1.0222,3.098
+Norway,Sales,On-site,1015,252,24.828,1.0003,3.021
+Norway,Sales,Remote,601,156,25.957,0.9923,2.925
+Oman,Finance,On-site,511,148,28.963,1.0051,3.092
+Oman,Finance,Remote,325,81,24.923,0.9912,2.923
+Oman,HR,On-site,396,84,21.212,1.0074,2.997
+Oman,HR,Remote,218,56,25.688,1.0237,2.908
+Oman,IT,On-site,1441,341,23.664,0.9947,3.047
+Oman,IT,Remote,972,246,25.309,1.0022,3.015
+Oman,Marketing,On-site,613,156,25.449,0.9966,2.997
+Oman,Marketing,Remote,377,88,23.342,0.9982,3.066
+Oman,Operations,On-site,743,176,23.688,1.006,3.105
+Oman,Operations,Remote,504,106,21.032,1.0073,3.067
+Oman,R&D,On-site,239,58,24.268,1.0328,2.992
+Oman,R&D,Remote,141,30,21.277,0.9854,3.05
+Oman,Sales,On-site,975,251,25.744,1.0071,2.941
+Oman,Sales,Remote,681,173,25.404,1.016,2.99
+Pakistan,Finance,On-site,473,115,24.313,1.0005,2.953
+Pakistan,Finance,Remote,355,93,26.197,1.0198,2.958
+Pakistan,HR,On-site,354,84,23.729,1.0017,2.972
+Pakistan,HR,Remote,263,51,19.392,1.002,3.015
+Pakistan,IT,On-site,1542,393,25.486,1.015,2.998
+Pakistan,IT,Remote,928,229,24.677,1.0096,3.001
+Pakistan,Marketing,On-site,554,127,22.924,0.9969,2.953
+Pakistan,Marketing,Remote,419,117,27.924,1.0181,3.0
+Pakistan,Operations,On-site,777,203,26.126,1.0057,2.95
+Pakistan,Operations,Remote,499,140,28.056,1.0033,2.98
+Pakistan,R&D,On-site,263,68,25.856,0.9863,3.08
+Pakistan,R&D,Remote,172,49,28.488,0.9958,3.047
+Pakistan,Sales,On-site,1002,234,23.353,0.9938,2.935
+Pakistan,Sales,Remote,679,162,23.859,0.9976,3.016
+Palau,Finance,On-site,475,121,25.474,0.9866,2.992
+Palau,Finance,Remote,341,73,21.408,0.9822,3.003
+Palau,HR,On-site,375,100,26.667,0.9787,2.981
+Palau,HR,Remote,259,65,25.097,1.005,2.961
+Palau,IT,On-site,1486,389,26.178,0.9955,3.042
+Palau,IT,Remote,992,250,25.202,1.0105,2.976
+Palau,Marketing,On-site,555,125,22.523,1.0069,3.083
+Palau,Marketing,Remote,361,71,19.668,1.0171,3.136
+Palau,Operations,On-site,755,184,24.371,0.9985,2.96
+Palau,Operations,Remote,454,102,22.467,1.0022,2.993
+Palau,R&D,On-site,259,62,23.938,1.0094,3.1
+Palau,R&D,Remote,155,32,20.645,1.0199,3.123
+Palau,Sales,On-site,967,243,25.129,0.9904,3.018
+Palau,Sales,Remote,637,166,26.06,0.995,2.992
+Palestinian Territory,Finance,On-site,496,110,22.177,1.0099,3.071
+Palestinian Territory,Finance,Remote,308,63,20.455,0.9935,2.838
+Palestinian Territory,HR,On-site,389,102,26.221,1.0172,2.943
+Palestinian Territory,HR,Remote,261,61,23.372,0.9928,2.966
+Palestinian Territory,IT,On-site,1392,327,23.491,0.9975,2.982
+Palestinian Territory,IT,Remote,967,228,23.578,0.9957,3.012
+Palestinian Territory,Marketing,On-site,536,144,26.866,1.0166,3.056
+Palestinian Territory,Marketing,Remote,377,105,27.851,1.0091,3.04
+Palestinian Territory,Operations,On-site,662,169,25.529,1.0061,2.912
+Palestinian Territory,Operations,Remote,448,120,26.786,1.0055,2.938
+Palestinian Territory,R&D,On-site,227,61,26.872,0.9887,2.991
+Palestinian Territory,R&D,Remote,175,47,26.857,1.0229,2.869
+Palestinian Territory,Sales,On-site,1011,255,25.223,1.0091,3.005
+Palestinian Territory,Sales,Remote,646,179,27.709,0.9934,3.02
+Panama,Finance,On-site,490,123,25.102,0.9946,2.969
+Panama,Finance,Remote,358,109,30.447,0.9887,3.031
+Panama,HR,On-site,411,107,26.034,0.9861,3.054
+Panama,HR,Remote,254,63,24.803,1.0175,2.965
+Panama,IT,On-site,1462,379,25.923,0.9989,2.976
+Panama,IT,Remote,1023,264,25.806,0.9963,2.966
+Panama,Marketing,On-site,565,135,23.894,1.003,3.081
+Panama,Marketing,Remote,393,106,26.972,1.0075,2.941
+Panama,Operations,On-site,768,184,23.958,1.0101,3.009
+Panama,Operations,Remote,489,127,25.971,0.984,2.902
+Panama,R&D,On-site,249,67,26.908,0.9892,3.028
+Panama,R&D,Remote,141,41,29.078,0.9454,2.986
+Panama,Sales,On-site,957,242,25.287,1.0024,2.993
+Panama,Sales,Remote,648,181,27.932,0.9914,2.997
+Papua New Guinea,Finance,On-site,494,114,23.077,0.996,2.905
+Papua New Guinea,Finance,Remote,321,75,23.364,0.9865,3.028
+Papua New Guinea,HR,On-site,349,84,24.069,1.0118,2.94
+Papua New Guinea,HR,Remote,261,63,24.138,1.0249,2.831
+Papua New Guinea,IT,On-site,1453,365,25.12,0.9982,2.944
+Papua New Guinea,IT,Remote,1020,267,26.176,0.9917,3.032
+Papua New Guinea,Marketing,On-site,556,135,24.281,1.038,3.05
+Papua New Guinea,Marketing,Remote,389,110,28.278,0.9948,3.023
+Papua New Guinea,Operations,On-site,798,214,26.817,0.9917,2.941
+Papua New Guinea,Operations,Remote,493,135,27.383,0.9948,2.978
+Papua New Guinea,R&D,On-site,266,66,24.812,1.0244,3.071
+Papua New Guinea,R&D,Remote,145,33,22.759,0.9416,3.0
+Papua New Guinea,Sales,On-site,943,238,25.239,0.9871,3.108
+Papua New Guinea,Sales,Remote,625,150,24.0,1.0121,3.064
+Paraguay,Finance,On-site,504,114,22.619,1.0096,3.073
+Paraguay,Finance,Remote,379,99,26.121,0.9962,2.865
+Paraguay,HR,On-site,425,108,25.412,1.0047,3.019
+Paraguay,HR,Remote,289,73,25.26,0.9852,2.997
+Paraguay,IT,On-site,1441,375,26.024,0.9993,2.922
+Paraguay,IT,Remote,999,245,24.525,0.9972,3.012
+Paraguay,Marketing,On-site,564,150,26.596,1.0116,3.076
+Paraguay,Marketing,Remote,381,102,26.772,0.9991,3.139
+Paraguay,Operations,On-site,713,179,25.105,1.0002,3.041
+Paraguay,Operations,Remote,451,112,24.834,0.9988,2.965
+Paraguay,R&D,On-site,261,69,26.437,1.0318,3.027
+Paraguay,R&D,Remote,165,36,21.818,1.0357,2.994
+Paraguay,Sales,On-site,969,238,24.561,0.9966,3.064
+Paraguay,Sales,Remote,658,180,27.356,1.0082,3.008
+Peru,Finance,On-site,513,116,22.612,1.0015,2.91
+Peru,Finance,Remote,356,92,25.843,0.9964,2.924
+Peru,HR,On-site,365,84,23.014,0.9945,3.052
+Peru,HR,Remote,238,61,25.63,1.01,2.857
+Peru,IT,On-site,1537,403,26.22,0.9967,2.984
+Peru,IT,Remote,989,233,23.559,1.0157,3.001
+Peru,Marketing,On-site,610,155,25.41,0.9901,3.015
+Peru,Marketing,Remote,370,98,26.486,0.9908,2.946
+Peru,Operations,On-site,759,179,23.584,0.9908,3.051
+Peru,Operations,Remote,491,118,24.033,1.0033,2.998
+Peru,R&D,On-site,237,52,21.941,1.0085,2.932
+Peru,R&D,Remote,160,52,32.5,1.0222,3.031
+Peru,Sales,On-site,1038,268,25.819,0.9931,2.948
+Peru,Sales,Remote,664,152,22.892,0.992,3.047
+Philippines,Finance,On-site,457,115,25.164,1.0087,3.011
+Philippines,Finance,Remote,344,87,25.291,1.0079,3.012
+Philippines,HR,On-site,397,87,21.914,1.0219,2.995
+Philippines,HR,Remote,255,77,30.196,0.9914,3.031
+Philippines,IT,On-site,1513,394,26.041,0.9961,2.944
+Philippines,IT,Remote,1001,230,22.977,1.0126,3.008
+Philippines,Marketing,On-site,647,152,23.493,0.9911,3.125
+Philippines,Marketing,Remote,383,104,27.154,0.9688,3.104
+Philippines,Operations,On-site,764,174,22.775,1.0096,3.065
+Philippines,Operations,Remote,483,128,26.501,1.0057,2.969
+Philippines,R&D,On-site,268,59,22.015,1.0068,2.951
+Philippines,R&D,Remote,175,49,28.0,0.9953,3.029
+Philippines,Sales,On-site,971,266,27.394,0.9948,3.039
+Philippines,Sales,Remote,623,124,19.904,1.0046,3.018
+Pitcairn Islands,Finance,On-site,469,115,24.52,1.0206,2.938
+Pitcairn Islands,Finance,Remote,318,70,22.013,0.9801,3.009
+Pitcairn Islands,HR,On-site,406,93,22.906,1.0032,3.007
+Pitcairn Islands,HR,Remote,235,63,26.809,1.015,3.077
+Pitcairn Islands,IT,On-site,1524,376,24.672,0.9961,2.983
+Pitcairn Islands,IT,Remote,952,231,24.265,1.0042,3.059
+Pitcairn Islands,Marketing,On-site,600,140,23.333,0.9979,2.935
+Pitcairn Islands,Marketing,Remote,405,106,26.173,0.9792,2.985
+Pitcairn Islands,Operations,On-site,756,174,23.016,0.9874,3.037
+Pitcairn Islands,Operations,Remote,498,104,20.884,1.0167,3.006
+Pitcairn Islands,R&D,On-site,231,55,23.81,1.0059,2.935
+Pitcairn Islands,R&D,Remote,151,48,31.788,1.0079,2.921
+Pitcairn Islands,Sales,On-site,947,215,22.703,0.9954,2.964
+Pitcairn Islands,Sales,Remote,645,163,25.271,1.0126,2.983
+Poland,Finance,On-site,473,137,28.964,0.9941,2.939
+Poland,Finance,Remote,328,86,26.22,0.9882,2.896
+Poland,HR,On-site,391,83,21.228,1.0167,3.133
+Poland,HR,Remote,263,75,28.517,0.9856,2.833
+Poland,IT,On-site,1472,340,23.098,1.0102,3.003
+Poland,IT,Remote,990,273,27.576,1.0025,3.031
+Poland,Marketing,On-site,551,141,25.59,1.0085,2.996
+Poland,Marketing,Remote,399,88,22.055,0.9924,2.887
+Poland,Operations,On-site,700,173,24.714,1.0026,3.047
+Poland,Operations,Remote,456,116,25.439,1.0053,2.98
+Poland,R&D,On-site,239,66,27.615,0.9797,2.967
+Poland,R&D,Remote,170,48,28.235,1.0219,3.0
+Poland,Sales,On-site,990,249,25.152,0.9937,3.051
+Poland,Sales,Remote,619,155,25.04,1.0049,2.955
+Portugal,Finance,On-site,521,122,23.417,0.9956,3.077
+Portugal,Finance,Remote,337,91,27.003,0.9892,2.947
+Portugal,HR,On-site,378,83,21.958,1.0038,3.161
+Portugal,HR,Remote,284,62,21.831,0.9966,2.933
+Portugal,IT,On-site,1451,350,24.121,0.9933,2.983
+Portugal,IT,Remote,995,242,24.322,0.9879,3.022
+Portugal,Marketing,On-site,620,176,28.387,1.0043,2.915
+Portugal,Marketing,Remote,377,88,23.342,1.0098,3.093
+Portugal,Operations,On-site,751,181,24.101,1.0111,2.903
+Portugal,Operations,Remote,489,117,23.926,0.9818,2.953
+Portugal,R&D,On-site,253,57,22.53,1.0,3.095
+Portugal,R&D,Remote,158,47,29.747,0.9925,2.949
+Portugal,Sales,On-site,990,238,24.04,1.0001,2.992
+Portugal,Sales,Remote,635,153,24.094,0.991,3.022
+Puerto Rico,Finance,On-site,488,127,26.025,1.021,3.051
+Puerto Rico,Finance,Remote,336,87,25.893,0.9923,2.985
+Puerto Rico,HR,On-site,409,93,22.738,0.9989,3.024
+Puerto Rico,HR,Remote,237,52,21.941,1.0329,3.101
+Puerto Rico,IT,On-site,1487,367,24.681,0.9952,3.005
+Puerto Rico,IT,Remote,925,229,24.757,1.0069,2.926
+Puerto Rico,Marketing,On-site,659,161,24.431,0.9817,3.058
+Puerto Rico,Marketing,Remote,427,116,27.166,1.0092,3.066
+Puerto Rico,Operations,On-site,792,200,25.253,1.0062,2.981
+Puerto Rico,Operations,Remote,468,116,24.786,0.9998,2.878
+Puerto Rico,R&D,On-site,225,48,21.333,1.0211,2.969
+Puerto Rico,R&D,Remote,143,31,21.678,0.9748,3.056
+Puerto Rico,Sales,On-site,996,252,25.301,1.005,2.978
+Puerto Rico,Sales,Remote,649,146,22.496,0.9896,3.092
+Qatar,Finance,On-site,482,116,24.066,1.0071,2.996
+Qatar,Finance,Remote,312,88,28.205,1.0279,3.01
+Qatar,HR,On-site,449,112,24.944,0.9902,3.009
+Qatar,HR,Remote,267,71,26.592,1.0238,2.921
+Qatar,IT,On-site,1376,365,26.526,0.9964,2.983
+Qatar,IT,Remote,988,256,25.911,1.0096,2.968
+Qatar,Marketing,On-site,615,155,25.203,1.0075,2.985
+Qatar,Marketing,Remote,432,98,22.685,1.0126,2.875
+Qatar,Operations,On-site,746,184,24.665,1.02,3.012
+Qatar,Operations,Remote,486,126,25.926,0.9861,2.994
+Qatar,R&D,On-site,252,60,23.81,1.0133,3.004
+Qatar,R&D,Remote,177,43,24.294,1.0258,2.983
+Qatar,Sales,On-site,936,213,22.756,1.0106,3.017
+Qatar,Sales,Remote,658,172,26.14,1.0162,2.941
+Reunion,Finance,On-site,484,120,24.793,0.9908,2.944
+Reunion,Finance,Remote,319,88,27.586,1.0045,2.893
+Reunion,HR,On-site,385,105,27.273,0.9918,2.945
+Reunion,HR,Remote,277,70,25.271,0.997,2.848
+Reunion,IT,On-site,1407,374,26.581,0.9806,3.032
+Reunion,IT,Remote,984,238,24.187,1.0073,3.009
+Reunion,Marketing,On-site,623,147,23.596,1.0016,2.997
+Reunion,Marketing,Remote,387,110,28.424,0.9839,3.031
+Reunion,Operations,On-site,748,174,23.262,1.0017,2.975
+Reunion,Operations,Remote,483,129,26.708,0.975,3.029
+Reunion,R&D,On-site,234,33,14.103,0.9862,2.863
+Reunion,R&D,Remote,178,51,28.652,0.9956,3.006
+Reunion,Sales,On-site,987,248,25.127,0.9973,3.057
+Reunion,Sales,Remote,644,175,27.174,0.9988,2.977
+Romania,Finance,On-site,481,123,25.572,1.001,2.913
+Romania,Finance,Remote,297,68,22.896,0.9911,3.04
+Romania,HR,On-site,378,89,23.545,0.9698,2.894
+Romania,HR,Remote,265,66,24.906,1.0093,3.004
+Romania,IT,On-site,1470,394,26.803,0.9922,3.027
+Romania,IT,Remote,981,246,25.076,1.0102,3.008
+Romania,Marketing,On-site,580,144,24.828,0.9818,2.943
+Romania,Marketing,Remote,361,102,28.255,1.0046,3.047
+Romania,Operations,On-site,744,188,25.269,0.991,2.926
+Romania,Operations,Remote,494,113,22.874,0.9829,2.994
+Romania,R&D,On-site,241,56,23.237,0.9933,3.054
+Romania,R&D,Remote,173,42,24.277,0.9804,3.029
+Romania,Sales,On-site,957,244,25.496,0.9926,2.974
+Romania,Sales,Remote,674,164,24.332,1.0004,2.996
+Russian Federation,Finance,On-site,506,140,27.668,0.981,2.949
+Russian Federation,Finance,Remote,305,79,25.902,0.9882,2.938
+Russian Federation,HR,On-site,402,106,26.368,0.9932,3.025
+Russian Federation,HR,Remote,257,68,26.459,0.9815,2.961
+Russian Federation,IT,On-site,1481,350,23.633,0.9885,3.073
+Russian Federation,IT,Remote,1006,262,26.044,0.9997,2.995
+Russian Federation,Marketing,On-site,595,151,25.378,0.9915,3.055
+Russian Federation,Marketing,Remote,393,108,27.481,1.0064,2.987
+Russian Federation,Operations,On-site,735,177,24.082,0.9786,2.99
+Russian Federation,Operations,Remote,489,123,25.153,1.0216,2.98
+Russian Federation,R&D,On-site,236,57,24.153,0.9796,2.996
+Russian Federation,R&D,Remote,149,35,23.49,0.9955,2.886
+Russian Federation,Sales,On-site,1065,274,25.728,0.9835,3.033
+Russian Federation,Sales,Remote,629,156,24.801,1.0025,3.102
+Rwanda,Finance,On-site,535,139,25.981,1.0079,3.032
+Rwanda,Finance,Remote,327,97,29.664,0.9955,2.914
+Rwanda,HR,On-site,383,88,22.977,1.0088,2.94
+Rwanda,HR,Remote,264,73,27.652,1.0166,3.027
+Rwanda,IT,On-site,1505,371,24.651,1.0002,2.979
+Rwanda,IT,Remote,979,226,23.085,0.9884,3.007
+Rwanda,Marketing,On-site,556,153,27.518,0.9914,3.018
+Rwanda,Marketing,Remote,377,90,23.873,1.002,2.968
+Rwanda,Operations,On-site,764,181,23.691,1.0254,3.082
+Rwanda,Operations,Remote,449,90,20.045,1.0007,2.964
+Rwanda,R&D,On-site,249,57,22.892,0.9957,3.02
+Rwanda,R&D,Remote,159,42,26.415,0.9638,3.088
+Rwanda,Sales,On-site,969,239,24.665,0.9865,2.941
+Rwanda,Sales,Remote,674,163,24.184,1.0141,2.966
+Saint Barthelemy,Finance,On-site,521,135,25.912,0.9929,3.088
+Saint Barthelemy,Finance,Remote,281,67,23.843,0.9843,3.0
+Saint Barthelemy,HR,On-site,367,93,25.341,1.0037,3.033
+Saint Barthelemy,HR,Remote,275,83,30.182,0.9908,2.927
+Saint Barthelemy,IT,On-site,1482,380,25.641,0.9884,2.999
+Saint Barthelemy,IT,Remote,948,210,22.152,1.0033,3.027
+Saint Barthelemy,Marketing,On-site,572,155,27.098,0.9929,2.948
+Saint Barthelemy,Marketing,Remote,399,88,22.055,1.0055,3.028
+Saint Barthelemy,Operations,On-site,755,194,25.695,1.0169,2.972
+Saint Barthelemy,Operations,Remote,479,125,26.096,1.0037,2.958
+Saint Barthelemy,R&D,On-site,225,63,28.0,0.9953,2.924
+Saint Barthelemy,R&D,Remote,170,52,30.588,0.9706,3.012
+Saint Barthelemy,Sales,On-site,975,227,23.282,1.0006,2.954
+Saint Barthelemy,Sales,Remote,675,179,26.519,1.0086,3.037
+Saint Helena,Finance,On-site,478,111,23.222,0.9877,3.031
+Saint Helena,Finance,Remote,328,89,27.134,1.0046,3.027
+Saint Helena,HR,On-site,376,109,28.989,1.0075,3.093
+Saint Helena,HR,Remote,251,59,23.506,0.9884,2.861
+Saint Helena,IT,On-site,1455,353,24.261,0.9927,3.003
+Saint Helena,IT,Remote,966,242,25.052,0.9984,3.071
+Saint Helena,Marketing,On-site,600,134,22.333,1.0062,2.99
+Saint Helena,Marketing,Remote,360,97,26.944,0.9905,2.989
+Saint Helena,Operations,On-site,714,167,23.389,0.9941,3.067
+Saint Helena,Operations,Remote,520,130,25.0,0.9922,3.012
+Saint Helena,R&D,On-site,250,52,20.8,0.986,3.076
+Saint Helena,R&D,Remote,158,35,22.152,1.0135,3.006
+Saint Helena,Sales,On-site,935,246,26.31,1.0057,3.041
+Saint Helena,Sales,Remote,622,169,27.17,0.9857,3.023
+Saint Kitts and Nevis,Finance,On-site,511,133,26.027,0.9852,2.928
+Saint Kitts and Nevis,Finance,Remote,332,95,28.614,1.0301,3.048
+Saint Kitts and Nevis,HR,On-site,395,106,26.835,0.9938,3.053
+Saint Kitts and Nevis,HR,Remote,259,73,28.185,1.0163,3.151
+Saint Kitts and Nevis,IT,On-site,1467,396,26.994,0.9922,2.946
+Saint Kitts and Nevis,IT,Remote,971,244,25.129,1.011,3.038
+Saint Kitts and Nevis,Marketing,On-site,533,124,23.265,0.9929,2.983
+Saint Kitts and Nevis,Marketing,Remote,380,99,26.053,0.9883,2.908
+Saint Kitts and Nevis,Operations,On-site,750,191,25.467,0.9913,3.024
+Saint Kitts and Nevis,Operations,Remote,490,122,24.898,1.0078,3.071
+Saint Kitts and Nevis,R&D,On-site,260,61,23.462,1.019,3.015
+Saint Kitts and Nevis,R&D,Remote,159,39,24.528,0.9442,2.981
+Saint Kitts and Nevis,Sales,On-site,1051,251,23.882,1.0026,3.031
+Saint Kitts and Nevis,Sales,Remote,627,166,26.475,0.9971,2.957
+Saint Lucia,Finance,On-site,514,133,25.875,1.0049,2.988
+Saint Lucia,Finance,Remote,327,85,25.994,1.0099,3.006
+Saint Lucia,HR,On-site,392,88,22.449,0.9995,3.008
+Saint Lucia,HR,Remote,291,70,24.055,1.0095,2.979
+Saint Lucia,IT,On-site,1569,397,25.303,1.0121,3.05
+Saint Lucia,IT,Remote,946,244,25.793,0.9918,3.026
+Saint Lucia,Marketing,On-site,565,125,22.124,0.983,2.996
+Saint Lucia,Marketing,Remote,413,96,23.245,0.9941,2.879
+Saint Lucia,Operations,On-site,768,189,24.609,1.0061,2.975
+Saint Lucia,Operations,Remote,468,113,24.145,1.0003,3.0
+Saint Lucia,R&D,On-site,269,65,24.164,1.027,3.026
+Saint Lucia,R&D,Remote,155,30,19.355,0.9864,3.039
+Saint Lucia,Sales,On-site,970,243,25.052,0.9996,3.009
+Saint Lucia,Sales,Remote,606,147,24.257,0.9928,3.035
+Saint Martin,Finance,On-site,470,111,23.617,1.0081,3.081
+Saint Martin,Finance,Remote,330,79,23.939,0.9901,2.885
+Saint Martin,HR,On-site,382,105,27.487,0.986,2.992
+Saint Martin,HR,Remote,259,63,24.324,0.9817,3.042
+Saint Martin,IT,On-site,1508,382,25.332,1.0022,3.007
+Saint Martin,IT,Remote,990,248,25.051,0.9918,2.972
+Saint Martin,Marketing,On-site,599,145,24.207,0.9997,2.977
+Saint Martin,Marketing,Remote,380,106,27.895,0.9691,2.947
+Saint Martin,Operations,On-site,734,167,22.752,0.9878,2.996
+Saint Martin,Operations,Remote,511,130,25.44,1.0107,2.933
+Saint Martin,R&D,On-site,274,69,25.182,1.0135,2.81
+Saint Martin,R&D,Remote,137,37,27.007,1.0122,3.095
+Saint Martin,Sales,On-site,943,234,24.814,0.9986,3.03
+Saint Martin,Sales,Remote,628,155,24.682,0.9924,2.963
+Saint Pierre and Miquelon,Finance,On-site,495,119,24.04,1.0164,3.02
+Saint Pierre and Miquelon,Finance,Remote,334,89,26.647,1.0114,2.97
+Saint Pierre and Miquelon,HR,On-site,388,100,25.773,0.9743,2.966
+Saint Pierre and Miquelon,HR,Remote,265,66,24.906,1.006,3.102
+Saint Pierre and Miquelon,IT,On-site,1489,379,25.453,1.0089,3.005
+Saint Pierre and Miquelon,IT,Remote,964,232,24.066,1.0094,2.984
+Saint Pierre and Miquelon,Marketing,On-site,534,115,21.536,1.003,3.052
+Saint Pierre and Miquelon,Marketing,Remote,412,105,25.485,0.9888,2.959
+Saint Pierre and Miquelon,Operations,On-site,727,184,25.309,1.0069,2.979
+Saint Pierre and Miquelon,Operations,Remote,495,114,23.03,0.9937,2.998
+Saint Pierre and Miquelon,R&D,On-site,245,66,26.939,0.9952,3.012
+Saint Pierre and Miquelon,R&D,Remote,154,46,29.87,0.946,3.13
+Saint Pierre and Miquelon,Sales,On-site,959,239,24.922,1.0031,3.006
+Saint Pierre and Miquelon,Sales,Remote,691,182,26.339,0.9934,2.991
+Saint Vincent and the Grenadines,Finance,On-site,461,100,21.692,0.9942,3.078
+Saint Vincent and the Grenadines,Finance,Remote,316,85,26.899,1.0145,2.908
+Saint Vincent and the Grenadines,HR,On-site,382,94,24.607,0.9864,3.113
+Saint Vincent and the Grenadines,HR,Remote,292,74,25.342,0.9982,3.051
+Saint Vincent and the Grenadines,IT,On-site,1463,353,24.129,1.0017,3.036
+Saint Vincent and the Grenadines,IT,Remote,964,241,25.0,0.9969,2.915
+Saint Vincent and the Grenadines,Marketing,On-site,629,154,24.483,1.0175,2.99
+Saint Vincent and the Grenadines,Marketing,Remote,390,115,29.487,0.9958,2.964
+Saint Vincent and the Grenadines,Operations,On-site,708,179,25.282,0.9921,3.021
+Saint Vincent and the Grenadines,Operations,Remote,522,123,23.563,1.0043,3.077
+Saint Vincent and the Grenadines,R&D,On-site,249,63,25.301,1.0086,3.044
+Saint Vincent and the Grenadines,R&D,Remote,165,46,27.879,0.9735,3.085
+Saint Vincent and the Grenadines,Sales,On-site,949,247,26.027,1.0048,2.967
+Saint Vincent and the Grenadines,Sales,Remote,651,159,24.424,0.9939,3.055
+Samoa,Finance,On-site,478,114,23.849,1.0033,3.054
+Samoa,Finance,Remote,344,97,28.198,0.9699,3.0
+Samoa,HR,On-site,394,100,25.381,1.0132,2.972
+Samoa,HR,Remote,257,62,24.125,0.99,3.132
+Samoa,IT,On-site,1440,369,25.625,1.0074,2.936
+Samoa,IT,Remote,1010,258,25.545,0.9951,2.943
+Samoa,Marketing,On-site,590,157,26.61,0.9837,2.997
+Samoa,Marketing,Remote,433,124,28.637,0.9924,3.18
+Samoa,Operations,On-site,776,202,26.031,1.0056,3.053
+Samoa,Operations,Remote,505,129,25.545,1.0107,3.014
+Samoa,R&D,On-site,269,75,27.881,1.03,2.911
+Samoa,R&D,Remote,153,45,29.412,0.9694,2.856
+Samoa,Sales,On-site,961,260,27.055,1.0154,3.092
+Samoa,Sales,Remote,633,172,27.172,0.9999,3.084
+San Marino,Finance,On-site,508,129,25.394,0.9994,3.039
+San Marino,Finance,Remote,341,82,24.047,0.9712,2.93
+San Marino,HR,On-site,370,90,24.324,0.9978,3.005
+San Marino,HR,Remote,292,76,26.027,1.0178,3.086
+San Marino,IT,On-site,1460,375,25.685,0.9949,2.936
+San Marino,IT,Remote,1018,236,23.183,0.9985,3.054
+San Marino,Marketing,On-site,623,163,26.164,1.0094,2.995
+San Marino,Marketing,Remote,381,101,26.509,0.9806,2.99
+San Marino,Operations,On-site,721,186,25.798,1.0135,3.001
+San Marino,Operations,Remote,484,114,23.554,1.0017,2.981
+San Marino,R&D,On-site,226,64,28.319,0.9875,2.969
+San Marino,R&D,Remote,150,33,22.0,0.9898,3.093
+San Marino,Sales,On-site,971,239,24.614,1.0001,2.98
+San Marino,Sales,Remote,660,158,23.939,0.9792,3.014
+Sao Tome and Principe,Finance,On-site,446,124,27.803,0.9847,3.052
+Sao Tome and Principe,Finance,Remote,304,72,23.684,1.0206,3.039
+Sao Tome and Principe,HR,On-site,411,116,28.224,1.017,2.932
+Sao Tome and Principe,HR,Remote,244,66,27.049,0.9919,2.857
+Sao Tome and Principe,IT,On-site,1460,361,24.726,1.0043,2.999
+Sao Tome and Principe,IT,Remote,924,225,24.351,1.0014,2.903
+Sao Tome and Principe,Marketing,On-site,611,164,26.841,1.0144,3.061
+Sao Tome and Principe,Marketing,Remote,396,94,23.737,0.9952,3.101
+Sao Tome and Principe,Operations,On-site,778,176,22.622,0.9935,3.066
+Sao Tome and Principe,Operations,Remote,489,121,24.744,0.9938,3.0
+Sao Tome and Principe,R&D,On-site,284,77,27.113,0.9895,2.951
+Sao Tome and Principe,R&D,Remote,159,46,28.931,0.9822,2.818
+Sao Tome and Principe,Sales,On-site,959,249,25.965,1.0103,3.055
+Sao Tome and Principe,Sales,Remote,635,156,24.567,0.995,2.929
+Saudi Arabia,Finance,On-site,491,101,20.57,1.0034,2.955
+Saudi Arabia,Finance,Remote,331,78,23.565,1.0076,3.066
+Saudi Arabia,HR,On-site,405,99,24.444,1.0102,2.849
+Saudi Arabia,HR,Remote,276,74,26.812,1.0208,3.018
+Saudi Arabia,IT,On-site,1492,382,25.603,0.9994,2.963
+Saudi Arabia,IT,Remote,970,230,23.711,1.003,2.956
+Saudi Arabia,Marketing,On-site,584,138,23.63,0.9971,2.892
+Saudi Arabia,Marketing,Remote,401,92,22.943,0.9811,3.035
+Saudi Arabia,Operations,On-site,740,217,29.324,1.007,2.978
+Saudi Arabia,Operations,Remote,545,149,27.339,0.9752,2.972
+Saudi Arabia,R&D,On-site,239,56,23.431,0.9952,3.105
+Saudi Arabia,R&D,Remote,178,53,29.775,0.9949,3.09
+Saudi Arabia,Sales,On-site,985,234,23.756,1.0106,3.026
+Saudi Arabia,Sales,Remote,667,156,23.388,1.0063,3.012
+Senegal,Finance,On-site,482,124,25.726,1.002,3.058
+Senegal,Finance,Remote,325,89,27.385,1.0017,3.108
+Senegal,HR,On-site,396,103,26.01,0.9895,3.023
+Senegal,HR,Remote,268,78,29.104,1.0209,2.97
+Senegal,IT,On-site,1448,366,25.276,0.9978,2.97
+Senegal,IT,Remote,928,221,23.815,1.01,2.938
+Senegal,Marketing,On-site,565,144,25.487,0.9938,3.018
+Senegal,Marketing,Remote,407,102,25.061,0.9922,3.007
+Senegal,Operations,On-site,678,168,24.779,0.9997,3.031
+Senegal,Operations,Remote,526,115,21.863,0.9846,2.937
+Senegal,R&D,On-site,257,68,26.459,0.9767,3.136
+Senegal,R&D,Remote,167,48,28.743,0.9969,2.76
+Senegal,Sales,On-site,947,236,24.921,0.9973,2.961
+Senegal,Sales,Remote,656,161,24.543,1.009,2.915
+Serbia,Finance,On-site,476,110,23.109,0.9949,3.011
+Serbia,Finance,Remote,319,85,26.646,1.014,3.144
+Serbia,HR,On-site,420,102,24.286,0.9918,2.979
+Serbia,HR,Remote,270,70,25.926,0.9883,3.052
+Serbia,IT,On-site,1483,390,26.298,0.9908,3.007
+Serbia,IT,Remote,1031,268,25.994,0.9824,3.037
+Serbia,Marketing,On-site,601,151,25.125,1.0159,3.033
+Serbia,Marketing,Remote,356,84,23.596,0.9778,2.969
+Serbia,Operations,On-site,731,174,23.803,0.988,2.949
+Serbia,Operations,Remote,477,125,26.205,0.9995,2.973
+Serbia,R&D,On-site,235,61,25.957,0.9661,3.119
+Serbia,R&D,Remote,158,33,20.886,1.0128,3.12
+Serbia,Sales,On-site,969,257,26.522,0.9973,2.991
+Serbia,Sales,Remote,618,164,26.537,0.9917,3.01
+Seychelles,Finance,On-site,477,114,23.899,1.0038,2.964
+Seychelles,Finance,Remote,304,79,25.987,0.9963,3.148
+Seychelles,HR,On-site,386,92,23.834,1.0259,3.098
+Seychelles,HR,Remote,257,53,20.623,0.9822,3.027
+Seychelles,IT,On-site,1413,339,23.992,0.9879,2.972
+Seychelles,IT,Remote,978,247,25.256,1.0034,3.042
+Seychelles,Marketing,On-site,569,125,21.968,0.9765,3.011
+Seychelles,Marketing,Remote,419,103,24.582,0.9944,2.99
+Seychelles,Operations,On-site,743,176,23.688,1.0029,2.968
+Seychelles,Operations,Remote,494,123,24.899,0.9964,2.899
+Seychelles,R&D,On-site,258,68,26.357,0.9688,3.143
+Seychelles,R&D,Remote,165,42,25.455,0.9939,3.048
+Seychelles,Sales,On-site,1029,274,26.628,1.0016,2.991
+Seychelles,Sales,Remote,626,144,23.003,0.9978,3.177
+Sierra Leone,Finance,On-site,463,104,22.462,1.0035,3.006
+Sierra Leone,Finance,Remote,326,91,27.914,1.0162,3.028
+Sierra Leone,HR,On-site,425,125,29.412,0.9895,2.958
+Sierra Leone,HR,Remote,292,69,23.63,0.9933,2.928
+Sierra Leone,IT,On-site,1481,392,26.469,1.003,2.962
+Sierra Leone,IT,Remote,972,245,25.206,0.9991,2.949
+Sierra Leone,Marketing,On-site,589,135,22.92,1.0042,2.942
+Sierra Leone,Marketing,Remote,364,90,24.725,0.9992,3.11
+Sierra Leone,Operations,On-site,774,197,25.452,1.0034,2.986
+Sierra Leone,Operations,Remote,489,129,26.38,0.9936,3.076
+Sierra Leone,R&D,On-site,255,43,16.863,1.0178,2.996
+Sierra Leone,R&D,Remote,155,32,20.645,0.9825,2.877
+Sierra Leone,Sales,On-site,968,231,23.864,0.9954,3.052
+Sierra Leone,Sales,Remote,653,171,26.187,1.0087,3.047
+Singapore,Finance,On-site,507,114,22.485,0.9887,2.976
+Singapore,Finance,Remote,337,89,26.409,1.0073,2.941
+Singapore,HR,On-site,369,87,23.577,1.0061,2.959
+Singapore,HR,Remote,262,66,25.191,0.985,2.981
+Singapore,IT,On-site,1429,363,25.402,1.0028,2.988
+Singapore,IT,Remote,948,233,24.578,1.0001,2.972
+Singapore,Marketing,On-site,608,140,23.026,0.9998,2.936
+Singapore,Marketing,Remote,395,104,26.329,0.9962,3.058
+Singapore,Operations,On-site,705,162,22.979,0.9966,2.991
+Singapore,Operations,Remote,484,109,22.521,0.9727,3.012
+Singapore,R&D,On-site,252,56,22.222,0.9916,2.972
+Singapore,R&D,Remote,148,32,21.622,1.0264,2.926
+Singapore,Sales,On-site,986,245,24.848,0.9982,2.996
+Singapore,Sales,Remote,653,164,25.115,1.0114,3.012
+Slovakia (Slovak Republic),Finance,On-site,482,120,24.896,1.0071,3.037
+Slovakia (Slovak Republic),Finance,Remote,337,77,22.849,1.0163,3.0
+Slovakia (Slovak Republic),HR,On-site,372,103,27.688,0.9966,3.121
+Slovakia (Slovak Republic),HR,Remote,271,78,28.782,0.9875,2.878
+Slovakia (Slovak Republic),IT,On-site,1443,344,23.839,0.9975,3.087
+Slovakia (Slovak Republic),IT,Remote,966,246,25.466,1.0164,2.957
+Slovakia (Slovak Republic),Marketing,On-site,588,146,24.83,1.0023,2.978
+Slovakia (Slovak Republic),Marketing,Remote,385,92,23.896,1.0033,3.091
+Slovakia (Slovak Republic),Operations,On-site,715,184,25.734,0.9721,3.035
+Slovakia (Slovak Republic),Operations,Remote,516,123,23.837,0.9991,2.977
+Slovakia (Slovak Republic),R&D,On-site,219,47,21.461,1.0009,3.155
+Slovakia (Slovak Republic),R&D,Remote,166,51,30.723,0.9866,2.952
+Slovakia (Slovak Republic),Sales,On-site,1034,257,24.855,1.0014,3.046
+Slovakia (Slovak Republic),Sales,Remote,673,178,26.449,0.995,2.912
+Slovenia,Finance,On-site,483,134,27.743,1.0072,2.913
+Slovenia,Finance,Remote,314,74,23.567,1.0007,2.952
+Slovenia,HR,On-site,369,91,24.661,1.03,3.016
+Slovenia,HR,Remote,268,75,27.985,0.9945,3.026
+Slovenia,IT,On-site,1510,355,23.51,1.0004,3.032
+Slovenia,IT,Remote,886,215,24.266,0.9941,3.007
+Slovenia,Marketing,On-site,582,144,24.742,0.9917,2.983
+Slovenia,Marketing,Remote,392,94,23.98,0.9925,3.099
+Slovenia,Operations,On-site,717,174,24.268,0.9901,2.979
+Slovenia,Operations,Remote,495,126,25.455,1.0017,3.061
+Slovenia,R&D,On-site,251,61,24.303,0.9831,2.916
+Slovenia,R&D,Remote,136,28,20.588,1.015,2.853
+Slovenia,Sales,On-site,997,254,25.476,0.9967,3.006
+Slovenia,Sales,Remote,649,150,23.112,1.0102,3.048
+Solomon Islands,Finance,On-site,518,129,24.903,1.0053,3.023
+Solomon Islands,Finance,Remote,341,86,25.22,1.0213,3.085
+Solomon Islands,HR,On-site,353,91,25.779,1.0088,3.003
+Solomon Islands,HR,Remote,250,48,19.2,0.9897,3.0
+Solomon Islands,IT,On-site,1468,342,23.297,1.0078,2.989
+Solomon Islands,IT,Remote,988,227,22.976,0.9833,2.97
+Solomon Islands,Marketing,On-site,602,151,25.083,1.0033,2.963
+Solomon Islands,Marketing,Remote,408,101,24.755,0.9953,3.012
+Solomon Islands,Operations,On-site,753,189,25.1,1.0178,2.991
+Solomon Islands,Operations,Remote,483,112,23.188,1.0005,2.963
+Solomon Islands,R&D,On-site,264,66,25.0,1.0094,3.0
+Solomon Islands,R&D,Remote,172,44,25.581,0.9936,2.971
+Solomon Islands,Sales,On-site,961,236,24.558,1.0028,2.973
+Solomon Islands,Sales,Remote,683,171,25.037,1.006,2.905
+Somalia,Finance,On-site,494,126,25.506,0.9916,3.081
+Somalia,Finance,Remote,318,83,26.101,1.0145,2.94
+Somalia,HR,On-site,374,92,24.599,0.961,2.901
+Somalia,HR,Remote,260,63,24.231,1.0064,3.015
+Somalia,IT,On-site,1486,368,24.764,1.0016,2.962
+Somalia,IT,Remote,1054,277,26.281,0.9906,2.971
+Somalia,Marketing,On-site,632,172,27.215,1.0008,2.886
+Somalia,Marketing,Remote,407,103,25.307,0.9874,2.948
+Somalia,Operations,On-site,728,185,25.412,0.9901,3.0
+Somalia,Operations,Remote,503,128,25.447,0.9773,3.125
+Somalia,R&D,On-site,214,52,24.299,0.9926,3.014
+Somalia,R&D,Remote,173,42,24.277,0.9922,2.861
+Somalia,Sales,On-site,960,236,24.583,1.0075,3.014
+Somalia,Sales,Remote,628,166,26.433,0.9974,3.059
+South Africa,Finance,On-site,496,107,21.573,1.0129,3.014
+South Africa,Finance,Remote,330,82,24.848,0.9832,2.976
+South Africa,HR,On-site,370,98,26.486,1.0104,2.932
+South Africa,HR,Remote,252,53,21.032,1.0248,3.071
+South Africa,IT,On-site,1486,378,25.437,1.0008,2.948
+South Africa,IT,Remote,965,250,25.907,0.9916,3.037
+South Africa,Marketing,On-site,558,140,25.09,0.9959,3.045
+South Africa,Marketing,Remote,438,92,21.005,1.0097,2.945
+South Africa,Operations,On-site,757,195,25.76,0.9892,3.05
+South Africa,Operations,Remote,461,101,21.909,0.9954,3.024
+South Africa,R&D,On-site,270,71,26.296,0.9834,2.956
+South Africa,R&D,Remote,143,38,26.573,0.9678,3.056
+South Africa,Sales,On-site,985,263,26.701,1.0029,2.98
+South Africa,Sales,Remote,708,162,22.881,0.9993,3.037
+South Georgia and the South Sandwich Islands,Finance,On-site,495,121,24.444,1.004,2.992
+South Georgia and the South Sandwich Islands,Finance,Remote,290,65,22.414,1.0131,2.859
+South Georgia and the South Sandwich Islands,HR,On-site,413,102,24.697,1.0112,2.966
+South Georgia and the South Sandwich Islands,HR,Remote,264,74,28.03,0.9646,3.027
+South Georgia and the South Sandwich Islands,IT,On-site,1518,394,25.955,0.9989,2.96
+South Georgia and the South Sandwich Islands,IT,Remote,965,273,28.29,0.9895,2.908
+South Georgia and the South Sandwich Islands,Marketing,On-site,600,176,29.333,1.0129,3.002
+South Georgia and the South Sandwich Islands,Marketing,Remote,383,114,29.765,0.9901,2.963
+South Georgia and the South Sandwich Islands,Operations,On-site,749,173,23.097,1.0142,2.925
+South Georgia and the South Sandwich Islands,Operations,Remote,491,117,23.829,0.9812,2.931
+South Georgia and the South Sandwich Islands,R&D,On-site,247,50,20.243,0.9629,2.992
+South Georgia and the South Sandwich Islands,R&D,Remote,160,37,23.125,1.036,2.9
+South Georgia and the South Sandwich Islands,Sales,On-site,919,226,24.592,1.0021,3.028
+South Georgia and the South Sandwich Islands,Sales,Remote,684,174,25.439,0.9781,2.946
+Spain,Finance,On-site,476,116,24.37,1.0439,2.977
+Spain,Finance,Remote,337,88,26.113,1.0103,3.021
+Spain,HR,On-site,374,100,26.738,0.9928,2.981
+Spain,HR,Remote,236,60,25.424,0.9803,2.987
+Spain,IT,On-site,1460,375,25.685,1.0022,3.022
+Spain,IT,Remote,978,246,25.153,1.0132,3.045
+Spain,Marketing,On-site,600,149,24.833,0.9839,3.015
+Spain,Marketing,Remote,378,86,22.751,1.0107,2.913
+Spain,Operations,On-site,698,144,20.63,0.9952,2.966
+Spain,Operations,Remote,501,128,25.549,1.0109,2.986
+Spain,R&D,On-site,235,69,29.362,0.9989,3.004
+Spain,R&D,Remote,152,43,28.289,1.006,3.026
+Spain,Sales,On-site,1032,257,24.903,1.0105,3.008
+Spain,Sales,Remote,639,183,28.638,1.0072,3.034
+Sri Lanka,Finance,On-site,527,118,22.391,0.9823,3.009
+Sri Lanka,Finance,Remote,311,78,25.08,1.0172,3.074
+Sri Lanka,HR,On-site,400,97,24.25,0.9855,2.908
+Sri Lanka,HR,Remote,264,68,25.758,0.9988,3.019
+Sri Lanka,IT,On-site,1496,382,25.535,0.9956,2.972
+Sri Lanka,IT,Remote,1038,270,26.012,0.989,2.995
+Sri Lanka,Marketing,On-site,563,150,26.643,0.9788,3.096
+Sri Lanka,Marketing,Remote,384,93,24.219,1.006,2.945
+Sri Lanka,Operations,On-site,750,195,26.0,0.9847,2.968
+Sri Lanka,Operations,Remote,482,117,24.274,1.0035,3.025
+Sri Lanka,R&D,On-site,246,51,20.732,1.0303,3.073
+Sri Lanka,R&D,Remote,175,40,22.857,1.003,2.937
+Sri Lanka,Sales,On-site,1090,292,26.789,1.0073,2.917
+Sri Lanka,Sales,Remote,683,176,25.769,1.0155,3.089
+Sudan,Finance,On-site,472,105,22.246,0.9903,3.129
+Sudan,Finance,Remote,335,69,20.597,1.0155,2.973
+Sudan,HR,On-site,396,100,25.253,1.0105,3.005
+Sudan,HR,Remote,254,71,27.953,0.996,2.937
+Sudan,IT,On-site,1494,371,24.833,1.0012,3.009
+Sudan,IT,Remote,943,242,25.663,1.0,3.048
+Sudan,Marketing,On-site,574,140,24.39,1.0087,3.014
+Sudan,Marketing,Remote,350,97,27.714,1.0302,2.971
+Sudan,Operations,On-site,727,165,22.696,0.9988,3.055
+Sudan,Operations,Remote,461,122,26.464,1.0068,2.987
+Sudan,R&D,On-site,246,66,26.829,0.984,2.866
+Sudan,R&D,Remote,166,51,30.723,1.0095,2.91
+Sudan,Sales,On-site,980,262,26.735,0.9954,3.018
+Sudan,Sales,Remote,652,178,27.301,1.0096,2.998
+Suriname,Finance,On-site,481,143,29.73,0.9991,3.019
+Suriname,Finance,Remote,334,84,25.15,0.9829,3.045
+Suriname,HR,On-site,411,93,22.628,0.998,3.09
+Suriname,HR,Remote,248,67,27.016,1.0149,3.06
+Suriname,IT,On-site,1531,409,26.715,0.9924,2.968
+Suriname,IT,Remote,948,231,24.367,1.0054,2.998
+Suriname,Marketing,On-site,542,149,27.491,0.9853,2.989
+Suriname,Marketing,Remote,378,91,24.074,0.9808,2.997
+Suriname,Operations,On-site,752,172,22.872,1.0145,3.015
+Suriname,Operations,Remote,501,134,26.747,0.9908,2.948
+Suriname,R&D,On-site,222,54,24.324,0.988,2.914
+Suriname,R&D,Remote,177,47,26.554,1.0036,3.073
+Suriname,Sales,On-site,994,240,24.145,1.0022,3.031
+Suriname,Sales,Remote,650,163,25.077,1.0047,2.965
+Svalbard & Jan Mayen Islands,Finance,On-site,519,124,23.892,1.0109,3.066
+Svalbard & Jan Mayen Islands,Finance,Remote,295,74,25.085,1.0368,3.024
+Svalbard & Jan Mayen Islands,HR,On-site,398,96,24.121,1.0115,2.912
+Svalbard & Jan Mayen Islands,HR,Remote,288,75,26.042,0.9772,2.979
+Svalbard & Jan Mayen Islands,IT,On-site,1403,351,25.018,1.0064,2.982
+Svalbard & Jan Mayen Islands,IT,Remote,976,250,25.615,1.0078,3.035
+Svalbard & Jan Mayen Islands,Marketing,On-site,562,135,24.021,1.0146,3.014
+Svalbard & Jan Mayen Islands,Marketing,Remote,371,93,25.067,1.0177,3.062
+Svalbard & Jan Mayen Islands,Operations,On-site,708,183,25.847,1.0096,3.013
+Svalbard & Jan Mayen Islands,Operations,Remote,488,133,27.254,1.0065,3.105
+Svalbard & Jan Mayen Islands,R&D,On-site,231,47,20.346,1.0289,2.892
+Svalbard & Jan Mayen Islands,R&D,Remote,160,39,24.375,0.9746,2.944
+Svalbard & Jan Mayen Islands,Sales,On-site,969,256,26.419,1.0064,2.983
+Svalbard & Jan Mayen Islands,Sales,Remote,686,202,29.446,0.9916,3.009
+Swaziland,Finance,On-site,538,129,23.978,1.0008,3.093
+Swaziland,Finance,Remote,311,63,20.257,1.016,3.013
+Swaziland,HR,On-site,397,94,23.678,0.9666,2.854
+Swaziland,HR,Remote,234,56,23.932,0.9949,2.991
+Swaziland,IT,On-site,1440,345,23.958,1.0016,3.031
+Swaziland,IT,Remote,962,222,23.077,0.9984,3.09
+Swaziland,Marketing,On-site,606,156,25.743,1.0052,2.985
+Swaziland,Marketing,Remote,411,100,24.331,0.9797,2.942
+Swaziland,Operations,On-site,686,181,26.385,1.0081,3.031
+Swaziland,Operations,Remote,490,119,24.286,1.0035,2.963
+Swaziland,R&D,On-site,222,53,23.874,1.0385,2.896
+Swaziland,R&D,Remote,147,32,21.769,0.9971,3.014
+Swaziland,Sales,On-site,958,248,25.887,0.9904,2.972
+Swaziland,Sales,Remote,684,184,26.901,0.9992,2.993
+Sweden,Finance,On-site,512,136,26.562,1.0083,2.994
+Sweden,Finance,Remote,316,75,23.734,0.9674,3.044
+Sweden,HR,On-site,390,96,24.615,0.9798,2.928
+Sweden,HR,Remote,257,67,26.07,0.9996,2.93
+Sweden,IT,On-site,1455,378,25.979,0.9999,2.977
+Sweden,IT,Remote,980,231,23.571,1.005,3.056
+Sweden,Marketing,On-site,636,155,24.371,0.9978,3.058
+Sweden,Marketing,Remote,434,90,20.737,1.0009,3.028
+Sweden,Operations,On-site,723,177,24.481,0.9999,2.981
+Sweden,Operations,Remote,496,135,27.218,0.9927,2.996
+Sweden,R&D,On-site,251,52,20.717,1.0042,3.032
+Sweden,R&D,Remote,162,44,27.16,1.0188,2.827
+Sweden,Sales,On-site,977,256,26.203,0.9928,3.032
+Sweden,Sales,Remote,710,186,26.197,1.0077,3.001
+Switzerland,Finance,On-site,490,123,25.102,0.9965,3.012
+Switzerland,Finance,Remote,303,80,26.403,1.0304,2.983
+Switzerland,HR,On-site,423,96,22.695,0.9861,3.069
+Switzerland,HR,Remote,286,60,20.979,1.0302,2.969
+Switzerland,IT,On-site,1479,387,26.166,0.9932,3.027
+Switzerland,IT,Remote,1025,270,26.341,0.9872,2.978
+Switzerland,Marketing,On-site,609,177,29.064,0.9748,3.061
+Switzerland,Marketing,Remote,399,88,22.055,0.9983,2.91
+Switzerland,Operations,On-site,774,182,23.514,1.0237,3.028
+Switzerland,Operations,Remote,507,111,21.893,0.9773,3.122
+Switzerland,R&D,On-site,243,51,20.988,0.9575,3.021
+Switzerland,R&D,Remote,179,45,25.14,0.9935,3.05
+Switzerland,Sales,On-site,997,230,23.069,0.9919,3.039
+Switzerland,Sales,Remote,677,166,24.52,0.9912,2.976
+Syrian Arab Republic,Finance,On-site,469,115,24.52,0.9862,2.977
+Syrian Arab Republic,Finance,Remote,328,70,21.341,1.0112,3.128
+Syrian Arab Republic,HR,On-site,367,93,25.341,1.0011,2.962
+Syrian Arab Republic,HR,Remote,257,48,18.677,1.0182,3.004
+Syrian Arab Republic,IT,On-site,1489,343,23.036,0.99,2.974
+Syrian Arab Republic,IT,Remote,993,253,25.478,1.0015,2.959
+Syrian Arab Republic,Marketing,On-site,558,153,27.419,1.0011,3.041
+Syrian Arab Republic,Marketing,Remote,417,107,25.659,1.0141,2.923
+Syrian Arab Republic,Operations,On-site,743,183,24.63,1.0153,2.996
+Syrian Arab Republic,Operations,Remote,477,119,24.948,1.0016,3.036
+Syrian Arab Republic,R&D,On-site,250,63,25.2,0.9762,3.028
+Syrian Arab Republic,R&D,Remote,150,34,22.667,0.9774,2.98
+Syrian Arab Republic,Sales,On-site,974,239,24.538,1.0005,2.997
+Syrian Arab Republic,Sales,Remote,626,162,25.879,0.9975,2.919
+Taiwan,Finance,On-site,483,131,27.122,0.9952,2.94
+Taiwan,Finance,Remote,298,70,23.49,0.9969,3.191
+Taiwan,HR,On-site,406,108,26.601,0.9872,2.993
+Taiwan,HR,Remote,273,58,21.245,1.0221,2.952
+Taiwan,IT,On-site,1390,329,23.669,1.0026,2.983
+Taiwan,IT,Remote,990,235,23.737,0.9873,2.987
+Taiwan,Marketing,On-site,606,139,22.937,1.0014,3.005
+Taiwan,Marketing,Remote,381,98,25.722,0.9916,3.118
+Taiwan,Operations,On-site,721,187,25.936,1.0112,3.107
+Taiwan,Operations,Remote,481,141,29.314,0.988,3.015
+Taiwan,R&D,On-site,237,65,27.426,1.0045,3.308
+Taiwan,R&D,Remote,175,45,25.714,1.0038,2.943
+Taiwan,Sales,On-site,928,213,22.953,1.0027,3.071
+Taiwan,Sales,Remote,647,165,25.502,0.9887,3.02
+Tajikistan,Finance,On-site,499,132,26.453,1.0016,2.856
+Tajikistan,Finance,Remote,293,64,21.843,1.0143,3.102
+Tajikistan,HR,On-site,374,98,26.203,0.9899,3.024
+Tajikistan,HR,Remote,261,69,26.437,1.0229,3.1
+Tajikistan,IT,On-site,1449,383,26.432,1.0038,2.965
+Tajikistan,IT,Remote,993,260,26.183,0.9969,3.03
+Tajikistan,Marketing,On-site,586,155,26.451,1.0299,3.024
+Tajikistan,Marketing,Remote,393,113,28.753,1.0032,3.12
+Tajikistan,Operations,On-site,780,195,25.0,1.0168,2.986
+Tajikistan,Operations,Remote,501,115,22.954,0.993,2.966
+Tajikistan,R&D,On-site,236,56,23.729,0.9918,2.966
+Tajikistan,R&D,Remote,167,52,31.138,0.9861,2.976
+Tajikistan,Sales,On-site,965,233,24.145,1.0126,3.037
+Tajikistan,Sales,Remote,669,195,29.148,1.0135,2.982
+Tanzania,Finance,On-site,485,122,25.155,1.0022,2.963
+Tanzania,Finance,Remote,320,87,27.187,0.9725,2.9
+Tanzania,HR,On-site,375,96,25.6,1.0284,2.907
+Tanzania,HR,Remote,264,62,23.485,1.0269,2.985
+Tanzania,IT,On-site,1439,363,25.226,0.9862,2.971
+Tanzania,IT,Remote,989,229,23.155,0.9972,3.018
+Tanzania,Marketing,On-site,578,143,24.74,0.9895,2.952
+Tanzania,Marketing,Remote,379,95,25.066,1.0119,3.034
+Tanzania,Operations,On-site,772,165,21.373,0.9893,2.948
+Tanzania,Operations,Remote,519,129,24.855,1.0128,2.927
+Tanzania,R&D,On-site,217,43,19.816,0.9619,2.995
+Tanzania,R&D,Remote,151,36,23.841,0.9863,3.0
+Tanzania,Sales,On-site,934,230,24.625,1.0101,2.971
+Tanzania,Sales,Remote,622,139,22.347,0.9939,3.032
+Thailand,Finance,On-site,451,127,28.16,0.9945,2.909
+Thailand,Finance,Remote,341,97,28.446,1.0218,3.021
+Thailand,HR,On-site,394,93,23.604,1.0229,2.962
+Thailand,HR,Remote,276,73,26.449,0.9768,3.065
+Thailand,IT,On-site,1470,383,26.054,0.984,2.962
+Thailand,IT,Remote,1011,220,21.761,0.996,2.979
+Thailand,Marketing,On-site,593,142,23.946,1.0123,3.083
+Thailand,Marketing,Remote,391,100,25.575,1.0037,3.12
+Thailand,Operations,On-site,739,172,23.275,0.9896,2.981
+Thailand,Operations,Remote,465,118,25.376,1.0001,3.019
+Thailand,R&D,On-site,227,63,27.753,0.9916,2.916
+Thailand,R&D,Remote,159,40,25.157,0.9854,2.969
+Thailand,Sales,On-site,1001,237,23.676,0.9978,2.989
+Thailand,Sales,Remote,649,176,27.119,1.0128,2.975
+Timor-Leste,Finance,On-site,476,117,24.58,0.998,2.92
+Timor-Leste,Finance,Remote,341,87,25.513,0.996,2.959
+Timor-Leste,HR,On-site,390,91,23.333,0.9988,2.956
+Timor-Leste,HR,Remote,227,53,23.348,1.0028,2.78
+Timor-Leste,IT,On-site,1431,332,23.201,1.0011,3.045
+Timor-Leste,IT,Remote,1010,253,25.05,0.9947,3.061
+Timor-Leste,Marketing,On-site,570,128,22.456,0.9967,2.993
+Timor-Leste,Marketing,Remote,350,80,22.857,0.9837,3.071
+Timor-Leste,Operations,On-site,714,164,22.969,1.0048,3.042
+Timor-Leste,Operations,Remote,504,122,24.206,1.0028,3.056
+Timor-Leste,R&D,On-site,220,64,29.091,0.9869,3.0
+Timor-Leste,R&D,Remote,173,43,24.855,0.9985,3.029
+Timor-Leste,Sales,On-site,1006,255,25.348,0.9899,3.049
+Timor-Leste,Sales,Remote,631,152,24.089,1.0094,2.981
+Togo,Finance,On-site,491,140,28.513,1.0143,3.016
+Togo,Finance,Remote,323,78,24.149,1.0016,2.882
+Togo,HR,On-site,389,93,23.907,1.0188,2.972
+Togo,HR,Remote,255,60,23.529,1.014,3.012
+Togo,IT,On-site,1469,338,23.009,1.0022,3.012
+Togo,IT,Remote,917,236,25.736,1.0067,2.98
+Togo,Marketing,On-site,587,159,27.087,1.0071,2.899
+Togo,Marketing,Remote,388,97,25.0,0.9846,3.08
+Togo,Operations,On-site,697,178,25.538,1.0092,3.007
+Togo,Operations,Remote,475,103,21.684,0.9989,2.983
+Togo,R&D,On-site,229,48,20.961,0.9978,3.044
+Togo,R&D,Remote,164,49,29.878,1.0222,2.988
+Togo,Sales,On-site,998,235,23.547,1.0011,2.996
+Togo,Sales,Remote,662,161,24.32,1.009,3.02
+Tokelau,Finance,On-site,491,128,26.069,0.9902,3.086
+Tokelau,Finance,Remote,368,80,21.739,0.9983,2.94
+Tokelau,HR,On-site,351,89,25.356,0.9765,3.014
+Tokelau,HR,Remote,281,78,27.758,0.9966,2.996
+Tokelau,IT,On-site,1517,377,24.852,1.0122,3.0
+Tokelau,IT,Remote,1002,217,21.657,0.9977,3.04
+Tokelau,Marketing,On-site,590,145,24.576,0.9925,2.902
+Tokelau,Marketing,Remote,386,104,26.943,1.0295,2.99
+Tokelau,Operations,On-site,777,193,24.839,1.0028,3.008
+Tokelau,Operations,Remote,510,127,24.902,1.0082,3.018
+Tokelau,R&D,On-site,269,65,24.164,1.0004,2.77
+Tokelau,R&D,Remote,152,36,23.684,0.9792,2.901
+Tokelau,Sales,On-site,989,241,24.368,0.9937,2.984
+Tokelau,Sales,Remote,636,164,25.786,0.9967,3.099
+Tonga,Finance,On-site,477,135,28.302,0.9794,3.046
+Tonga,Finance,Remote,351,105,29.915,0.9936,3.077
+Tonga,HR,On-site,383,98,25.587,1.0042,3.031
+Tonga,HR,Remote,259,61,23.552,0.999,3.124
+Tonga,IT,On-site,1431,388,27.114,0.9779,2.945
+Tonga,IT,Remote,1053,239,22.697,1.0066,2.979
+Tonga,Marketing,On-site,592,161,27.196,1.0112,3.086
+Tonga,Marketing,Remote,425,118,27.765,1.0068,3.019
+Tonga,Operations,On-site,745,188,25.235,1.0125,3.042
+Tonga,Operations,Remote,482,115,23.859,1.0031,2.975
+Tonga,R&D,On-site,229,57,24.891,1.0029,3.017
+Tonga,R&D,Remote,166,39,23.494,1.0093,2.982
+Tonga,Sales,On-site,971,251,25.85,1.01,2.988
+Tonga,Sales,Remote,675,177,26.222,0.9775,2.93
+Trinidad and Tobago,Finance,On-site,495,155,31.313,0.9827,2.982
+Trinidad and Tobago,Finance,Remote,309,74,23.948,0.9862,3.045
+Trinidad and Tobago,HR,On-site,376,107,28.457,0.9901,2.997
+Trinidad and Tobago,HR,Remote,249,55,22.088,0.9766,2.888
+Trinidad and Tobago,IT,On-site,1491,363,24.346,1.0108,2.976
+Trinidad and Tobago,IT,Remote,1018,235,23.084,0.9969,3.061
+Trinidad and Tobago,Marketing,On-site,557,137,24.596,1.0155,3.079
+Trinidad and Tobago,Marketing,Remote,394,91,23.096,1.0047,2.972
+Trinidad and Tobago,Operations,On-site,701,193,27.532,1.0237,3.123
+Trinidad and Tobago,Operations,Remote,474,114,24.051,1.0037,3.16
+Trinidad and Tobago,R&D,On-site,265,61,23.019,0.9999,2.925
+Trinidad and Tobago,R&D,Remote,159,35,22.013,1.0125,3.05
+Trinidad and Tobago,Sales,On-site,991,228,23.007,1.0084,2.976
+Trinidad and Tobago,Sales,Remote,643,165,25.661,0.9956,3.118
+Tunisia,Finance,On-site,463,118,25.486,0.9992,2.989
+Tunisia,Finance,Remote,347,98,28.242,1.0066,2.968
+Tunisia,HR,On-site,382,103,26.963,0.9966,3.055
+Tunisia,HR,Remote,267,65,24.345,1.0193,3.086
+Tunisia,IT,On-site,1541,389,25.243,1.0058,3.016
+Tunisia,IT,Remote,1006,259,25.746,0.9964,2.955
+Tunisia,Marketing,On-site,558,139,24.91,1.0081,2.882
+Tunisia,Marketing,Remote,391,104,26.598,1.0056,3.008
+Tunisia,Operations,On-site,753,201,26.693,0.9885,3.012
+Tunisia,Operations,Remote,507,132,26.036,1.0044,3.032
+Tunisia,R&D,On-site,231,63,27.273,1.0416,2.883
+Tunisia,R&D,Remote,158,41,25.949,0.9652,3.0
+Tunisia,Sales,On-site,999,261,26.126,1.0011,3.0
+Tunisia,Sales,Remote,670,160,23.881,0.9964,3.012
+Turkey,Finance,On-site,509,126,24.754,1.0,2.988
+Turkey,Finance,Remote,336,84,25.0,0.9909,3.027
+Turkey,HR,On-site,417,86,20.624,1.0224,3.055
+Turkey,HR,Remote,265,74,27.925,0.9781,3.072
+Turkey,IT,On-site,1447,349,24.119,1.0094,2.992
+Turkey,IT,Remote,975,248,25.436,1.0201,2.992
+Turkey,Marketing,On-site,618,170,27.508,0.9791,2.976
+Turkey,Marketing,Remote,382,96,25.131,0.9914,3.05
+Turkey,Operations,On-site,720,163,22.639,1.0239,3.004
+Turkey,Operations,Remote,443,134,30.248,0.9893,3.036
+Turkey,R&D,On-site,232,67,28.879,1.0464,3.03
+Turkey,R&D,Remote,138,34,24.638,1.0229,2.957
+Turkey,Sales,On-site,944,222,23.517,0.9989,2.993
+Turkey,Sales,Remote,666,171,25.676,1.0021,3.062
+Turkmenistan,Finance,On-site,510,132,25.882,1.0133,3.031
+Turkmenistan,Finance,Remote,323,86,26.625,1.0041,2.944
+Turkmenistan,HR,On-site,384,89,23.177,0.9886,3.021
+Turkmenistan,HR,Remote,291,58,19.931,0.9928,3.103
+Turkmenistan,IT,On-site,1494,366,24.498,0.9885,3.068
+Turkmenistan,IT,Remote,948,228,24.051,1.0226,3.002
+Turkmenistan,Marketing,On-site,599,148,24.708,0.9998,2.913
+Turkmenistan,Marketing,Remote,373,85,22.788,1.0026,2.938
+Turkmenistan,Operations,On-site,776,191,24.613,0.9951,3.054
+Turkmenistan,Operations,Remote,494,146,29.555,0.9961,2.984
+Turkmenistan,R&D,On-site,217,53,24.424,0.9905,2.949
+Turkmenistan,R&D,Remote,187,48,25.668,0.9869,2.947
+Turkmenistan,Sales,On-site,982,244,24.847,0.995,2.968
+Turkmenistan,Sales,Remote,610,166,27.213,0.9902,3.061
+Turks and Caicos Islands,Finance,On-site,507,124,24.458,0.9979,2.913
+Turks and Caicos Islands,Finance,Remote,291,68,23.368,0.9882,2.9
+Turks and Caicos Islands,HR,On-site,384,96,25.0,1.0054,2.953
+Turks and Caicos Islands,HR,Remote,246,52,21.138,1.0309,3.053
+Turks and Caicos Islands,IT,On-site,1413,368,26.044,1.0066,3.029
+Turks and Caicos Islands,IT,Remote,961,250,26.015,0.9989,2.995
+Turks and Caicos Islands,Marketing,On-site,581,147,25.301,0.9993,2.969
+Turks and Caicos Islands,Marketing,Remote,397,88,22.166,0.9952,2.957
+Turks and Caicos Islands,Operations,On-site,782,201,25.703,1.0103,3.026
+Turks and Caicos Islands,Operations,Remote,497,134,26.962,0.9971,2.924
+Turks and Caicos Islands,R&D,On-site,259,59,22.78,0.9954,3.166
+Turks and Caicos Islands,R&D,Remote,160,38,23.75,0.9681,3.056
+Turks and Caicos Islands,Sales,On-site,1032,254,24.612,0.9978,2.969
+Turks and Caicos Islands,Sales,Remote,648,169,26.08,0.9841,3.057
+Tuvalu,Finance,On-site,523,134,25.621,1.0315,2.975
+Tuvalu,Finance,Remote,348,79,22.701,1.0001,2.986
+Tuvalu,HR,On-site,376,90,23.936,0.9791,3.082
+Tuvalu,HR,Remote,268,64,23.881,0.9877,3.022
+Tuvalu,IT,On-site,1464,373,25.478,1.0087,2.988
+Tuvalu,IT,Remote,991,241,24.319,1.0045,3.028
+Tuvalu,Marketing,On-site,561,136,24.242,0.9956,2.938
+Tuvalu,Marketing,Remote,367,79,21.526,0.9932,3.038
+Tuvalu,Operations,On-site,763,170,22.28,0.9948,2.996
+Tuvalu,Operations,Remote,464,116,25.0,0.9825,3.022
+Tuvalu,R&D,On-site,235,56,23.83,0.9856,2.83
+Tuvalu,R&D,Remote,175,42,24.0,0.9966,3.143
+Tuvalu,Sales,On-site,982,268,27.291,0.995,3.099
+Tuvalu,Sales,Remote,688,176,25.581,1.0038,3.097
+Uganda,Finance,On-site,462,134,29.004,0.9977,2.903
+Uganda,Finance,Remote,354,89,25.141,0.9939,2.881
+Uganda,HR,On-site,393,93,23.664,0.9825,2.939
+Uganda,HR,Remote,261,75,28.736,0.9907,3.077
+Uganda,IT,On-site,1493,389,26.055,1.0022,2.985
+Uganda,IT,Remote,944,241,25.53,1.001,3.021
+Uganda,Marketing,On-site,596,139,23.322,0.9945,3.047
+Uganda,Marketing,Remote,400,113,28.25,1.0066,3.005
+Uganda,Operations,On-site,732,186,25.41,0.9955,3.036
+Uganda,Operations,Remote,475,134,28.211,1.0024,2.994
+Uganda,R&D,On-site,266,68,25.564,0.9957,2.891
+Uganda,R&D,Remote,157,47,29.936,0.9474,2.987
+Uganda,Sales,On-site,968,242,25.0,1.0091,3.01
+Uganda,Sales,Remote,657,158,24.049,1.0161,3.009
+Ukraine,Finance,On-site,511,122,23.875,1.0046,3.047
+Ukraine,Finance,Remote,327,78,23.853,1.0194,2.927
+Ukraine,HR,On-site,378,106,28.042,1.0017,3.132
+Ukraine,HR,Remote,264,65,24.621,1.0195,2.917
+Ukraine,IT,On-site,1517,399,26.302,1.0094,3.053
+Ukraine,IT,Remote,977,247,25.281,0.9919,3.077
+Ukraine,Marketing,On-site,588,149,25.34,1.0007,3.056
+Ukraine,Marketing,Remote,390,111,28.462,1.0131,2.979
+Ukraine,Operations,On-site,732,197,26.913,1.0146,2.971
+Ukraine,Operations,Remote,491,121,24.644,1.0068,2.919
+Ukraine,R&D,On-site,248,51,20.565,1.0594,2.895
+Ukraine,R&D,Remote,136,33,24.265,0.9432,3.015
+Ukraine,Sales,On-site,966,255,26.398,0.9957,2.982
+Ukraine,Sales,Remote,698,183,26.218,1.0003,3.013
+United Arab Emirates,Finance,On-site,467,120,25.696,0.9857,3.034
+United Arab Emirates,Finance,Remote,349,80,22.923,1.021,3.052
+United Arab Emirates,HR,On-site,398,100,25.126,0.9857,2.839
+United Arab Emirates,HR,Remote,248,66,26.613,1.0004,2.887
+United Arab Emirates,IT,On-site,1502,360,23.968,0.9918,2.976
+United Arab Emirates,IT,Remote,987,247,25.025,1.0034,3.056
+United Arab Emirates,Marketing,On-site,565,140,24.779,1.0031,2.959
+United Arab Emirates,Marketing,Remote,431,100,23.202,1.0039,2.944
+United Arab Emirates,Operations,On-site,760,211,27.763,0.9914,2.953
+United Arab Emirates,Operations,Remote,478,126,26.36,0.9941,2.849
+United Arab Emirates,R&D,On-site,247,66,26.721,1.0211,2.951
+United Arab Emirates,R&D,Remote,134,33,24.627,1.0272,3.045
+United Arab Emirates,Sales,On-site,952,211,22.164,1.0138,3.015
+United Arab Emirates,Sales,Remote,683,172,25.183,1.0019,3.081
+United Kingdom,Finance,On-site,509,137,26.916,1.0048,2.959
+United Kingdom,Finance,Remote,315,82,26.032,1.0129,3.035
+United Kingdom,HR,On-site,412,112,27.184,1.0209,2.93
+United Kingdom,HR,Remote,280,73,26.071,1.0006,2.964
+United Kingdom,IT,On-site,1475,380,25.763,0.9973,3.007
+United Kingdom,IT,Remote,996,227,22.791,1.0056,3.062
+United Kingdom,Marketing,On-site,606,156,25.743,1.0038,3.16
+United Kingdom,Marketing,Remote,385,100,25.974,0.9916,2.958
+United Kingdom,Operations,On-site,729,185,25.377,1.0033,2.99
+United Kingdom,Operations,Remote,492,119,24.187,0.9899,3.081
+United Kingdom,R&D,On-site,242,53,21.901,0.9957,2.934
+United Kingdom,R&D,Remote,176,41,23.295,0.9971,2.915
+United Kingdom,Sales,On-site,965,259,26.839,0.9989,2.933
+United Kingdom,Sales,Remote,669,157,23.468,0.9939,3.037
+United States Minor Outlying Islands,Finance,On-site,461,138,29.935,1.0018,3.039
+United States Minor Outlying Islands,Finance,Remote,327,67,20.489,0.9919,2.911
+United States Minor Outlying Islands,HR,On-site,383,92,24.021,0.9961,2.969
+United States Minor Outlying Islands,HR,Remote,237,69,29.114,1.0105,3.021
+United States Minor Outlying Islands,IT,On-site,1488,367,24.664,1.0014,2.981
+United States Minor Outlying Islands,IT,Remote,991,267,26.942,1.0051,2.999
+United States Minor Outlying Islands,Marketing,On-site,575,129,22.435,1.0023,3.009
+United States Minor Outlying Islands,Marketing,Remote,395,103,26.076,1.0005,3.086
+United States Minor Outlying Islands,Operations,On-site,719,171,23.783,1.0108,3.075
+United States Minor Outlying Islands,Operations,Remote,484,115,23.76,1.0126,2.959
+United States Minor Outlying Islands,R&D,On-site,233,44,18.884,1.0249,2.953
+United States Minor Outlying Islands,R&D,Remote,173,41,23.699,0.9785,2.913
+United States Minor Outlying Islands,Sales,On-site,983,243,24.72,1.0052,3.076
+United States Minor Outlying Islands,Sales,Remote,630,149,23.651,1.0103,2.938
+United States Virgin Islands,Finance,On-site,507,124,24.458,0.9928,3.069
+United States Virgin Islands,Finance,Remote,307,68,22.15,0.9973,3.029
+United States Virgin Islands,HR,On-site,340,94,27.647,1.0139,2.932
+United States Virgin Islands,HR,Remote,290,73,25.172,0.9948,2.993
+United States Virgin Islands,IT,On-site,1427,354,24.807,0.9877,3.044
+United States Virgin Islands,IT,Remote,998,254,25.451,1.0008,3.051
+United States Virgin Islands,Marketing,On-site,587,142,24.191,1.0037,2.927
+United States Virgin Islands,Marketing,Remote,435,128,29.425,1.0353,2.906
+United States Virgin Islands,Operations,On-site,722,195,27.008,0.9707,3.008
+United States Virgin Islands,Operations,Remote,474,131,27.637,0.9923,3.0
+United States Virgin Islands,R&D,On-site,244,48,19.672,0.9898,3.0
+United States Virgin Islands,R&D,Remote,170,52,30.588,1.0239,2.876
+United States Virgin Islands,Sales,On-site,971,244,25.129,0.9991,2.96
+United States Virgin Islands,Sales,Remote,618,145,23.463,0.9984,2.947
+United States of America,Finance,On-site,483,118,24.431,0.9926,3.027
+United States of America,Finance,Remote,311,80,25.723,1.0321,2.887
+United States of America,HR,On-site,399,91,22.807,0.9912,2.887
+United States of America,HR,Remote,269,76,28.253,0.9996,3.059
+United States of America,IT,On-site,1424,357,25.07,1.0064,2.975
+United States of America,IT,Remote,997,267,26.78,0.9932,3.043
+United States of America,Marketing,On-site,559,137,24.508,0.9883,3.068
+United States of America,Marketing,Remote,373,95,25.469,1.0003,2.917
+United States of America,Operations,On-site,697,175,25.108,0.9959,3.01
+United States of America,Operations,Remote,506,114,22.53,1.0108,2.976
+United States of America,R&D,On-site,236,55,23.305,0.9654,3.089
+United States of America,R&D,Remote,160,40,25.0,0.9824,3.212
+United States of America,Sales,On-site,982,238,24.236,1.017,3.04
+United States of America,Sales,Remote,635,160,25.197,0.9897,3.039
+Uruguay,Finance,On-site,476,126,26.471,1.0068,3.067
+Uruguay,Finance,Remote,328,75,22.866,1.0097,2.948
+Uruguay,HR,On-site,395,107,27.089,1.0059,2.899
+Uruguay,HR,Remote,234,65,27.778,0.9905,3.162
+Uruguay,IT,On-site,1424,348,24.438,0.9986,2.983
+Uruguay,IT,Remote,970,249,25.67,0.9945,2.978
+Uruguay,Marketing,On-site,595,144,24.202,0.9794,2.931
+Uruguay,Marketing,Remote,386,102,26.425,1.0119,3.031
+Uruguay,Operations,On-site,745,189,25.369,1.0131,3.005
+Uruguay,Operations,Remote,489,141,28.834,1.0033,3.039
+Uruguay,R&D,On-site,246,55,22.358,0.9712,2.886
+Uruguay,R&D,Remote,173,41,23.699,0.9964,3.081
+Uruguay,Sales,On-site,1009,265,26.264,1.0007,3.07
+Uruguay,Sales,Remote,676,182,26.923,1.0039,3.033
+Uzbekistan,Finance,On-site,464,138,29.741,1.0113,2.942
+Uzbekistan,Finance,Remote,345,76,22.029,0.9975,2.928
+Uzbekistan,HR,On-site,380,100,26.316,1.0103,2.882
+Uzbekistan,HR,Remote,231,53,22.944,1.0342,2.892
+Uzbekistan,IT,On-site,1429,358,25.052,0.9909,2.991
+Uzbekistan,IT,Remote,1031,261,25.315,1.0006,3.067
+Uzbekistan,Marketing,On-site,594,167,28.114,1.0033,2.988
+Uzbekistan,Marketing,Remote,384,90,23.438,1.0126,2.893
+Uzbekistan,Operations,On-site,684,169,24.708,0.9977,3.013
+Uzbekistan,Operations,Remote,470,115,24.468,0.9909,3.094
+Uzbekistan,R&D,On-site,233,67,28.755,0.9712,2.918
+Uzbekistan,R&D,Remote,170,31,18.235,1.0102,2.953
+Uzbekistan,Sales,On-site,960,250,26.042,1.0053,3.071
+Uzbekistan,Sales,Remote,677,186,27.474,1.0107,2.944
+Vanuatu,Finance,On-site,501,112,22.355,0.9757,2.924
+Vanuatu,Finance,Remote,371,98,26.415,1.0028,3.173
+Vanuatu,HR,On-site,431,94,21.81,1.0138,3.051
+Vanuatu,HR,Remote,247,60,24.291,0.9847,2.931
+Vanuatu,IT,On-site,1561,425,27.226,0.9925,3.049
+Vanuatu,IT,Remote,1005,255,25.373,1.008,2.877
+Vanuatu,Marketing,On-site,578,144,24.913,1.0106,2.993
+Vanuatu,Marketing,Remote,367,93,25.341,0.9981,3.082
+Vanuatu,Operations,On-site,751,181,24.101,0.999,2.98
+Vanuatu,Operations,Remote,490,106,21.633,0.9985,3.061
+Vanuatu,R&D,On-site,223,55,24.664,0.9982,3.126
+Vanuatu,R&D,Remote,151,34,22.517,0.9556,3.066
+Vanuatu,Sales,On-site,970,227,23.402,1.0069,3.018
+Vanuatu,Sales,Remote,632,172,27.215,1.0143,3.078
+Venezuela,Finance,On-site,508,129,25.394,0.9883,3.073
+Venezuela,Finance,Remote,329,72,21.884,0.997,3.158
+Venezuela,HR,On-site,402,100,24.876,0.9948,3.104
+Venezuela,HR,Remote,284,80,28.169,0.9607,3.067
+Venezuela,IT,On-site,1394,324,23.242,0.9991,2.974
+Venezuela,IT,Remote,953,228,23.924,0.9974,3.067
+Venezuela,Marketing,On-site,606,132,21.782,0.9863,3.05
+Venezuela,Marketing,Remote,379,98,25.858,1.0059,2.997
+Venezuela,Operations,On-site,743,188,25.303,1.0051,3.062
+Venezuela,Operations,Remote,475,121,25.474,1.0134,3.069
+Venezuela,R&D,On-site,258,61,23.643,0.9947,3.058
+Venezuela,R&D,Remote,159,36,22.642,0.9985,3.025
+Venezuela,Sales,On-site,953,242,25.393,1.0034,3.012
+Venezuela,Sales,Remote,649,173,26.656,1.0003,3.057
+Vietnam,Finance,On-site,522,131,25.096,0.992,2.989
+Vietnam,Finance,Remote,329,92,27.964,1.0052,3.0
+Vietnam,HR,On-site,365,85,23.288,0.9981,2.973
+Vietnam,HR,Remote,271,75,27.675,0.9995,3.077
+Vietnam,IT,On-site,1514,383,25.297,1.0166,2.998
+Vietnam,IT,Remote,988,230,23.279,0.9915,2.986
+Vietnam,Marketing,On-site,601,148,24.626,0.9985,2.948
+Vietnam,Marketing,Remote,404,112,27.723,1.0215,3.072
+Vietnam,Operations,On-site,734,167,22.752,0.9879,3.019
+Vietnam,Operations,Remote,458,133,29.039,0.9983,2.934
+Vietnam,R&D,On-site,256,68,26.562,0.9844,3.105
+Vietnam,R&D,Remote,167,39,23.353,0.9966,2.994
+Vietnam,Sales,On-site,963,249,25.857,0.9858,3.007
+Vietnam,Sales,Remote,643,166,25.816,1.0093,3.058
+Wallis and Futuna,Finance,On-site,511,131,25.636,0.9976,2.971
+Wallis and Futuna,Finance,Remote,327,98,29.969,0.9838,2.976
+Wallis and Futuna,HR,On-site,364,104,28.571,1.0018,2.997
+Wallis and Futuna,HR,Remote,240,57,23.75,1.0105,3.038
+Wallis and Futuna,IT,On-site,1503,349,23.22,0.992,3.011
+Wallis and Futuna,IT,Remote,976,246,25.205,1.0062,2.971
+Wallis and Futuna,Marketing,On-site,604,157,25.993,1.0142,2.982
+Wallis and Futuna,Marketing,Remote,370,116,31.351,0.9924,3.081
+Wallis and Futuna,Operations,On-site,744,181,24.328,1.0018,2.978
+Wallis and Futuna,Operations,Remote,497,134,26.962,0.9869,2.942
+Wallis and Futuna,R&D,On-site,254,57,22.441,1.008,2.969
+Wallis and Futuna,R&D,Remote,148,37,25.0,0.9844,2.959
+Wallis and Futuna,Sales,On-site,968,231,23.864,1.0199,3.021
+Wallis and Futuna,Sales,Remote,683,173,25.329,1.0253,3.092
+Western Sahara,Finance,On-site,509,128,25.147,1.0222,2.894
+Western Sahara,Finance,Remote,325,96,29.538,0.9888,3.135
+Western Sahara,HR,On-site,373,78,20.912,0.9801,3.013
+Western Sahara,HR,Remote,286,71,24.825,1.0106,2.881
+Western Sahara,IT,On-site,1500,382,25.467,1.0037,3.025
+Western Sahara,IT,Remote,1010,232,22.97,0.9981,2.993
+Western Sahara,Marketing,On-site,635,159,25.039,1.005,3.02
+Western Sahara,Marketing,Remote,371,74,19.946,0.9984,3.113
+Western Sahara,Operations,On-site,757,217,28.666,1.0161,3.018
+Western Sahara,Operations,Remote,498,108,21.687,0.9949,2.998
+Western Sahara,R&D,On-site,252,77,30.556,0.9798,2.96
+Western Sahara,R&D,Remote,165,50,30.303,1.0234,2.939
+Western Sahara,Sales,On-site,962,233,24.22,1.0023,3.002
+Western Sahara,Sales,Remote,669,147,21.973,0.9948,3.024
+Yemen,Finance,On-site,452,105,23.23,0.9944,2.989
+Yemen,Finance,Remote,350,96,27.429,1.01,3.0
+Yemen,HR,On-site,378,93,24.603,0.9752,2.968
+Yemen,HR,Remote,255,68,26.667,1.014,2.929
+Yemen,IT,On-site,1468,365,24.864,1.0032,3.002
+Yemen,IT,Remote,972,231,23.765,1.001,2.962
+Yemen,Marketing,On-site,601,155,25.79,1.0029,3.005
+Yemen,Marketing,Remote,370,88,23.784,1.0155,3.059
+Yemen,Operations,On-site,710,178,25.07,1.0008,2.999
+Yemen,Operations,Remote,514,118,22.957,0.9968,3.039
+Yemen,R&D,On-site,233,59,25.322,0.9586,3.21
+Yemen,R&D,Remote,177,36,20.339,1.0134,3.164
+Yemen,Sales,On-site,974,239,24.538,1.0116,2.962
+Yemen,Sales,Remote,645,153,23.721,0.9954,3.003
+Zambia,Finance,On-site,488,122,25.0,0.9839,2.996
+Zambia,Finance,Remote,320,80,25.0,0.9708,3.1
+Zambia,HR,On-site,392,109,27.806,0.9978,3.005
+Zambia,HR,Remote,246,61,24.797,0.9881,3.138
+Zambia,IT,On-site,1452,343,23.623,1.0045,3.03
+Zambia,IT,Remote,986,248,25.152,0.9925,2.926
+Zambia,Marketing,On-site,590,152,25.763,0.9858,2.934
+Zambia,Marketing,Remote,367,94,25.613,1.0016,2.951
+Zambia,Operations,On-site,689,149,21.626,1.0026,2.938
+Zambia,Operations,Remote,503,112,22.266,1.0217,3.078
+Zambia,R&D,On-site,257,68,26.459,1.017,2.938
+Zambia,R&D,Remote,169,49,28.994,1.0066,3.166
+Zambia,Sales,On-site,991,228,23.007,1.0103,2.982
+Zambia,Sales,Remote,654,165,25.229,0.9942,2.927
+Zimbabwe,Finance,On-site,484,124,25.62,0.9818,3.056
+Zimbabwe,Finance,Remote,337,88,26.113,1.0096,2.982
+Zimbabwe,HR,On-site,389,101,25.964,1.0014,3.075
+Zimbabwe,HR,Remote,236,55,23.305,1.0035,2.839
+Zimbabwe,IT,On-site,1433,336,23.447,1.0041,2.934
+Zimbabwe,IT,Remote,1012,258,25.494,1.0013,2.937
+Zimbabwe,Marketing,On-site,553,117,21.157,1.0168,3.051
+Zimbabwe,Marketing,Remote,404,94,23.267,0.9879,2.943
+Zimbabwe,Operations,On-site,780,174,22.308,0.9982,3.014
+Zimbabwe,Operations,Remote,497,137,27.565,1.0041,2.994
+Zimbabwe,R&D,On-site,246,62,25.203,1.0124,3.142
+Zimbabwe,R&D,Remote,171,43,25.146,0.9983,2.912
+Zimbabwe,Sales,On-site,935,240,25.668,0.9883,3.017
+Zimbabwe,Sales,Remote,634,163,25.71,1.0182,2.978
