@@ -1,0 +1,162 @@
+{
+  "sdi_filter": {
+    "query": "SELECT COUNT(*) AS underpaid_employees FROM hr_features WHERE salary_disparity_index < 0.9",
+    "plan": {
+      "query_block": {
+        "select_id": 1,
+        "cost_info": {
+          "query_cost": "194459.40"
+        },
+        "table": {
+          "table_name": "hr_features",
+          "access_type": "range",
+          "possible_keys": [
+            "idx_hf_sdi"
+          ],
+          "key": "idx_hf_sdi",
+          "used_key_parts": [
+            "salary_disparity_index"
+          ],
+          "key_length": "6",
+          "rows_examined_per_scan": 965553,
+          "rows_produced_per_join": 965553,
+          "filtered": "100.00",
+          "using_index": true,
+          "cost_info": {
+            "read_cost": "97904.10",
+            "eval_cost": "96555.30",
+            "prefix_cost": "194459.40",
+            "data_read_per_join": "670M"
+          },
+          "used_columns": [
+            "salary_disparity_index"
+          ],
+          "attached_condition": "(`db_hr_mnc`.`hr_features`.`salary_disparity_index` < 0.9000000000)"
+        }
+      }
+    }
+  },
+  "talent_segment_group": {
+    "query": "SELECT talent_segment, COUNT(*) AS n FROM hr_features GROUP BY talent_segment",
+    "plan": {
+      "query_block": {
+        "select_id": 1,
+        "cost_info": {
+          "query_cost": "210519.15"
+        },
+        "grouping_operation": {
+          "using_filesort": false,
+          "table": {
+            "table_name": "hr_features",
+            "access_type": "index",
+            "possible_keys": [
+              "idx_hf_talent_segment"
+            ],
+            "key": "idx_hf_talent_segment",
+            "used_key_parts": [
+              "talent_segment"
+            ],
+            "key_length": "134",
+            "rows_examined_per_scan": 1931107,
+            "rows_produced_per_join": 1931107,
+            "filtered": "100.00",
+            "using_index": true,
+            "cost_info": {
+              "read_cost": "17408.45",
+              "eval_cost": "193110.70",
+              "prefix_cost": "210519.15",
+              "data_read_per_join": "1G"
+            },
+            "used_columns": [
+              "employee_id",
+              "talent_segment"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "branch_join": {
+    "query": "SELECT COUNT(*) AS matched_rows FROM hr_features f JOIN branch_efficiency b   ON f.country = b.country  AND f.department = b.department  AND f.work_mode = b.work_mode",
+    "plan": {
+      "query_block": {
+        "select_id": 1,
+        "cost_info": {
+          "query_cost": "1545.10"
+        },
+        "nested_loop": [
+          {
+            "table": {
+              "table_name": "b",
+              "access_type": "index",
+              "possible_keys": [
+                "PRIMARY",
+                "idx_branch_department",
+                "idx_branch_work_mode"
+              ],
+              "key": "idx_branch_turnover",
+              "used_key_parts": [
+                "turnover_rate_pct"
+              ],
+              "key_length": "3",
+              "rows_examined_per_scan": 3402,
+              "rows_produced_per_join": 3402,
+              "filtered": "100.00",
+              "using_index": true,
+              "cost_info": {
+                "read_cost": "14.20",
+                "eval_cost": "340.20",
+                "prefix_cost": "354.40",
+                "data_read_per_join": "983K"
+              },
+              "used_columns": [
+                "country",
+                "department",
+                "work_mode"
+              ]
+            }
+          },
+          {
+            "table": {
+              "table_name": "f",
+              "access_type": "ref",
+              "possible_keys": [
+                "idx_hf_country",
+                "idx_hf_department",
+                "idx_hf_work_mode",
+                "idx_hf_branch_join"
+              ],
+              "key": "idx_hf_branch_join",
+              "used_key_parts": [
+                "country",
+                "department",
+                "work_mode"
+              ],
+              "key_length": "278",
+              "ref": [
+                "db_hr_mnc.b.country",
+                "db_hr_mnc.b.department",
+                "db_hr_mnc.b.work_mode"
+              ],
+              "rows_examined_per_scan": 1,
+              "rows_produced_per_join": 3402,
+              "filtered": "100.00",
+              "using_index": true,
+              "cost_info": {
+                "read_cost": "850.50",
+                "eval_cost": "340.20",
+                "prefix_cost": "1545.10",
+                "data_read_per_join": "2M"
+              },
+              "used_columns": [
+                "department",
+                "country",
+                "work_mode"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
