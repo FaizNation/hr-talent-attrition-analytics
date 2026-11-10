@@ -1,125 +1,80 @@
-# Relations report
+# Relations report — Normalized Schema
 
-Generated: `2026-11-06T11:08:48.329236+00:00`
+Generated: `2026-11-10T11:31:09.569967+00:00`
+Database: `root@127.0.0.1:3306/db_hr_mnc`
 
-## Before
+Server version: **MySQL 8.0.30**
 
-- Foreign keys present: **9**
-- The brief described 5 FKs; any additional ones were added by the earlier `create_schema.py --phase indexes` run and are listed below.
+## Table inventory
 
-| child.column | parent.column | constraint | ON UPDATE | ON DELETE |
-|---|---|---|---|---|
-| branch_efficiency.country | dim_country.country | `fk_branch_country` | NO ACTION | NO ACTION |
-| branch_efficiency.department | dim_department.department | `fk_branch_department` | NO ACTION | NO ACTION |
-| branch_efficiency.work_mode | dim_work_mode.work_mode | `fk_branch_work_mode` | NO ACTION | NO ACTION |
-| hr_features.country | dim_country.country | `fk_hf_country` | NO ACTION | NO ACTION |
-| hr_features.department | dim_department.department | `fk_hf_department` | NO ACTION | NO ACTION |
-| hr_features.job_title | dim_job_title.job_title | `fk_hf_job_title` | NO ACTION | NO ACTION |
-| hr_features.status | dim_status.status | `fk_hf_status` | NO ACTION | NO ACTION |
-| hr_features.talent_segment | dim_talent_segment.talent_segment | `fk_hf_talent_segment` | NO ACTION | NO ACTION |
-| hr_features.work_mode | dim_work_mode.work_mode | `fk_hf_work_mode` | NO ACTION | NO ACTION |
+| Table | Exact Rows | Data + Index Size (MB) |
+|---|---:|---:|
+| `dim_department` | 7 | 0.02 |
+| `dim_job_title` | 29 | 0.02 |
+| `dim_status` | 4 | 0.02 |
+| `dim_work_mode` | 2 | 0.02 |
+| `hr_employee` | 2,000,000 | 453.27 |
 
-## Row counts
+## hr_employee Schema Structure
 
-| table | rows |
-|---|---:|
-| branch_efficiency | 3,402 |
-| dim_country | 243 |
-| dim_department | 7 |
-| dim_job_title | 29 |
-| dim_status | 4 |
-| dim_talent_segment | 4 |
-| dim_work_mode | 2 |
-| hr_attrition | 2,000,000 |
-| hr_features | 2,000,000 |
+| Ordinal | Column | Type | Nullable | Key | Default | Extra |
+|---|---|---|---|---|---|---|
+| 1 | `row_id` | `int unsigned` | NO | PRI | None |  |
+| 2 | `employee_id` | `char(10)` | NO | UNI | None |  |
+| 3 | `full_name` | `varchar(64)` | NO |  | None |  |
+| 4 | `department` | `varchar(10)` | NO | MUL | None |  |
+| 5 | `job_title` | `varchar(29)` | NO | MUL | None |  |
+| 6 | `hire_date` | `date` | NO | MUL | None |  |
+| 7 | `location` | `varchar(120)` | NO |  | None |  |
+| 8 | `performance_rating` | `tinyint unsigned` | NO |  | None |  |
+| 9 | `experience_years` | `tinyint unsigned` | NO |  | None |  |
+| 10 | `status` | `varchar(10)` | NO | MUL | None |  |
+| 11 | `work_mode` | `varchar(7)` | NO | MUL | None |  |
+| 12 | `salary_inr` | `int unsigned` | NO |  | None |  |
 
-- `hr_features` = **2,000,000**, `hr_attrition` = **2,000,000** → 1 : 1
+## Foreign Keys
 
-## Column compatibility
+| Constraint | Child Column | Parent Table | Parent Column | On Update | On Delete |
+|---|---|---|---|---|---|
+| `fk_employee_department` | `hr_employee.department` | `dim_department` | `department` | NO ACTION | NO ACTION |
+| `fk_employee_job_title` | `hr_employee.job_title` | `dim_job_title` | `job_title` | NO ACTION | NO ACTION |
+| `fk_employee_status` | `hr_employee.status` | `dim_status` | `status` | NO ACTION | NO ACTION |
+| `fk_employee_work_mode` | `hr_employee.work_mode` | `dim_work_mode` | `work_mode` | NO ACTION | NO ACTION |
 
-| FK | child type | parent type | status |
-|---|---|---|---|
-| `fk_hf_job_title` | `varchar(29)` (utf8mb4_0900_ai_ci) | `varchar(29)` (utf8mb4_0900_ai_ci) | OK |
-| `fk_hf_status` | `varchar(10)` (utf8mb4_0900_ai_ci) | `varchar(10)` (utf8mb4_0900_ai_ci) | OK |
-| `fk_hf_work_mode` | `varchar(7)` (utf8mb4_0900_ai_ci) | `varchar(7)` (utf8mb4_0900_ai_ci) | OK |
-| `fk_hf_talent_segment` | `varchar(33)` (utf8mb4_0900_ai_ci) | `varchar(33)` (utf8mb4_0900_ai_ci) | OK |
-| `fk_hf_attrition` | `char(10)` (utf8mb4_0900_ai_ci) | `varchar(255)` (utf8mb4_0900_ai_ci) | SOFT-WARN |
+## Foreign Key Orphan Checks
 
-## Orphan checks (Step 2)
+| Child Column | Referenced Dimension | Orphan Rows | Status |
+|---|---|---:|---|
+| `hr_employee.department` | `dim_department.department` | 0 | PASS |
+| `hr_employee.job_title` | `dim_job_title.job_title` | 0 | PASS |
+| `hr_employee.status` | `dim_status.status` | 0 | PASS |
+| `hr_employee.work_mode` | `dim_work_mode.work_mode` | 0 | PASS |
 
-| FK | child.column | parent.column | orphan rows | sample values |
-|---|---|---|---:|---|
-| `fk_hf_job_title` | `hr_features.job_title` | `dim_job_title.job_title` | 0 | - |
-| `fk_hf_status` | `hr_features.status` | `dim_status.status` | 0 | - |
-| `fk_hf_work_mode` | `hr_features.work_mode` | `dim_work_mode.work_mode` | 0 | - |
-| `fk_hf_talent_segment` | `hr_features.talent_segment` | `dim_talent_segment.talent_segment` | 0 | - |
-| `fk_hf_attrition` | `hr_features.employee_id` | `hr_attrition.employee_id` | 0 | - |
+## Null Checks (hr_employee)
 
-### hr_attrition.employee_id health
+| Column | Null Count | Status |
+|---|---:|---|
+| `row_id` | 0 | PASS |
+| `employee_id` | 0 | PASS |
+| `full_name` | 0 | PASS |
+| `department` | 0 | PASS |
+| `job_title` | 0 | PASS |
+| `hire_date` | 0 | PASS |
+| `location` | 0 | PASS |
+| `performance_rating` | 0 | PASS |
+| `experience_years` | 0 | PASS |
+| `status` | 0 | PASS |
+| `work_mode` | 0 | PASS |
+| `salary_inr` | 0 | PASS |
 
-- total: 2,000,000
-- non-null: 2,000,000
-- nulls: 0
-- duplicates: 0
-- distinct: 2,000,000
+## Sample Data (5 rows)
 
-## Dimension quality checks
+| row_id | employee_id | full_name | department | job_title | hire_date | location | performance_rating | experience_years | status | work_mode | salary_inr |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0 | EMP0000001 | Joshua Nguyen | IT | Software Engineer | 2011-08-10 | Isaacland, Denmark | 5 | 14 | Resigned | On-site | 1585363 |
+| 1 | EMP0000002 | Julie Williams | Marketing | SEO Specialist | 2018-03-02 | Anthonyside, Costa Rica | 2 | 7 | Active | On-site | 847686 |
+| 2 | EMP0000003 | Alyssa Martinez | HR | HR Manager | 2023-03-20 | Port Christinaport, Saudi Arabia | 1 | 2 | Active | On-site | 1430084 |
+| 3 | EMP0000004 | Nicholas Valdez | IT | Software Engineer | 2023-10-12 | Port Shelbychester, Antigua and Barbuda | 1 | 1 | Active | On-site | 990689 |
+| 4 | EMP0000005 | Joel Hendricks | Operations | Logistics Coordinator | 2024-12-09 | Lake Kimberly, Palestinian Territory | 5 | 0 | Active | On-site | 535082 |
 
-| dim | rows | dim whitespace | fact whitespace | case mismatch | samples |
-|---|---:|---:|---:|---:|---|
-| `dim_country` | 243 | 0 | 0 | 0 | - |
-| `dim_department` | 7 | 0 | 0 | 0 | - |
-| `dim_job_title` | 29 | 0 | 0 | 0 | - |
-| `dim_work_mode` | 2 | 0 | 0 | 0 | - |
-| `dim_status` | 4 | 0 | 0 | 0 | - |
-| `dim_talent_segment` | 4 | 0 | 0 | 0 | - |
-
-## Fixes (Step 3)
-
-No fixes were needed.
-
-## Foreign keys added (Step 4)
-
-| constraint | status | elapsed |
-|---|---|---:|
-| `fk_hf_job_title` | ALREADY EXISTS | 0.0s |
-| `fk_hf_status` | ALREADY EXISTS | 0.0s |
-| `fk_hf_work_mode` | ALREADY EXISTS | 0.0s |
-| `fk_hf_talent_segment` | ALREADY EXISTS | 0.0s |
-| `fk_hf_attrition` | ADDED | 315.8s |
-
-## After (Step 5)
-
-- Foreign keys present: **10** (expected 10)
-
-| child.column | parent.column | constraint |
-|---|---|---|
-| branch_efficiency.country | dim_country.country | `fk_branch_country` |
-| branch_efficiency.department | dim_department.department | `fk_branch_department` |
-| branch_efficiency.work_mode | dim_work_mode.work_mode | `fk_branch_work_mode` |
-| hr_features.employee_id | hr_attrition.employee_id | `fk_hf_attrition` |
-| hr_features.country | dim_country.country | `fk_hf_country` |
-| hr_features.department | dim_department.department | `fk_hf_department` |
-| hr_features.job_title | dim_job_title.job_title | `fk_hf_job_title` |
-| hr_features.status | dim_status.status | `fk_hf_status` |
-| hr_features.talent_segment | dim_talent_segment.talent_segment | `fk_hf_talent_segment` |
-| hr_features.work_mode | dim_work_mode.work_mode | `fk_hf_work_mode` |
-
-### JOIN proof
-
-Execution time: **68.430s**
-
-| talent_segment | employees |
-|---|---:|
-| Standard / Low Perf | 1,239,540 |
-| Stable Workforce | 342,403 |
-| High Flight Risk (Underpaid Star) | 218,778 |
-| Lost Star Talent | 199,279 |
-
-### EXPLAIN
-
-```
-{'id': 1, 'select_type': 'SIMPLE', 'table': 'd', 'partitions': None, 'type': 'index', 'possible_keys': 'PRIMARY', 'key': 'PRIMARY', 'key_len': '134', 'ref': None, 'rows': 4, 'filtered': 100.0, 'extra': 'Using index; Using temporary; Using filesort'}
-{'id': 1, 'select_type': 'SIMPLE', 'table': 'f', 'partitions': None, 'type': 'ref', 'possible_keys': 'PRIMARY,idx_hf_talent_segment', 'key': 'idx_hf_talent_segment', 'key_len': '134', 'ref': 'db_hr_mnc.d.talent_segment', 'rows': 1, 'filtered': 100.0, 'extra': 'Using index'}
-{'id': 1, 'select_type': 'SIMPLE', 'table': 'a', 'partitions': None, 'type': 'eq_ref', 'possible_keys': 'uq_hr_attrition_employee_id', 'key': 'uq_hr_attrition_employee_id', 'key_len': '1023', 'ref': 'db_hr_mnc.f.employee_id', 'rows': 1, 'filtered': 100.0, 'extra': 'Using where; Using index'}
-```
+## Final Result: PASS
