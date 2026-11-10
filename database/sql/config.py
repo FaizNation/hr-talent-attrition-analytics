@@ -29,21 +29,6 @@ DB_PASSWORD = os.getenv("DB_PASSWORD", "")
 DB_NAME = os.getenv("DB_NAME", "db_hr_mnc")
 
 
-def _resolve_path(value: str, default: Path) -> Path:
-    path = Path(value).expanduser()
-    if not path.is_absolute():
-        path = (PROJECT_ROOT / path).resolve()
-    return path if value else default
-
-
-DATA_DIR = Path(os.getenv("HR_DATA_DIR", str(PROJECT_ROOT / "data-science" / "output")))
-FEATURES_PARQUET = _resolve_path(
-    os.getenv("HR_FEATURES_PARQUET", ""), DATA_DIR / "hr_features.parquet"
-)
-BRANCH_CSV = _resolve_path(
-    os.getenv("BRANCH_EFFICIENCY_CSV", ""), DATA_DIR / "new_dataset_branch_efficiency.csv"
-)
-
 
 def get_engine(echo: bool = False) -> Engine:
     """Build a SQLAlchemy engine using credentials from .env."""
