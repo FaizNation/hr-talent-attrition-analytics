@@ -1,6 +1,6 @@
 # Relations report — Normalized Schema
 
-Generated: `2026-11-10T11:31:09.569967+00:00`
+Generated: `2026-11-10T11:52:41.125316+00:00`
 Database: `root@127.0.0.1:3306/db_hr_mnc`
 
 Server version: **MySQL 8.0.30**

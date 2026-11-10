@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-10T11:00:49+00:00",
+  "captured_at": "2026-11-10T11:53:05+00:00",
   "schema": "normalized raw (hr_employee + 4 dims)",
   "queries": {
     "department_headcount": {
@@ -15,7 +15,7 @@
           "key": "idx_employee_department",
           "key_len": "42",
           "ref": "None",
-          "rows": "1",
+          "rows": "1986273",
           "filtered": "100.0",
           "Extra": "Using index"
         }
@@ -34,7 +34,7 @@
           "key": "idx_employee_job_title",
           "key_len": "118",
           "ref": "None",
-          "rows": "1",
+          "rows": "1986273",
           "filtered": "100.0",
           "Extra": "None"
         }
