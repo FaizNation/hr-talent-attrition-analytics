@@ -10,7 +10,7 @@
 # Large local data files
 *.csv
 *.parquet
-database/nosql/export/
+archive/old-title-attrition/nosql/export/
 database/sql/output/
 
 # Python

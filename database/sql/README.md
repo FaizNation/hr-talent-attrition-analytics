@@ -1,40 +1,83 @@
-# HR Talent & Attrition Analytics — SQL Database Layer
+# HR Analytics — Normalized SQL Database Layer
 
-This folder contains the relational part of the project. It loads the existing
-2,000,000-row `hr_attrition` table and the two processed datasets into MySQL,
-adds keys/indexes, and exports the aggregate results needed by the later NoSQL
-stage.
+This directory manages the relational database layer (`db_hr_mnc`) for the
+**Workforce Cost & Startup Runway Simulator** project.
 
-The NoSQL database is **not** touched here.
-
----
-
-## 1. Data sources
-
-| File | Rows | Loaded into |
-|---|---:|---|
-| MySQL table `hr_attrition` (already in `db_hr_mnc`) | 2,000,000 | `hr_attrition` |
-| `data-science/output/hr_features.parquet` | 2,000,000 | `hr_features` |
-| `data-science/output/new_dataset_branch_efficiency.csv` | 3,402 | `branch_efficiency` |
-
-The parquet has 14 columns. `Talent_Segment` is kept as a normal display/analysis
-column, not as a model feature.
+The SQL database is strictly scoped to store the **12 raw dataset columns**
+from the Kaggle MNC HR dataset in a normalized 3NF structure.
 
 ---
 
-## 2. Prerequisites
+## 1. Schema & Entity-Relationship Design
 
-- Python 3.10+
-- Local MySQL 8.x (Laragon in this project) running on port 3306
-- Database `db_hr_mnc`
+The schema separates categorical attributes into 4 natural-key dimension tables
+enforced by strict foreign key constraints on the central fact table:
 
-Install the Python dependencies:
-
-```bash
-python -m pip install pandas pyarrow SQLAlchemy PyMySQL python-dotenv
+```
++--------------------+        +--------------------+
+|   dim_department   |        |   dim_job_title    |
++--------------------+        +--------------------+
+| department (PK)    |<---+   | job_title (PK)     |<---+
++--------------------+    |   +--------------------+    |
+                          |                             |
++--------------------+    |   +--------------------+    |
+|     dim_status     |    |   |   dim_work_mode    |    |
++--------------------+    |   +--------------------+    |
+| status (PK)        |<-+ |   | work_mode (PK)     |<-+ |
++--------------------+  | |   +--------------------+  | |
+                        | |                           | |
+              +---------|-|---------------------------|-|+
+              |         | |     hr_employee           | |
+              +---------|-|---------------------------|-|+
+              | row_id             INT UNSIGNED (PK)  | |
+              | employee_id        CHAR(10) (UQ)      | |
+              | full_name          VARCHAR(64)        | |
+              | department         VARCHAR(10) (FK)---+ |
+              | job_title          VARCHAR(29) (FK)-----+
+              | hire_date          DATE (IDX)         | |
+              | location           VARCHAR(120)       | |
+              | performance_rating TINYINT UNSIGNED   | |
+              | experience_years   TINYINT UNSIGNED   | |
+              | status             VARCHAR(10) (FK)---+ |
+              | work_mode          VARCHAR(7)  (FK)-----+
+              | salary_inr         INT UNSIGNED       |
+              +---------------------------------------+
 ```
 
-Create your credentials file:
+### Key Architectural Decisions
+
+1. **Strict Raw Boundary:** SQL holds only the 12 original Kaggle dataset columns. No derived metrics (SDI, tenure, cost, archetype, attrition scores) are stored in MySQL. All feature engineering and simulation modeling live strictly in `Startup_Runway_Workforce_Simulator_KDD.ipynb` (proposal Tabel 3.2).
+2. **Location is not normalized:** In the 2,000,000 rows, `Location` contains **1,593,497 distinct values** (~80% uniqueness). Creating a `dim_location` table would duplicate storage and penalize join performance with zero analytical gain. `Location` remains a single raw column (`VARCHAR(120)`) and is never split into synthetic city/country columns.
+3. **Natural Keys for Dimensions:** Dimensions use their natural string values as primary keys (`VARCHAR`), matching production dimensions and eliminating lookup joins for simple filters.
+4. **Data Integrity:** Inline foreign keys (`ON UPDATE RESTRICT`, `ON DELETE RESTRICT`) ensure referential integrity with zero orphan records.
+
+---
+
+## 2. Table Inventory & Expected Row Counts
+
+| Table | Role | Expected Rows | Primary Key |
+|---|---|---:|---|
+| `hr_employee` | Fact table (raw records) | 2,000,000 | `row_id` (`INT UNSIGNED`) |
+| `dim_department` | Dimension | 7 | `department` (`VARCHAR(10)`) |
+| `dim_job_title` | Dimension | 29 | `job_title` (`VARCHAR(29)`) |
+| `dim_status` | Dimension | 4 | `status` (`VARCHAR(10)`) |
+| `dim_work_mode` | Dimension | 2 | `work_mode` (`VARCHAR(7)`) |
+
+---
+
+## 3. Setup & Prerequisites
+
+- Python 3.10+
+- MySQL 8.0+ running on port 3306 (InnoDB engine, `utf8mb4_0900_ai_ci`)
+- Database `db_hr_mnc`
+
+Install Python dependencies:
+
+```bash
+python -m pip install SQLAlchemy PyMySQL pandas python-dotenv
+```
+
+Configure credentials in `.env` (copied from `.env.example`):
 
 ```bash
 cd database/sql
@@ -42,294 +85,60 @@ copy .env.example .env        # Windows
 # cp .env.example .env        # Linux/macOS
 ```
 
-Fill in `DB_PASSWORD` in `.env`. The local Laragon `root` account can use an
-empty password. `.env` is git-ignored; never commit real credentials.
-
-Optional path overrides in `.env`:
+Edit `.env` with your MySQL connection credentials:
 
 ```dotenv
-HR_FEATURES_PARQUET=data-science/output/hr_features.parquet
-BRANCH_EFFICIENCY_CSV=data-science/output/new_dataset_branch_efficiency.csv
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=db_hr_mnc
 ```
+
+*(Note: `.env` is git-ignored; never commit passwords).*
 
 ---
 
-## 3. Run order
+## 4. Execution Workflow
 
-Run these from `database/sql/`:
+All scripts are idempotent and run from `database/sql/`:
 
+### Step 1: Create Schema & Populate Dimensions
 ```bash
-# 1. Verify the existing 2M-row table (read-only)
-python inspect_db.py
+python create_schema.py --phase base
+```
+Creates the 4 dimension tables and `hr_employee` with inline foreign keys and indexes. Populates the 4 dimension tables with distinct values.
 
-# 2. Create new tables + dimensions.  The PK migration is guarded:
-#    it prints the exact ALTER and only runs with --apply-pk.
-python create_schema.py --phase base --apply-pk --yes
-
-# 3. Load the processed datasets in 50,000-row chunks
+### Step 2: Load Data
+```bash
 python load_data.py
+```
+Performs an idempotent, chunked set-based copy from `hr_attrition` into `hr_employee` in 100,000-row batches. Validates pre-flight invariants (valid dates, location lengths, dimension completeness) and verifies the 2,000,000 final row count.
 
-# 4. Add secondary indexes + foreign keys and save EXPLAIN plans
-python create_schema.py --phase indexes
+### Step 3: Verify Integrity & Generate Relations Report
+```bash
+python inspect_db.py
+```
+Runs comprehensive live verification (FK integrity, orphan checks, null checks, table sizes) and writes `relations_report.md`. Exits with code 1 if any check fails.
 
-# 5. Run Task 5 queries and write JSON outputs
+### Step 4: Run Reporting Queries
+```bash
 python queries.py
 ```
+Executes four analytical queries and writes structured JSON files to `output/`:
+- `q1_headcount_by_department.json`: Department headcount, share %, and average salary.
+- `q2_salary_by_job_title.json`: Salary bounds (min, avg, max) and headcount per job title.
+- `q3_work_mode_split.json`: Headcount and salary breakdown by work mode.
+- `q4_hire_cohort.json`: Hiring cohort distribution per year (2010–2025).
 
-If you do **not** want to apply the `hr_attrition` PK migration, run step 2
-without `--apply-pk`; the script prints the SQL and continues. Task 4 still
-requires a primary key on every table, so the migration is recommended.
-
-All scripts are idempotent: `CREATE TABLE IF NOT EXISTS`, `INSERT IGNORE`,
-`information_schema` checks before adding indexes/FKs, and row-count checks
-before loading.
-
-### 3.1 Add or repair the foreign keys
-
-`fix_relations.py` inspects the five target relationships, checks row counts,
-column compatibility, orphan rows, and dimension whitespace/casing, then adds
-only the constraints that pass. It never drops a table and never changes
-`hr_attrition` columns.
-
+### Step 5: Capture Query Execution Plans
 ```bash
-# Inspect only (Steps 1-2). Prints every planned ALTER; changes nothing.
-python fix_relations.py --dry-run
-
-# Interactive: prints each statement and waits for YES before executing.
-python fix_relations.py
-
-# Non-interactive, only after the operator has approved the dry-run output.
-python fix_relations.py --yes
+python create_schema.py --phase explain
 ```
+Generates EXPLAIN query plans for reporting queries into `output/explain_after.json`.
 
-It also writes `relations_report.md` with the before/after FK list, row counts,
-orphan checks, dimension quality checks, and the JOIN proof.
-
-Final relationship list (10 FKs):
-
-| child.column | parent.column | constraint |
-|---|---|---|
-| `branch_efficiency.country` | `dim_country.country` | `fk_branch_country` |
-| `branch_efficiency.department` | `dim_department.department` | `fk_branch_department` |
-| `branch_efficiency.work_mode` | `dim_work_mode.work_mode` | `fk_branch_work_mode` |
-| `hr_features.country` | `dim_country.country` | `fk_hf_country` |
-| `hr_features.department` | `dim_department.department` | `fk_hf_department` |
-| `hr_features.work_mode` | `dim_work_mode.work_mode` | `fk_hf_work_mode` |
-| `hr_features.job_title` | `dim_job_title.job_title` | `fk_hf_job_title` |
-| `hr_features.status` | `dim_status.status` | `fk_hf_status` |
-| `hr_features.talent_segment` | `dim_talent_segment.talent_segment` | `fk_hf_talent_segment` |
-| `hr_features.employee_id` | `hr_attrition.employee_id` | `fk_hf_attrition` |
-
-All new constraints use `ON UPDATE CASCADE` and `ON DELETE RESTRICT`.
-The nine constraints created earlier by `create_schema.py --phase indexes` keep
-their default `ON UPDATE NO ACTION ON DELETE NO ACTION` (MySQL treats `NO ACTION`
-as `RESTRICT`). `fk_hf_attrition` uses `CHAR(10)` → `VARCHAR(255)`; both sides
-share `utf8mb4_0900_ai_ci`, so MySQL accepted the FK, but the parent unique index
-is wider than necessary (`key_len=1023`), which makes the 2M-row JOIN slower than
-it could be. Widening `hr_features.employee_id` is **not** required and was not
-done, because `hr_attrition` columns must stay unchanged.
-
----
-
-## 4. Final schema
-
-| Table | Rows | Primary key | Foreign keys | Secondary indexes |
-|---|---:|---|---|---|
-| `hr_attrition` | 2,000,000 | `row_id` | — | `uq_hr_attrition_employee_id` (unique), `idx_hr_attrition_department`, `idx_hr_attrition_status`, `idx_hr_attrition_work_mode`, `idx_hr_attrition_hire_date` |
-| `hr_features` | 2,000,000 | `employee_id` | `country` → `dim_country`, `department` → `dim_department`, `work_mode` → `dim_work_mode`, `job_title` → `dim_job_title`, `status` → `dim_status`, `talent_segment` → `dim_talent_segment`, `employee_id` → `hr_attrition.employee_id` | `idx_hf_talent_segment`, `idx_hf_country`, `idx_hf_city`, `idx_hf_department`, `idx_hf_work_mode`, `idx_hf_status`, `idx_hf_job_title`, `idx_hf_sdi`, `idx_hf_branch_join` (`country, department, work_mode`) |
-| `branch_efficiency` | 3,402 | `(country, department, work_mode)` | `country` → `dim_country`, `department` → `dim_department`, `work_mode` → `dim_work_mode` | `idx_branch_department`, `idx_branch_work_mode`, `idx_branch_turnover` |
-| `dim_country` | 243 | `country` | — | — |
-| `dim_department` | 7 | `department` | — | — |
-| `dim_job_title` | 29 | `job_title` | — | — |
-| `dim_work_mode` | 2 | `work_mode` | — | — |
-| `dim_status` | 4 | `status` | — | — |
-| `dim_talent_segment` | 4 | `talent_segment` | — | — |
-
-### Why the raw table still has `varchar(255)`
-
-`hr_attrition` was created by the earlier CSV-to-MySQL import. It is kept as
-the raw landing table so the source data is not rewritten. Only the leftover
-CSV index column was renamed and promoted to a primary key. The new processed
-tables use tight types derived from the real data.
-
-### Tight types in the processed tables
-
-- `hr_features`: `CHAR(10)`, `VARCHAR(10/29/51/24/7/10/33)`, `TINYINT UNSIGNED`,
-  `INT UNSIGNED`, `DECIMAL(12,10)` for SDI and PER.
-- `branch_efficiency`: `VARCHAR(51/10/7)`, `SMALLINT UNSIGNED`,
-  `DECIMAL(5,3)`, `DECIMAL(6,4)`, `DECIMAL(4,3)`.
-
-### Why there is no `dim_city`
-
-`City` has 104,479 distinct names, but names are reused across countries:
-`(City, Country)` has 1,593,497 distinct pairs. A properly keyed city dimension
-would therefore have almost as many rows as the fact table, while a
-city-name-only dimension would lose the country context. City is kept as a
-normal indexed column in `hr_features`; the other low-cardinality categories
-are normalized.
-
----
-
-## 5. ER diagram
-
-```mermaid
-erDiagram
-    dim_country {
-        varchar country PK
-    }
-    dim_department {
-        varchar department PK
-    }
-    dim_job_title {
-        varchar job_title PK
-    }
-    dim_work_mode {
-        varchar work_mode PK
-    }
-    dim_status {
-        varchar status PK
-    }
-    dim_talent_segment {
-        varchar talent_segment PK
-    }
-
-    hr_attrition {
-        int row_id PK
-        char employee_id "unique, indexed"
-        varchar full_name
-        varchar department
-        varchar job_title
-        varchar hire_date
-        varchar location
-        bigint performance_rating
-        bigint experience_years
-        varchar status
-        varchar work_mode
-        bigint salary_inr
-    }
-
-    hr_features {
-        char employee_id PK
-        varchar department FK
-        varchar job_title FK
-        varchar country FK
-        varchar city
-        varchar work_mode FK
-        varchar status FK
-        tinyint performance_rating
-        tinyint experience_years
-        tinyint tenure_years
-        int salary_inr
-        decimal salary_disparity_index
-        decimal performance_to_exp_ratio
-        varchar talent_segment FK
-    }
-
-    branch_efficiency {
-        varchar country PK, FK
-        varchar department PK, FK
-        varchar work_mode PK, FK
-        smallint total_employees
-        smallint attrition_count
-        decimal turnover_rate_pct
-        decimal avg_salary_disparity
-        decimal avg_performance
-    }
-
-    dim_country ||--o{ hr_features : "country"
-    dim_department ||--o{ hr_features : "department"
-    dim_job_title ||--o{ hr_features : "job_title"
-    dim_work_mode ||--o{ hr_features : "work_mode"
-    dim_status ||--o{ hr_features : "status"
-    dim_talent_segment ||--o{ hr_features : "talent_segment"
-
-    dim_country ||--o{ branch_efficiency : "country"
-    dim_department ||--o{ branch_efficiency : "department"
-    dim_work_mode ||--o{ branch_efficiency : "work_mode"
-
-    hr_attrition ||..|| hr_features : "employee_id (logical, not enforced)"
-    branch_efficiency ||..o{ hr_features : "country + department + work_mode (logical join)"
+### Step 6: Drop Retired Legacy Tables (Post-Verification Guard)
+```bash
+python create_schema.py --drop-legacy --yes
 ```
-
-> Solid lines `--` are enforced foreign keys. Dashed lines `..` are logical
-> relationships used for joins but not enforced as FK constraints.
-
-### Text description
-
-- One **country** has many **departments** conceptually, but in this dataset the
-  branch grain is `(country, department, work_mode)`.
-- `dim_country`, `dim_department`, `dim_work_mode`, `dim_job_title`,
-  `dim_status`, and `dim_talent_segment` are small reference tables keyed by
-  their natural business key.
-- `hr_features` is the employee-level fact table. Each row is one employee and
-  references the six dimensions above through foreign keys. Its primary key is
-  `employee_id`.
-- `branch_efficiency` is the branch-level fact/aggregate table. Its primary key
-  is `(country, department, work_mode)`, and each of those columns is also a
-  foreign key to its dimension.
-- Every `hr_features` row joins to exactly one `branch_efficiency` row on
-  `(country, department, work_mode)`. This is the relation used to prove the
-  JOIN in Task 5.
-- `hr_attrition` is the raw landing table. `hr_features.employee_id` values all
-  exist in `hr_attrition.employee_id`, which is unique and indexed.
-
-```
-dim_country ──┐
-dim_department ──┼──< hr_features >── (employee-level fact)
-dim_work_mode ──┤
-dim_job_title ──┤
-dim_status ──┤
-dim_talent_segment ──┘
-
-dim_country ──┐
-dim_department ──┼──< branch_efficiency >── (branch-level fact)
-dim_work_mode ──┘
-
-hr_attrition (raw 2M)  ── employee_id ──  hr_features
-```
-
----
-
-## 6. Task 5 outputs
-
-`queries.py` writes these files to `database/sql/output/`:
-
-| File | Content |
-|---|---|
-| `q1_underpaid.json` | Total employees + count/% with `Salary_Disparity_Index < 0.9` |
-| `q2_talent_segments.json` | Count and percentage per `Talent_Segment` |
-| `q3_branch_efficiency.json` | All 3,402 branch-efficiency rows |
-| `q4_join_branch.json` | JOIN proof: joined row count, unmatched checks, and per-branch actual vs expected employees |
-
-`create_schema.py --phase indexes` also writes:
-
-- `output/explain_before.json` — plans captured before secondary indexes exist
-- `output/explain_after.json` — plans captured after indexes/FKs exist
-
----
-
-## 7. Expected verification results
-
-```
-hr_attrition       2,000,000
-hr_features        2,000,000
-branch_efficiency      3,402
-feature rows without raw employee   0
-feature rows without branch         0
-branch rows without features        0
-distinct branch combinations    3,402
-SUM(branch total_employees)  2,000,000
-```
-
----
-
-## 8. Troubleshooting
-
-- **`Can't connect to MySQL`** — start MySQL (Laragon) and check `DB_HOST`,
-  `DB_PORT`, `DB_USER`, `DB_PASSWORD` in `.env`.
-- **`Table hr_features is missing`** — run `create_schema.py --phase base`
-  before `load_data.py`.
-- **Load was interrupted** — simply re-run `load_data.py`; `INSERT IGNORE` and
-  the primary keys make it safe.
-- **Index already exists** — the scripts check `information_schema` first, so
-  this is expected and harmless on re-runs.
+Safely drops old-title tables (`hr_features`, `branch_efficiency`, `hr_attrition`, `dim_country`, `dim_talent_segment`). Protected by an assert requiring `hr_employee` to hold exactly 2,000,000 verified rows before proceeding.
