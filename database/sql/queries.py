@@ -1,14 +1,15 @@
-"""Task 5: run the aggregate/join queries and write JSON results.
+"""Reporting queries over the normalized raw HR schema.
 
 Outputs (database/sql/output/):
-  q1_underpaid.json
-  q2_talent_segments.json
-  q3_branch_efficiency.json
-  q4_join_branch.json
+  q1_headcount_by_department.json
+  q2_salary_by_job_title.json
+  q3_work_mode_split.json
+  q4_hire_cohort.json
 """
 from __future__ import annotations
 
 import json
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -18,103 +19,57 @@ from sqlalchemy.engine import Engine
 
 from config import OUTPUT_DIR, get_engine
 
-Q1 = """
+Q1_DEPARTMENT = """
 SELECT
-    COUNT(*) AS total_employees,
-    SUM(salary_disparity_index < 0.9) AS underpaid_employees,
-    ROUND(100.0 * SUM(salary_disparity_index < 0.9) / COUNT(*), 4) AS underpaid_pct
-FROM hr_features
-"""
-
-Q2 = """
-SELECT
-    talent_segment,
-    COUNT(*) AS employee_count,
-    ROUND(100.0 * COUNT(*) / (SELECT COUNT(*) FROM hr_features), 4) AS percentage
-FROM hr_features
-GROUP BY talent_segment
+    d.department,
+    COUNT(e.row_id) AS employee_count,
+    ROUND(100.0 * COUNT(e.row_id) / (SELECT COUNT(*) FROM hr_employee), 4) AS percentage,
+    ROUND(AVG(e.salary_inr), 2) AS avg_salary_inr
+FROM dim_department d
+LEFT JOIN hr_employee e ON d.department = e.department
+GROUP BY d.department
 ORDER BY employee_count DESC
 """
 
-Q3 = """
+Q2_JOB_TITLE = """
 SELECT
-    country,
-    department,
-    work_mode,
-    total_employees,
-    attrition_count,
-    turnover_rate_pct,
-    avg_salary_disparity,
-    avg_performance
-FROM branch_efficiency
-ORDER BY country, department, work_mode
+    j.job_title,
+    COUNT(e.row_id) AS employee_count,
+    MIN(e.salary_inr) AS min_salary_inr,
+    ROUND(AVG(e.salary_inr), 2) AS avg_salary_inr,
+    MAX(e.salary_inr) AS max_salary_inr
+FROM dim_job_title j
+LEFT JOIN hr_employee e ON j.job_title = e.job_title
+GROUP BY j.job_title
+ORDER BY employee_count DESC
 """
 
-Q4_SUMMARY = """
+Q3_WORK_MODE = """
 SELECT
-    (SELECT COUNT(*) FROM hr_features) AS feature_rows,
-    (SELECT COUNT(*) FROM branch_efficiency) AS branch_rows,
-    (SELECT COUNT(*)
-       FROM hr_features f
-       JOIN branch_efficiency b
-         ON f.country = b.country
-        AND f.department = b.department
-        AND f.work_mode = b.work_mode) AS joined_rows,
-    (SELECT COUNT(*)
-       FROM hr_features f
-       LEFT JOIN branch_efficiency b
-         ON f.country = b.country
-        AND f.department = b.department
-        AND f.work_mode = b.work_mode
-       WHERE b.country IS NULL) AS feature_rows_without_branch,
-    (SELECT COUNT(*)
-       FROM branch_efficiency b
-       LEFT JOIN hr_features f
-         ON f.country = b.country
-        AND f.department = b.department
-        AND f.work_mode = b.work_mode
-       WHERE f.employee_id IS NULL) AS branch_rows_without_features
+    w.work_mode,
+    COUNT(e.row_id) AS employee_count,
+    ROUND(100.0 * COUNT(e.row_id) / (SELECT COUNT(*) FROM hr_employee), 4) AS percentage,
+    ROUND(AVG(e.salary_inr), 2) AS avg_salary_inr
+FROM dim_work_mode w
+LEFT JOIN hr_employee e ON w.work_mode = e.work_mode
+GROUP BY w.work_mode
+ORDER BY employee_count DESC
 """
 
-Q4_BRANCHES = """
+Q4_HIRE_COHORT = """
 SELECT
-    b.country,
-    b.department,
-    b.work_mode,
-    COUNT(f.employee_id) AS actual_employees,
-    b.total_employees AS branch_total_employees,
-    b.attrition_count,
-    b.turnover_rate_pct,
-    ROUND(AVG(f.salary_disparity_index), 4) AS avg_sdi,
-    ROUND(AVG(f.performance_rating), 3) AS avg_performance
-FROM branch_efficiency b
-LEFT JOIN hr_features f
-  ON f.country = b.country
- AND f.department = b.department
- AND f.work_mode = b.work_mode
-GROUP BY b.country, b.department, b.work_mode,
-         b.total_employees, b.attrition_count, b.turnover_rate_pct
-ORDER BY b.country, b.department, b.work_mode
-"""
-
-Q4_MISMATCHES = """
-SELECT COUNT(*) AS mismatched_branches
-FROM (
-    SELECT b.country, b.department, b.work_mode, b.total_employees,
-           COUNT(f.employee_id) AS actual_employees
-    FROM branch_efficiency b
-    LEFT JOIN hr_features f
-      ON f.country = b.country
-     AND f.department = b.department
-     AND f.work_mode = b.work_mode
-    GROUP BY b.country, b.department, b.work_mode, b.total_employees
-    HAVING COUNT(f.employee_id) <> b.total_employees
-) AS mismatches
+    YEAR(hire_date) AS hire_year,
+    COUNT(*) AS employee_count,
+    ROUND(100.0 * COUNT(*) / (SELECT COUNT(*) FROM hr_employee), 4) AS percentage,
+    ROUND(AVG(salary_inr), 2) AS avg_salary_inr
+FROM hr_employee
+GROUP BY YEAR(hire_date)
+ORDER BY hire_year ASC
 """
 
 
 def records(df: pd.DataFrame) -> list[dict]:
-    """DataFrame -> JSON-safe list of dicts (Decimal/numpy handled by pandas)."""
+    """DataFrame -> JSON-safe list of dicts (handles Decimal/numpy/int64)."""
     return json.loads(df.to_json(orient="records", date_format="iso"))
 
 
@@ -131,94 +86,76 @@ def run(engine: Engine, output_dir: Path) -> bool:
     generated_at = datetime.now(timezone.utc).isoformat()
     ok = True
 
-    print("Task 5 - aggregate queries")
+    print("Task 4 - reporting queries over normalized schema")
     with engine.connect() as conn:
-        q1_df = pd.read_sql(text(Q1), conn).rename(columns=str.lower)
-        q1 = records(q1_df)[0]
+        print("  running q1 (department headcount & avg salary)...")
+        q1_df = pd.read_sql(text(Q1_DEPARTMENT), conn).rename(columns=str.lower)
+        q1_rows = records(q1_df)
+        total_q1 = sum(row["employee_count"] for row in q1_rows)
         write_json(
-            output_dir / "q1_underpaid.json",
+            output_dir / "q1_headcount_by_department.json",
             {
-                "description": "Total employees and underpaid employees (SDI < 0.9)",
+                "description": "Headcount, percentage share, and average salary by department",
                 "generated_at": generated_at,
-                "result": q1,
+                "total_employees": total_q1,
+                "departments": q1_rows,
             },
         )
 
-        q2_df = pd.read_sql(text(Q2), conn).rename(columns=str.lower)
-        q2 = records(q2_df)
+        print("  running q2 (job title headcount & min/avg/max salary)...")
+        q2_df = pd.read_sql(text(Q2_JOB_TITLE), conn).rename(columns=str.lower)
+        q2_rows = records(q2_df)
         write_json(
-            output_dir / "q2_talent_segments.json",
+            output_dir / "q2_salary_by_job_title.json",
             {
-                "description": "Employee count and percentage per Talent_Segment",
+                "description": "Headcount and salary bounds (min, avg, max) by job title",
                 "generated_at": generated_at,
-                "total_employees": sum(row["employee_count"] for row in q2),
-                "segments": q2,
+                "job_titles_count": len(q2_rows),
+                "job_titles": q2_rows,
             },
         )
 
-        q3_df = pd.read_sql(text(Q3), conn).rename(columns=str.lower)
+        print("  running q3 (work mode split & avg salary)...")
+        q3_df = pd.read_sql(text(Q3_WORK_MODE), conn).rename(columns=str.lower)
+        q3_rows = records(q3_df)
         write_json(
-            output_dir / "q3_branch_efficiency.json",
+            output_dir / "q3_work_mode_split.json",
             {
-                "description": "Branch efficiency data (one row per country/department/work_mode)",
+                "description": "Headcount and average salary by work mode",
                 "generated_at": generated_at,
-                "row_count": int(len(q3_df)),
-                "data": records(q3_df),
+                "work_modes": q3_rows,
             },
         )
 
-        summary = records(
-            pd.read_sql(text(Q4_SUMMARY), conn).rename(columns=str.lower)
-        )[0]
-        branches = records(
-            pd.read_sql(text(Q4_BRANCHES), conn).rename(columns=str.lower)
-        )
-        mismatches = records(
-            pd.read_sql(text(Q4_MISMATCHES), conn).rename(columns=str.lower)
-        )[0]["mismatched_branches"]
+        print("  running q4 (hire cohort by year)...")
+        q4_df = pd.read_sql(text(Q4_HIRE_COHORT), conn).rename(columns=str.lower)
+        q4_rows = records(q4_df)
         write_json(
-            output_dir / "q4_join_branch.json",
+            output_dir / "q4_hire_cohort.json",
             {
-                "description": (
-                    "JOIN proof: every hr_features row maps to exactly one "
-                    "branch_efficiency row on (country, department, work_mode)"
-                ),
+                "description": "Annual hiring cohort headcount and average salary (2010-2025)",
                 "generated_at": generated_at,
-                "summary": summary,
-                "mismatched_branches": mismatches,
-                "branches": branches,
+                "cohorts": q4_rows,
             },
         )
 
-        print("\nSummary")
-        print(f"  Q1 total/underpaid: {q1}")
-        print(f"  Q2 segments       : {len(q2)}")
-        print(f"  Q3 branch rows    : {len(q3_df):,}")
-        print(f"  Q4 summary        : {summary}")
-        print(f"  Q4 mismatches     : {mismatches}")
+        # Integrity verification: department headcount total must equal hr_employee total
+        total_employee = conn.execute(text("SELECT COUNT(*) FROM hr_employee")).scalar_one()
+        print(f"\nIntegrity check: department headcount total = {total_q1:,}, hr_employee rows = {total_employee:,}")
+        if total_q1 != total_employee or total_employee != 2_000_000:
+            print(f"  FAIL: sum of department headcounts ({total_q1:,}) != hr_employee ({total_employee:,})")
+            ok = False
+        else:
+            print("  PASS: department headcount sum exactly matches 2,000,000 employee rows")
 
-        if summary["feature_rows"] != summary["joined_rows"]:
-            print("  FAIL: not every feature row joined to a branch")
-            ok = False
-        if summary["feature_rows_without_branch"] or summary["branch_rows_without_features"]:
-            print("  FAIL: unmatched rows exist on one side of the JOIN")
-            ok = False
-        if mismatches:
-            print("  FAIL: branch employee counts do not match the fact table")
-            ok = False
-        if len(q3_df) != 3402:
-            print("  FAIL: expected 3,402 branch rows")
-            ok = False
-
+    print("\nRESULT:", "PASS" if ok else "FAIL")
     return ok
 
 
 def main() -> int:
     engine = get_engine()
-    ok = run(engine, OUTPUT_DIR)
-    print("\nTask 5:", "PASS" if ok else "FAIL")
-    return 0 if ok else 1
+    return 0 if run(engine, OUTPUT_DIR) else 1
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    sys.exit(main())
