@@ -1,12 +1,12 @@
-# Cloud Firestore — Read-Optimized NoSQL Serving Layer
+# Cloud Firestore — HR Summary & NoSQL Serving Layer
 
-This directory manages the **NoSQL Query Serving Layer** using **Google Cloud Firestore** for the **Workforce Cost & Startup Runway Simulator** project.
+This directory manages the **NoSQL Serving Layer** using **Google Cloud Firestore (`hr-mnc-database`)** for the **HR MNC Dataset & Analytics** project.
 
 ---
 
 ## 1. Architectural Role (Polyglot Persistence)
 
-The project separates concerns between transactional master storage and high-speed query serving:
+The project separates concerns between relational master storage and high-speed NoSQL query serving:
 
 ```
 +------------------------------------+
@@ -20,38 +20,41 @@ The project separates concerns between transactional master storage and high-spe
 +------------------------------------+
 |  Cloud Firestore (hr-mnc-database) |
 |  Read-Optimized Serving Layer      |
-|  - Pre-aggregated documents        |
-|  - Zero joins, O(1) latency        |
+|  - Pre-aggregated HR summaries    |
+|  - Denormalized employee samples   |
+|  - Zero joins, sub-100ms O(1) reads|
 +------------------------------------+
                   │
                   ▼ Fast Query Reads (< 100ms)
 +------------------------------------+
-|  Frontend & API Simulator          |
-|  (Interactive Dashboard)          |
+|  Frontend & Client Consumers       |
+|  (Interactive Dashboard / Reports) |
 +------------------------------------+
 ```
 
-- **MySQL (`db_hr_mnc`)**: Holds the full 2,000,000 raw employee records in a strictly normalized schema.
-- **Cloud Firestore (`hr-mnc-database`)**: Serves pre-computed metrics and benchmarks for instant dashboard loading without taxing the relational database with multi-second aggregate scans.
+- **MySQL (`db_hr_mnc`)**: Holds the complete 2,000,000 raw records in a strictly normalized relational schema.
+- **Cloud Firestore (`hr-mnc-database`)**: Directly converts and stores pre-computed analytical summaries and sample documents for instant dashboard retrieval without running expensive multi-second table scans on MySQL.
 
 ---
 
-## 2. Collections & Documents
+## 2. Collections & Document Schemas
+
+All collections are derived 100% from the HR dataset:
 
 | Collection | Doc ID | Document Count | Purpose |
 |---|---|---:|---|
-| `department_benchmarks` | Department Name (e.g. `IT`, `Finance`, `Sales`) | 7 | Headcount, cost category, and average salary per department |
-| `role_benchmarks` | Slugified Job Title (e.g. `software_engineer`) | 29 | Market median salary, bounds, and average experience for 29 roles |
-| `work_mode_profiles` | Work Mode (`on_site`, `remote`) | 2 | Workforce distribution and cost overhead factors (1.20x vs 1.03x) |
-| `startup_stage_presets` | Stage (`seed`, `series_a`, `series_b`) | 3 | Baseline cash balance, revenue, and OpEx ratios per startup stage |
+| `hr_overview_summary` | `global` | 1 | Macro organizational metrics: 2M headcount, total payroll, salary bounds, status & work mode distribution |
+| `department_summary` | Department Name (e.g. `IT`, `Finance`, `Sales`) | 7 | Headcount, share %, total payroll, avg salary, and experience/performance ratings per department |
+| `job_title_summary` | Slugified Job Title (e.g. `software_engineer`) | 29 | Headcount, avg salary, min/max salary, and average experience across 29 roles |
+| `work_mode_summary` | Work Mode (`on_site`, `remote`) | 2 | Headcount, share %, avg salary, and avg rating comparison between work modes |
+| `employee_sample` | `employee_id` (e.g. `EMP0000001`) | 500 | Denormalized employee document records demonstrating direct NoSQL document conversion |
 
 ### Privacy & Data Protection Boundary
-- **Zero PII**: No employee names (`full_name`) or personal IDs (`employee_id`) are uploaded to Firestore.
-- Firestore holds exclusively aggregate distributions, market medians, and business parameters.
+- **Zero PII**: Employee personal names (`full_name`) are strictly excluded from the `employee_sample` collection to ensure privacy compliance.
 
 ---
 
-## 3. Prerequisites & Setup
+## 3. Setup & Prerequisites
 
 ### Dependencies
 Install the required packages:
@@ -83,25 +86,25 @@ python -m pip install firebase-admin google-cloud-firestore SQLAlchemy PyMySQL p
 All scripts are executed from `database/firestore/`:
 
 ### 1. Test Aggregation Extraction (Dry Run)
-Extracts metrics from MySQL without writing to Firestore:
+Extracts summary metrics from MySQL without writing to Firestore:
 ```bash
 python extract_from_mysql.py
 ```
-*Expected: 7 departments, 29 roles, 2 work modes, 3 presets; total headcount = 2,000,000.*
+*Expected: 1 overview, 7 departments, 29 job titles, 2 work modes, 500 employee samples; total headcount = 2,000,000.*
 
 ### 2. Upload Documents to Firestore
-Performs atomic batched writes to Cloud Firestore:
+Purges any legacy non-HR collections and performs chunked atomic batch writes (< 500 ops) to Cloud Firestore:
 ```bash
 python upload_to_firestore.py
 ```
-*Expected: Submits 41 documents in a single atomic batch commit to `hr-mnc-database`.*
+*Expected: Purges legacy collections; submits 539 documents in 2 chunked batches to `hr-mnc-database`.*
 
 ### 3. Verify Live Queries
 Executes read queries against all collections and validates business invariants:
 ```bash
 python verify_firestore.py
 ```
-*Expected: All 4 collections verified, O(1) read test passes, `FINAL RESULT: PASS`.*
+*Expected: All 5 collections verified, legacy collections verified 0 docs, O(1) read test passes, `FINAL RESULT: PASS`.*
 
 ---
 
@@ -113,7 +116,7 @@ In the Firebase Console (**Firestore Database → Rules** tab):
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Read-only access for public dashboard clients; writes restricted to Admin SDK
+    // Read-only access for client applications; writes restricted to Admin SDK
     match /{document=**} {
       allow read: if true;
       allow write: if false;
