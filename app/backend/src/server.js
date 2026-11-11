@@ -3,6 +3,8 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import swaggerUi from 'swagger-ui-express';
+import { swaggerDocument } from './config/swagger.js';
 import { connectDB } from './config/db.js';
 import apiRouter from './routes/api.js';
 
@@ -16,6 +18,9 @@ const PORT = process.env.PORT || 5001;
 
 app.use(cors({ origin: '*' }));
 app.use(express.json());
+
+// Swagger UI Documentation
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // Health check
 app.get('/health', (req, res) => {
@@ -31,6 +36,7 @@ async function start() {
     await connectDB();
     app.listen(PORT, () => {
       console.log(`[Express] HR Analytics Backend API listening on http://localhost:${PORT}`);
+      console.log(`[Swagger] Interactive API Docs available on http://localhost:${PORT}/api-docs`);
     });
   } catch (err) {
     console.error('Failed to start server:', err);

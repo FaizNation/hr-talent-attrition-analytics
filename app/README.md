@@ -28,6 +28,7 @@ A production-grade fullstack web application for visual analysis and live sub-mi
 
 - **Database:** MongoDB 8.2 (`db_hr_mnc`) with 2,000,000 documents and secondary indexes.
 - **Backend:** Express.js API (`http://localhost:5001`).
+- **Interactive Swagger Docs:** `http://localhost:5001/api-docs/`.
 - **Frontend:** React 19 + Vite (`http://localhost:5173`).
 
 ---
