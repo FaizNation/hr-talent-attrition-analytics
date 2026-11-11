@@ -1,10 +1,12 @@
-"""Verify live Cloud Firestore serving layer documents and query responses.
+"""Verify live Cloud Firestore HR summary serving layer documents and query responses.
 
 Asserts:
-1. department_benchmarks holds 7 documents with required cost metrics and 2M total headcount.
-2. role_benchmarks holds 29 documents with market medians and bounds.
-3. work_mode_profiles holds 2 documents with overhead factors.
-4. startup_stage_presets holds 3 documents with baseline burn parameters.
+1. hr_overview_summary holds 1 global document with 2,000,000 total headcount.
+2. department_summary holds 7 documents with exact 2,000,000 sum headcount.
+3. job_title_summary holds 29 documents.
+4. work_mode_summary holds 2 documents (on_site, remote) summing to 2,000,000.
+5. employee_sample holds 500 denormalized documents with 0 PII (no full_name).
+6. Legacy non-HR collections are verified completely purged (0 docs).
 
 Exits 0 on PASS, 1 on FAIL.
 """
@@ -16,41 +18,56 @@ from typing import Any
 from config import get_firestore_client
 
 EXPECTED_COUNTS = {
-    "department_benchmarks": 7,
-    "role_benchmarks": 29,
-    "work_mode_profiles": 2,
-    "startup_stage_presets": 3,
+    "hr_overview_summary": 1,
+    "department_summary": 7,
+    "job_title_summary": 29,
+    "work_mode_summary": 2,
+    "employee_sample": 500,
 }
 
 REQUIRED_FIELDS = {
-    "department_benchmarks": [
+    "hr_overview_summary": [
+        "total_employees",
+        "total_payroll_inr",
+        "avg_salary_inr",
+        "status_distribution",
+        "work_mode_distribution",
+    ],
+    "department_summary": [
         "department",
         "employee_count",
         "headcount_percentage",
+        "total_payroll_inr",
         "avg_salary_inr",
-        "cost_category",
     ],
-    "role_benchmarks": [
+    "job_title_summary": [
         "job_title",
         "department",
         "employee_count",
-        "market_median_salary_inr",
-        "min_salary_inr",
-        "max_salary_inr",
+        "avg_salary_inr",
     ],
-    "work_mode_profiles": [
+    "work_mode_summary": [
         "work_mode",
         "employee_count",
         "share_percentage",
-        "overhead_factor",
+        "avg_salary_inr",
     ],
-    "startup_stage_presets": [
-        "stage",
-        "initial_cash_balance_inr",
-        "monthly_revenue_inr",
-        "rd_spend_ratio",
+    "employee_sample": [
+        "employee_id",
+        "department",
+        "job_title",
+        "salary_inr",
+        "hire_date",
+        "location",
     ],
 }
+
+PURGED_COLLECTIONS = [
+    "startup_stage_presets",
+    "department_benchmarks",
+    "role_benchmarks",
+    "work_mode_profiles",
+]
 
 
 def verify_collection(db, col_name: str) -> tuple[bool, list[dict[str, Any]]]:
@@ -68,6 +85,8 @@ def verify_collection(db, col_name: str) -> tuple[bool, list[dict[str, Any]]]:
 
     data_list = []
     missing_fields_count = 0
+    pii_leak_count = 0
+
     for doc in docs:
         d = doc.to_dict()
         data_list.append(d)
@@ -76,50 +95,86 @@ def verify_collection(db, col_name: str) -> tuple[bool, list[dict[str, Any]]]:
                 print(f"  FAIL: doc {doc.id} missing required field '{f}'")
                 missing_fields_count += 1
                 ok = False
+        if col_name == "employee_sample" and "full_name" in d:
+            print(f"  FAIL: privacy violation: full_name found in doc {doc.id}")
+            pii_leak_count += 1
+            ok = False
 
     if missing_fields_count == 0:
         print(f"  required fields: all {len(fields)} fields present across all documents")
+    if col_name == "employee_sample" and pii_leak_count == 0:
+        print("  privacy check  : PASS (zero full_name attributes found in 500 records)")
+
     return ok, data_list
 
 
 def verify_all() -> bool:
     db = get_firestore_client()
-    print("=" * 60)
-    print(f"Verifying Cloud Firestore serving layer (Project: {db.project})")
-    print("=" * 60)
+    print("=" * 65)
+    print(f"Verifying Pure HR Cloud Firestore Serving Layer ({db.project})")
+    print("=" * 65)
 
     all_ok = True
     results = {}
+
+    # 1. Verify Active HR Collections
     for col in EXPECTED_COUNTS:
         ok, docs = verify_collection(db, col)
         results[col] = docs
         if not ok:
             all_ok = False
 
-    # Specific business invariants
+    # 2. Verify Purged Legacy Collections
+    print("\nVerifying legacy collections purge:")
+    for col in PURGED_COLLECTIONS:
+        count = len(list(db.collection(col).stream()))
+        status = "PASS" if count == 0 else "FAIL"
+        if count != 0:
+            all_ok = False
+        print(f"  - legacy collection '{col}': {count} docs [{status}]")
+
+    # 3. Specific Business Invariants
     print("\nBusiness logic invariants:")
-    dept_headcount = sum(int(d.get("employee_count", 0)) for d in results["department_benchmarks"])
-    print(f"  - Total department headcount: {dept_headcount:,} (expected 2,000,000)")
-    if dept_headcount != 2_000_000:
-        print("    FAIL: total department headcount != 2,000,000")
+    overview_doc = results["hr_overview_summary"][0] if results["hr_overview_summary"] else {}
+    overview_hc = overview_doc.get("total_employees", 0)
+    print(f"  - Global Overview headcount : {overview_hc:,} (expected 2,000,000)")
+    if overview_hc != 2_000_000:
+        print("    FAIL: global overview headcount != 2,000,000")
         all_ok = False
     else:
         print("    PASS")
 
-    # Sample query verification (e.g. query IT department O(1))
-    it_doc = db.collection("department_benchmarks").document("IT").get()
+    dept_hc = sum(int(d.get("employee_count", 0)) for d in results["department_summary"])
+    print(f"  - Sum of Department headcounts: {dept_hc:,} (expected 2,000,000)")
+    if dept_hc != 2_000_000:
+        print("    FAIL: sum of department headcounts != 2,000,000")
+        all_ok = False
+    else:
+        print("    PASS")
+
+    wm_hc = sum(int(d.get("employee_count", 0)) for d in results["work_mode_summary"])
+    print(f"  - Sum of Work Mode headcounts  : {wm_hc:,} (expected 2,000,000)")
+    if wm_hc != 2_000_000:
+        print("    FAIL: sum of work mode headcounts != 2,000,000")
+        all_ok = False
+    else:
+        print("    PASS")
+
+    # 4. O(1) Sample Read Test
+    it_doc = db.collection("department_summary").document("IT").get()
     if it_doc.exists:
         it_data = it_doc.to_dict()
         print(
-            f"  - O(1) Read Test: IT avg salary = INR {it_data.get('avg_salary_inr'):,.2f}, cost = {it_data.get('cost_category')}"
+            f"\nO(1) Live Query Test: IT department has {it_data.get('employee_count'):,} employees, "
+            f"avg salary = INR {it_data.get('avg_salary_inr'):,.2f}"
         )
     else:
-        print("  FAIL: Document 'IT' missing in department_benchmarks")
+        print("\nFAIL: O(1) read test failed: document 'IT' not found")
         all_ok = False
 
-    print("\n" + "=" * 60)
+    print("\n" + "=" * 65)
     print(f"FINAL RESULT: {'PASS' if all_ok else 'FAIL'}")
-    print("=" * 60)
+    print("=" * 65)
     return all_ok
 
 
