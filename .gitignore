@@ -1,3 +1,8 @@
+# Node
+node_modules/
+dist/
+.DS_Store
+
 # Secrets
 .env
 .env.*
