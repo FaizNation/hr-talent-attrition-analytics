@@ -1,0 +1,8 @@
+Flask==3.0.0
+flask-cors==4.0.0
+# NumPy 2.x diperlukan artifact dari Colab; 2.2.6 adalah versi tertinggi untuk Python 3.10.
+numpy==2.2.6
+joblib==1.5.3
+# scikit-learn HARUS sama dengan versi di Colab — cek sklearn.__version__ di notebook.
+scikit-learn==1.6.1
+pytest==9.1.1
